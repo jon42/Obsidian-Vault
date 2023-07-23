@@ -1,3 +1,7 @@
 {
-  "accentColor": ""
+  "accentColor": "",
+  "cssTheme": "Obsidian gruvbox",
+  "enabledCssSnippets": [
+    "obsidian-workspace-background(Shiba Uni Theme)"
+  ]
 }
