@@ -4,24 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2193093e843b94d2",
+        "id": "e5d75be7df51bf53",
         "type": "tabs",
         "children": [
           {
-            "id": "1e55f0a2ae4138ab",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "1f5cd53f0544aa96",
+            "id": "d3f755938b70f0c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Biology/Molecular Biology/Transcription.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#todo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Biology/Molecular Biology/Transcription.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Biology/Molecular Biology/Transcription.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,6 +124,16 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+              "state": {
+                "file": "Biology/Molecular Biology/Transcription.md"
+              }
+            }
+          },
+          {
+            "id": "b8cf347807876498",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
               "state": {}
             }
           }
@@ -137,8 +141,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,11 +150,42 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1e55f0a2ae4138ab",
+  "active": "bc3bb0e9ef63ee23",
   "lastOpenFiles": [
-    "Untitled.md"
+    "Biology/Molecular Biology/Macro Molecules/Proteins/Proteins.md",
+    "Books.md",
+    "Biology/Molecular Biology/Macro Molecules/Sugar/Carbohydrates.md",
+    "Biology/Molecular Biology/Macro Molecules/Sugar/Saccharide.md",
+    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/Nucleotide.md",
+    "Biology/The Central Dogma.canvas",
+    "Biology/Molecular Biology/Translation.md",
+    "Biology/Molecular Biology/Transcription.md",
+    "Biology/The Central Dogma.md",
+    "Biology/Molecular Biology/The Central Dogma",
+    "Biology/Molecular Biology/Untitled.md",
+    "TODO's.md",
+    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/RNA Polymerase.md",
+    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/RNA.md",
+    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/DNA/DNA.md",
+    "Biology/Cellular Biology/Cell.md",
+    "Adenosineblo.md",
+    "Media/Pasted image 20230722173243.png",
+    "Media/Pasted image 20230722172749.png",
+    "Media/Pasted image 20230722172409.png",
+    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/mRNA.md",
+    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid",
+    "Chemistry/Molecule.md",
+    "Biology/Molecular Biology/Macro Molecules/Proteins",
+    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/DNA",
+    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA",
+    "Biology/Molecular Biology/Macro Molecules/Lipids",
+    "Biology/Molecular Biology/Macro Molecules/Sugar",
+    "Biology/Molecular Biology/Macro Molecules",
+    "Sugar",
+    "Media"
   ]
 }

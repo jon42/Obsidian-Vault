@@ -1,0 +1,1 @@
+Proteins are macro molecules responsible for doing things in the [[Cell]]. Proteins execute everything in cell. 

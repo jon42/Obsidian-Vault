@@ -1,1 +1,0 @@
-DNA is a [[Molecule]] that is the instructions on how a [[cell]] should operate

@@ -1,0 +1,1 @@
+mRNA is a form of [[RNA]] that is involved in [[Translation]] 
