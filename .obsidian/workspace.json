@@ -4,22 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "ea5bcaf2291b3fba",
+        "id": "a6327400c8165760",
         "type": "tabs",
         "children": [
           {
-            "id": "8833ff5712ef7ffc",
+            "id": "db488d2947eb9ec5",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "b2da581148888afb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Physics/Fluids/Gas.md",
+                "file": "Math/Derivatives/Derivatives.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physics/Fluids/Gas.md",
+                "file": "Math/Derivatives/Derivatives.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physics/Fluids/Gas.md",
+                "file": "Math/Derivatives/Derivatives.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physics/Fluids/Gas.md"
+                "file": "Math/Derivatives/Derivatives.md"
               }
             }
           },
@@ -136,9 +145,40 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "22e6096838eeb666",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "8d153c547803d37a",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "4a44d508fd20694e",
+            "type": "leaf",
+            "state": {
+              "type": "google-calendar-view-month",
+              "state": {}
+            }
+          },
+          {
+            "id": "ce830bf142ae8622",
+            "type": "leaf",
+            "state": {
+              "type": "google-calendar-view-year",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -152,20 +192,45 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "8833ff5712ef7ffc",
+  "active": "b2da581148888afb",
   "lastOpenFiles": [
-    "Physics/Fluids/Gas.md",
-    "Physics/Fluids/Fluids.md",
-    "Physics/Fluids/Liquid.md",
-    "Physics/Untitled.md",
-    "TODO's.md",
-    "Physics/Fluids",
+    "Math/Derivatives/Derivatives.md",
+    "Calendar.md",
     "Books.md",
-    "Biology/The Central Dogma.md",
+    "TODO's.md",
+    "Biology/Molecular Biology/Macro Molecules/Sugar/Saccharide.md",
     "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/DNA/DNA.md",
+    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/mRNA.md",
+    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/RNA.md",
+    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/Nucleotide.md",
+    "Media/Pasted image 20230725002224.png",
+    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/Eukaryotic RNA modification.md",
+    "Media/Pasted image 20230725001647.png",
+    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/RNA Polymerase.md",
+    "Programming/CLI/Commands.md",
+    "Media/2560x1600.jpg",
+    "Pasted image 20230724194630.jpg",
+    "Physics/Electricity and Magnetism/Electricity.md",
+    "Programming/CLI",
+    "Physics/Atoms/Electron.md",
+    "Physics/Atoms/Atoms.md",
+    "Nucleus.md",
+    "Media/Pasted image 20230723185019.png",
+    "Physics/Fluids/Fluids.md",
+    "Physics/Electricity and Magnetism",
+    "Physics/Untitled.md",
+    "Physics/Fluids/Gas.md",
+    "Physics/Fluids/Liquid.md",
+    "Physics/Atoms",
+    "Amu.md",
+    "Physics/Fluids",
+    "Biology/The Central Dogma.md",
     "Biology/The Central Dogma.canvas",
     "Biology/Molecular Biology/Translation.md",
     "Media/Pasted image 20230723003302.png",
@@ -176,26 +241,10 @@
     "Math/Derivatives",
     "Math/Untitled.md",
     "Math/Algerbra",
-    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/RNA Polymerase.md",
-    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/RNA.md",
-    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/mRNA.md",
-    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/Eukaryotic RNA modification.md",
     "Biology/Cellular Biology/Orgenells/Ribosomes.md",
-    "Biology/Cellular Biology/Orgenells/Cytoplasm.md",
     "Biology/Cellular Biology/Orgenells",
-    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/Nucleotide.md",
-    "Biology/Molecular Biology/Macro Molecules/Proteins/Proteins.md",
-    "Biology/Molecular Biology/Macro Molecules/Sugar/Carbohydrates.md",
-    "Biology/Molecular Biology/Macro Molecules/Sugar/Saccharide.md",
-    "Biology/Molecular Biology/The Central Dogma",
-    "Biology/Molecular Biology/Untitled.md",
-    "Biology/Cellular Biology/Cell.md",
-    "Adenosineblo.md",
     "Media/Pasted image 20230722173243.png",
     "Media/Pasted image 20230722172749.png",
-    "Media/Pasted image 20230722172409.png",
-    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid",
-    "Chemistry/Molecule.md",
-    "Biology/Molecular Biology/Macro Molecules/Proteins"
+    "Media/Pasted image 20230722172409.png"
   ]
 }

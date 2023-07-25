@@ -1,1 +1,1 @@
-RNA is a single stranded nucleic acid that stores information over a short time. 
+RNA::: is a single stranded nucleic acid that stores information over a short time. 

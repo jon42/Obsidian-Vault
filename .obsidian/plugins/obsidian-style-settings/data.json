@@ -1,10 +1,17 @@
 {
-  "background-settings@@background-settings-workplace-theme-dark": "background-settings-workplace-theme-dark-dark-mountain",
-  "background-settings@@blur-depth": 3,
+  "background-settings@@background-settings-workplace-theme-dark": "background-settings-workplace-theme-dark-custom-option",
+  "background-settings@@blur-depth": 4,
   "background-settings@@background-settings-workplace-background-image": true,
-  "background-settings@@background-settings-workplace-theme-light": "background-settings-workplace-mountain-light",
-  "background-settings@@brightness-4-bg": 0.7,
+  "background-settings@@background-settings-workplace-theme-light": "background-settings-workplace-theme-light-custom-option",
+  "background-settings@@brightness-4-bg": 1,
   "background-settings@@saturate-4-bg": 1.1,
   "background-settings@@background-image-settings-switch": true,
-  "background-settings@@background-settings-workplace-theme-dark-custom": "-url(\"app://usr/share/wallpapers/Autumn/contents/images/1920x1200.jpg\")"
+  "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-frappe",
+  "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-green",
+  "anuppuccin-theme-settings@@anp-callout-select": "anp-callout-sleek",
+  "anuppuccin-theme-settings@@ctp-custom-green@@light": "#82C988",
+  "anuppuccin-theme-settings@@ctp-custom-green@@dark": "#B0D488",
+  "anuppuccin-theme-settings@@anp-custom-checkboxes": true,
+  "anuppuccin-theme-settings@@anp-speech-bubble": true,
+  "background-settings@@background-settings-workplace-theme-dark-custom": "url(\"https://www.rxwallpaper.site/wp-content/uploads/fine-art-wallpapers.jpg\")"
 }
