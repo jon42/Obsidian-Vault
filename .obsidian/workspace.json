@@ -11,24 +11,38 @@
             "id": "db488d2947eb9ec5",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "image",
+              "state": {
+                "file": "Media/Pasted image 20230726000151.jpg"
+              }
             }
           },
           {
-            "id": "b2da581148888afb",
+            "id": "9bf9c09a44992892",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Derivatives/Derivatives.md",
+                "file": "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/RNA.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e1110b3ae1cfa5e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Biology/Cellular Biology/Cell Cycle/Cell replication.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/Derivatives/Derivatives.md",
+                "file": "Biology/Cellular Biology/Cell Cycle/Cell replication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/Derivatives/Derivatives.md",
+                "file": "Biology/Cellular Biology/Cell Cycle/Cell replication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/Derivatives/Derivatives.md"
+                "file": "Biology/Cellular Biology/Cell Cycle/Cell replication.md"
               }
             }
           },
@@ -198,53 +212,53 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "b2da581148888afb",
+  "active": "e1110b3ae1cfa5e1",
   "lastOpenFiles": [
+    "Biology/Molecular Biology/Transcription.md",
+    "Biology/Cellular Biology/Orgenells/Cytoplasm.md",
+    "Biology/The Central Dogma.canvas",
+    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/RNA.md",
+    "Biology/Molecular Biology/Macro Molecules/Proteins/Proteins.md",
+    "Pasted image 20230729163847.jpg",
+    "Pasted image 20230729163829.png",
+    "Pasted image 20230729163700.png",
+    "Biology/Molecular Biology/Translation.md",
+    "Pasted image 20230729162222.png",
+    "Pasted image 20230729162214.png",
+    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/DNA/DNA.md",
+    "Biology/The Central Dogma.md",
+    "Pasted image 20230729161248.jpg",
+    "Pasted image 20230729160925.jpg",
+    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/Eukaryotic RNA modification.md",
+    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/mRNA.md",
+    "Media/Pasted image 20230726000151.jpg",
+    "Biology/Cellular Biology/Cell Cycle/Cell Cycle.md",
+    "Biology/Molecular Biology/Macro Molecules/Sugar/Saccharide.md",
+    "Chemistry/Molecule.md",
+    "Physics/Fluids/Liquid.md",
+    "Physics/Fluids/Gas.md",
+    "Biology/Cellular Biology/Cell Cycle/Cell replication.md",
+    "ideal gase.md",
+    "Biology/Cellular Biology/Cell Cycle",
     "Math/Derivatives/Derivatives.md",
     "Calendar.md",
     "Books.md",
     "TODO's.md",
-    "Biology/Molecular Biology/Macro Molecules/Sugar/Saccharide.md",
-    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/DNA/DNA.md",
-    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/mRNA.md",
-    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/RNA.md",
     "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/Nucleotide.md",
     "Media/Pasted image 20230725002224.png",
-    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/Eukaryotic RNA modification.md",
     "Media/Pasted image 20230725001647.png",
     "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/RNA Polymerase.md",
     "Programming/CLI/Commands.md",
-    "Media/2560x1600.jpg",
-    "Pasted image 20230724194630.jpg",
     "Physics/Electricity and Magnetism/Electricity.md",
     "Programming/CLI",
     "Physics/Atoms/Electron.md",
-    "Physics/Atoms/Atoms.md",
-    "Nucleus.md",
-    "Media/Pasted image 20230723185019.png",
-    "Physics/Fluids/Fluids.md",
     "Physics/Electricity and Magnetism",
-    "Physics/Untitled.md",
-    "Physics/Fluids/Gas.md",
-    "Physics/Fluids/Liquid.md",
     "Physics/Atoms",
-    "Amu.md",
     "Physics/Fluids",
-    "Biology/The Central Dogma.md",
-    "Biology/The Central Dogma.canvas",
-    "Biology/Molecular Biology/Translation.md",
-    "Media/Pasted image 20230723003302.png",
-    "Biology/Molecular Biology/Transcription.md",
     "Math/Imaginary Numbers",
     "Math/Trig",
     "Math/Integrals",
     "Math/Derivatives",
-    "Math/Untitled.md",
-    "Math/Algerbra",
-    "Biology/Cellular Biology/Orgenells/Ribosomes.md",
-    "Biology/Cellular Biology/Orgenells",
-    "Media/Pasted image 20230722173243.png",
-    "Media/Pasted image 20230722172749.png",
-    "Media/Pasted image 20230722172409.png"
+    "Math/Algerbra"
   ]
 }

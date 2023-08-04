@@ -7,7 +7,12 @@ Alias: Translate
 
 ## Process of Translation
 The Process of translation has the same 3 steps as the [[Transcription#Transcription Process|transcription process]].
-- Initiation: Initiation starts when the ribosomes [[Ribosomes#Preinitation complex| preinitiation complex]] searches the 5' cap on the mRNA. Once this is found the large ribosome will attach itself to make the ribosome complex. The ribosome will then move in the 3' direction until it reaches a start [[Amino Acid#Codon|codon]]. After it reaches this start codon it will start the elongation process.![[Pasted image 20230723003302.png]]
-- Elongation: When elongation occurs the ribosome will match the [[Nucleotide]] to a complimentary [[tRNA]]. The tRNA will add an [[Amino Acid]] to the [[Proteins]] chain.
-- Termination:
+### Translation Initiation
+- Translation Initiation:: Initiation starts when the ribosomes [[Ribosomes#Preinitation complex]] searches the 5' cap on the mRNA. Once this is found the large ribosome will attach itself to make the ribosome complex. The ribosome will then move in the 3' direction until it reaches a start [[Amino Acid#Codon]]. After it reaches this start codon it will start the elongation process.
+![[Pasted image 20230729162222.png]]
+### Translation Elongation
+- Translation Elongation:: When elongation occurs the ribosome will match the [[Nucleotide]] to a complimentary [[RNA#tRNA]]. The tRNA will add an [[Amino Acid]] to the [[Proteins]] chain by fitting into the [[Ribosomes#P site]]. The complimentary [[RNA#tRNA]] is chosen based on having a matching [[Amino Acid#Anti-Codon]]. The ribosome will continue down in the 3' direction adding to the amino acid chain.
+![[Pasted image 20230729162214.png]]
+### Translation Termination
+- Translation Termination:: Termination occurs when the [[Ribosomes]] reach a stop [[Amino Acid#Codon]]. Stop codons trigger other proteins called [[Proteins#Release factors]] to detach the [[Proteins|peptide]] from the [[Ribosomes]]. Once this process is finished [[Proteins#Protein folding]] occurs. 
 

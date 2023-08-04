@@ -1,5 +1,6 @@
 {
   "alwaysUpdateLinks": true,
   "showLineNumber": true,
-  "vimMode": false
+  "vimMode": false,
+  "legacyEditor": false
 }
