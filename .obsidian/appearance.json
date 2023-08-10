@@ -1,7 +1,8 @@
 {
-  "accentColor": "",
+  "accentColor": "#102f0a",
   "cssTheme": "AnuPpuccin",
   "enabledCssSnippets": [
     "obsidian-workspace-background(Shiba Uni Theme)"
-  ]
+  ],
+  "baseFontSize": 19
 }
