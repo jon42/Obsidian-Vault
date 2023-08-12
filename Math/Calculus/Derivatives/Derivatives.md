@@ -1,7 +1,13 @@
 Derivatives:: Show the instantaneous slope at any point.
 
-See [[Math Notation#Calculus Notation]] if needed 
+## Derivative Notation
+$d/dx$ denotes a single derivative
+f'(x) is the first derivative of f(x)
+$\frac{d^2}{d^2x}$ is the second derivative with respect to x
+f''(x) is the second derivative of f(x)
+These can scale infinitely
 
+When denoted with respect to it means that all the derivative rules will apply to that variable
 # Formal Definition of Derivative
 Formal Definition of Derivative:: $$f'(x)=lim_{h{\rightarrow}0}{\frac{f(x+h) - f(x)}h}$$
 # Basic Derivative Rules
@@ -21,3 +27,18 @@ Quotient rule:: $$\frac{d}{dx}\frac{f(x)}{g(x)} = \frac{f'(x)g(x)-f(x)g'(x)}{g(x
 
 
 Chain Rule::: $$\frac{d}{dx}f(g(x))=g'(x)f'(g(x))$$
+# Multi-variable Derivatives
+## Partial Derivatives
+partial derivatives are denoted by:: $\frac{\delta{}}{\delta{}x}$ 
+All partials treat other variables as if they are just ordinary numbers
+
+Example: $$
+\frac{\delta}{\delta{x}}yx^2=2yx
+$$
+In this equation the y is just a number and normal power rule can apply
+
+Example 2: $$
+\frac{\delta}{\delta{x}}x^y=yx^{y-1}
+$$
+In this example the y power rule is the same however because y is still a variable it is left there and a -1 is added.
+

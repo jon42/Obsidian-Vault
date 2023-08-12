@@ -8,7 +8,7 @@
 ## csc
 ## cot
 # Hyperbolic Trig
-Hyperbolic trig is triginomitry based on $y^{2}= x$
+Hyperbolic trig is trigonometry based on $y^{2}= x$
 ## sinh
 ## cosh
 ## tanh
