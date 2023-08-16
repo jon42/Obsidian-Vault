@@ -1,1 +1,0 @@
-The cytoplasm is the cellular [[Solution]] that makes up most of the space in the cell. The solution is primarily 

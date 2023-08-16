@@ -1,0 +1,11 @@
+# Non Fiction
+|      Title       | Author               | Review                                                                                                                                                                                                                                                                    |
+|:----------------:| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     The Gene     | Siddhartha Mukherjee | Fantastic book detailing a wide range of biology concepts. It dives into the history of biology and many important facts relating to the field. One of the best books for getting into biology.                                                                           |
+|   Being mortal   | Atul Gawande         | This is a book about the end of life. The primary focus is on geriatrics however it provides insight into the entire life and the values associated with living. What it really means for someone nearing the end of their life and what to do to make that person happy. |
+| The code breaker | Walter Isaacson      | This book is about the story of the creation of cripsr. The book dives into a lot of interesting ideas with gene editing. From philosophy to rogue biohackers it creates a detailed story with lots of useful information.                                                |
+|                  |                      |                                                                                                                                                                                                                                                                           |
+# Fiction
+| Title | Author | Review |
+| ----- | ------ | ------ |
+|  The midnight library     | Matt Haig       | Great book about the values of life. It creates an interesting connection into the brain of the main charecter and the feelings they feel as they go through the process of wanting to live       |

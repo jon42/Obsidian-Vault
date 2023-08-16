@@ -3,7 +3,7 @@ Alias: Translate
 ---
 ## Translation is the process in which [[RNA]] is turned into [[Proteins]] 
 
-[[mRNA]] is translated using [[Ribosomes]] in the [[Cytoplasm]]. The ribosomes will attach a [[tRNA]] to each [[Nucleotide]] found on the RNA. The process will take place at different times in [[Eukaryotes]] and [[Prokaryotes]]. In both the process occurs in the [[Cytoplasm]] however because in prokaryotes [[Translation]] occurs in the [[Nucleus]] the [[mRNA]] must first move out of a [[Nucleus#Nuclear Pore| nuclear pore]]. Prokaryotes also don't require any [[Eukaryotic RNA modification#Alternative spicing|Alternative splicing]] This means that translation and transcription can happen nearly simultaneously in prokaryotes.
+[[mRNA]] is translated using [[Ribosomes]] in the [[Cytosol]]. The ribosomes will attach a [[tRNA]] to each [[Nucleotide]] found on the RNA. The process will take place at different times in [[Eukaryotes]] and [[Prokaryotes]]. In both the process occurs in the [[Cytosol]] however because in prokaryotes [[Translation]] occurs in the [[Nucleus]] the [[mRNA]] must first move out of a [[Nucleus#Nuclear Pore| nuclear pore]]. Prokaryotes also don't require any [[Eukaryotic RNA modification#Alternative spicing|Alternative splicing]] This means that translation and transcription can happen nearly simultaneously in prokaryotes.
 
 ## Process of Translation
 The Process of translation has the same 3 steps as the [[Transcription#Transcription Process|transcription process]].

@@ -15,7 +15,7 @@ Transcription is the process in which [[DNA]] is turned into [[RNA]]. Translatio
 
 ## Transcription is Prokaryotes vs Eukaryotes
 
-Transcription occurs a bit differently in [[Eukaryotes]] and [[Prokaryotes]]. The main difference is that transcription occurs in the [[Nucleus]] in Eukaryotes and in the [[Cytoplasm]]. There is also changes in the mRNA described in [[Transcription#Eukaryotic RNA modification]] 
+Transcription occurs a bit differently in [[Eukaryotes]] and [[Prokaryotes]]. The main difference is that transcription occurs in the [[Nucleus]] in Eukaryotes and in the [[Cytosol]]. There is also changes in the mRNA described in [[Transcription#Eukaryotic RNA modification]] 
 
 ## RNA Modification
 

@@ -16,4 +16,4 @@ S:: Synthesis phase of the cell cycle
 G2:: The third phase in the cell cycle
 
 ### M phase
-
+M phase is:: [[Cell replication]]
