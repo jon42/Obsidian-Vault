@@ -1,7 +1,10 @@
 Ideas of improving my own life through purposeful actions
 # The science of well-being
 - GI Joe Fallacy: a concept that knowing is not half the battle. Work has to be done to change the behaviour
-
+- How accurately do people predict their own satisfaction of dissatisfaction from an event:: People typically over estimate the impact of an external event
+- Savouring and gratitude: Savouring and realising gratitude can increase happiness as it draws more attention to what is already good in your life. 
+- Thinking about stuff can make you less happy. Gaining something you think that you want has little to do with life satisfaction. This is also extending to weight loss, grades, and cosmetic surgery. In fact some of these things can reduce some of the satisfaction.
+- intentional and effortful activities have the greatest impact on happiness. Not events
 # The subtle art of not giving a fuck
 This is a book about what creates good values. Choosing what you value makes you choose what to give a fuck about. What does not suite your values you will not give a fuck about.
 
@@ -28,3 +31,6 @@ key takeaways:
     
 
 - Daniel Lerner & Alan Schlechter, [U Thrive: How to Succeed in College (and Life)](https://www.amazon.com/dp/B01K3WN1Y6/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1) (a book aimed towards undergraduates which covers many of the rewirements taught in this course)
+- - Sonja Lyubomirsky, [The How of Happiness: A Scientific Approach to Getting the Life You Want](https://www.amazon.com/How-Happiness-Approach-Getting-Life/dp/0143114956/ref=ed_oe_p) (a great introduction to work in positive psychology and a practical guide to using this work in your daily life)
+    
+- Richard Thaler & Cass Sunstein, [Nudge: Improving Decisions About Health, Wealth, and Happiness](https://www.amazon.com/Nudge-Improving-Decisions-Health-Happiness/dp/014311526X) (a nice introduction to the science of behavior changes and how we can work with some of the glitches of our own minds)

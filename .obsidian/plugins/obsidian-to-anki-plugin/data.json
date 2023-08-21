@@ -1,0 +1,169 @@
+{
+  "settings": {
+    "CUSTOM_REGEXPS": {
+      "Cloze": "",
+      "Basic (type in the answer)": "",
+      "Basic (optional reversed card)": "",
+      "Basic (and reversed card)": "",
+      "Basic": "^(.*[^\\n:]{1}):{2}([^\\n:]{1}.*)"
+    },
+    "FILE_LINK_FIELDS": {
+      "Cloze": "Text",
+      "Basic (type in the answer)": "Front",
+      "Basic (optional reversed card)": "Front",
+      "Basic (and reversed card)": "Front",
+      "Basic": "Front"
+    },
+    "CONTEXT_FIELDS": {
+      "Basic": "Front"
+    },
+    "FOLDER_DECKS": {
+      "Math": "",
+      "Media": "",
+      "Personal": "",
+      "Programming": "",
+      "Science": "",
+      "Video Ideas": "",
+      "Math/Calculus": "",
+      "Math/Shapes": "",
+      "Programming/CLI": "",
+      "Science/Biology": "",
+      "Science/Chemistry": "",
+      "Science/Physics": "",
+      "Math/Calculus/Derivatives": "",
+      "Math/Calculus/Integrals": "",
+      "Math/Calculus/Limits": "",
+      "Math/Calculus/Series": "",
+      "Science/Biology/Cellular Biology": "",
+      "Science/Biology/Evolution": "",
+      "Science/Biology/Molecular Biology": "",
+      "Science/Physics/Atoms": "",
+      "Science/Physics/Electricity and Magnetism": "",
+      "Science/Physics/Fluids": "",
+      "Science/Biology/Cellular Biology/Cell Cycle": "",
+      "Science/Biology/Cellular Biology/Orgenells": "",
+      "Science/Biology/Molecular Biology/Macro Molecules": "",
+      "Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid": "",
+      "Science/Biology/Molecular Biology/Macro Molecules/Proteins": "",
+      "Science/Biology/Molecular Biology/Macro Molecules/Sugar": "",
+      "Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/DNA": "",
+      "Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA": ""
+    },
+    "FOLDER_TAGS": {
+      "Math": "",
+      "Media": "",
+      "Personal": "",
+      "Programming": "",
+      "Science": "",
+      "Video Ideas": "",
+      "Math/Calculus": "",
+      "Math/Shapes": "",
+      "Programming/CLI": "",
+      "Science/Biology": "",
+      "Science/Chemistry": "",
+      "Science/Physics": "",
+      "Math/Calculus/Derivatives": "",
+      "Math/Calculus/Integrals": "",
+      "Math/Calculus/Limits": "",
+      "Math/Calculus/Series": "",
+      "Science/Biology/Cellular Biology": "",
+      "Science/Biology/Evolution": "",
+      "Science/Biology/Molecular Biology": "",
+      "Science/Physics/Atoms": "",
+      "Science/Physics/Electricity and Magnetism": "",
+      "Science/Physics/Fluids": "",
+      "Science/Biology/Cellular Biology/Cell Cycle": "",
+      "Science/Biology/Cellular Biology/Orgenells": "",
+      "Science/Biology/Molecular Biology/Macro Molecules": "",
+      "Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid": "",
+      "Science/Biology/Molecular Biology/Macro Molecules/Proteins": "",
+      "Science/Biology/Molecular Biology/Macro Molecules/Sugar": "",
+      "Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/DNA": "",
+      "Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA": ""
+    },
+    "Syntax": {
+      "Begin Note": "START",
+      "End Note": "END",
+      "Begin Inline Note": "STARTI",
+      "End Inline Note": "ENDI",
+      "Target Deck Line": "TARGET DECK",
+      "File Tags Line": "FILE TAGS",
+      "Delete Note Line": "DELETE",
+      "Frozen Fields Line": "FROZEN"
+    },
+    "Defaults": {
+      "Tag": "Obsidian_to_Anki",
+      "Deck": "Default",
+      "Scheduling Interval": 0,
+      "Add File Link": false,
+      "Add Context": false,
+      "CurlyCloze": false,
+      "CurlyCloze - Highlights to Clozes": false,
+      "ID Comments": true,
+      "Add Obsidian Tags": false
+    }
+  },
+  "Added Media": [
+    "Pasted image 20230729163829.png"
+  ],
+  "File Hashes": {
+    "Video Ideas/Obsidian.md": "55653291bbba3ce61604e9f9f2b8fe4b",
+    "Video Ideas/Linux.md": "b975f52eece38539c5b45123aa0af6a1",
+    "Science/Physics/Fluids/Liquid.md": "a2bcfd9f3f1874909634e0f152133b4a",
+    "Science/Physics/Fluids/Gas.md": "9f1c5f9c0dbd6cc855e7dcf01cdb0eb7",
+    "Science/Physics/Fluids/Fluids.md": "8d755ead8ad801c6ed87894bba8223be",
+    "Science/Physics/Electricity and Magnetism/Electricity.md": "2fb4b0d7c3c42feac11b0efb3326b49a",
+    "Science/Physics/Atoms/Electron.md": "74b251e5bd1a52b8ab7e1ebd5b5f0033",
+    "Science/Physics/Atoms/Atoms.md": "d085d8d70c829fff04c32da1e20d80c5",
+    "Science/Chemistry/Molecule.md": "4498c664c0e9ad252d5c7430d32ad326",
+    "Science/Biology/The Central Dogma.md": "fcb8b9460ae56628b51a5075e15837e7",
+    "Science/Biology/Molecular Biology/Translation.md": "23b8bc19451a9d542217e16d96d89906",
+    "Science/Biology/Molecular Biology/Transcription.md": "0fc48609d2013efafba97f7a502a496c",
+    "Science/Biology/Molecular Biology/Macro Molecules/Sugar/Saccharide.md": "fdc510e9ef613ba9e4dae4add64a1f43",
+    "Science/Biology/Molecular Biology/Macro Molecules/Proteins/Proteins.md": "4b1b77d1c3c2b0965d9c4e3ff0ea55c5",
+    "Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/RNA.md": "9f67c5b318d8e622ccc6a2c049b1cb0a",
+    "Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/Nucleotide.md": "82a0f2f66670ff545187ed3c629389fc",
+    "Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/DNA/DNA.md": "76b9d131653beefd72fa4a1f0e3503a8",
+    "Science/Biology/Molecular Biology/Macro Molecules/Macromolecules.md": "bce8fb9e0f9821d24057732117e7ad08",
+    "Science/Biology/Evolution/Mutation.md": "46b01bba31dad2d40af0a84af7aa99a7",
+    "Science/Biology/Cellular Biology/Orgenells/Ribosomes.md": "082ab84210226d2c3e14b983bde138db",
+    "Science/Biology/Cellular Biology/Orgenells/Cytosol.md": "6ac3a61251650c1448b300b3f7ea04a1",
+    "Science/Biology/Cellular Biology/Cell.md": "d41d8cd98f00b204e9800998ecf8427e",
+    "Science/Biology/Cellular Biology/Cell Cycle/Cell replication.md": "aea957c4a315f02839331171da5d9d67",
+    "Science/Biology/Cellular Biology/Cell Cycle/Cell Cycle.md": "f6154573e2fe0d40925f221f7401788f",
+    "Programming/CLI/Commands.md": "e3b31c8ff8069af7a6579c03a6a32c3a",
+    "Personal/TODO's.md": "d010427b77fd53ffbda2a6e16c2c2b1c",
+    "Personal/Self Help.md": "ebf8796d11d96d1b166f0e4e3de5805b",
+    "Personal/Calendar.md": "d41d8cd98f00b204e9800998ecf8427e",
+    "Personal/Books.md": "3ee4b404726d0bf109cfeef0500a3ca6",
+    "Math/Shapes/Trig.md": "c02740b06eff48c832e4e832e497644b",
+    "Math/Calculus/Derivatives/Derivatives.md": "51f16909ced66a2c60e1b2347658f537",
+    "Science/Physics/Thermodynamics/Thermodynamics.md": "d45d1bd788e21cc42f63fc67763f4958",
+    "Science/Chemistry/Naming Conventions.md": "a1179410ff8953de5e27fdd23f356ddc",
+    "Science/Chemistry/Molecular Bonds.md": "6d82adbf7ad14702839360b34093b2fe",
+    "Science/Chemistry/Ions.md": "b72187185f2872b58b57719610cc67eb"
+  },
+  "fields_dict": {
+    "Cloze": [
+      "Text",
+      "Extra"
+    ],
+    "Basic (type in the answer)": [
+      "Front",
+      "Back"
+    ],
+    "Basic (optional reversed card)": [
+      "Front",
+      "Back",
+      "Add Reverse"
+    ],
+    "Basic (and reversed card)": [
+      "Front",
+      "Back"
+    ],
+    "Basic": [
+      "Front",
+      "Back"
+    ]
+  }
+}

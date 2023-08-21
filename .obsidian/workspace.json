@@ -8,97 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "db488d2947eb9ec5",
+            "id": "3db135cd90ace92c",
             "type": "leaf",
             "state": {
               "type": "image",
               "state": {
-                "file": "Media/Pasted image 20230726000151.jpg"
-              }
-            }
-          },
-          {
-            "id": "9bf9c09a44992892",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/RNA.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e1110b3ae1cfa5e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal/Calendar.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "34b9642a3309baae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Math/Calculus/Derivatives/Derivatives.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "73378ce341472383",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "7ab1bb78f556c5c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Biology/Evolution/Mutation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "912f9fe201f9da55",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal/Books.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3c9a9885ee41c2d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal/Self Help.md",
-                "mode": "source",
-                "source": false
+                "file": "Media/Pasted image 20230729162214.png"
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -148,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 229.5
   },
   "right": {
     "id": "8c06b695a80bb766",
@@ -164,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal/Self Help.md",
+                "file": "Media/Pasted image 20230729162214.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal/Self Help.md",
+                "file": "Media/Pasted image 20230729162214.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -204,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal/Self Help.md"
+                "file": "Media/Pasted image 20230729162214.png"
               }
             }
           },
@@ -217,7 +136,7 @@
             }
           },
           {
-            "id": "22e6096838eeb666",
+            "id": "06381eee207fe909",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -225,34 +144,20 @@
             }
           },
           {
-            "id": "8d153c547803d37a",
+            "id": "1489d8bfa922053a",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
               "state": {}
             }
-          },
-          {
-            "id": "4a44d508fd20694e",
-            "type": "leaf",
-            "state": {
-              "type": "google-calendar-view-month",
-              "state": {}
-            }
-          },
-          {
-            "id": "ce830bf142ae8622",
-            "type": "leaf",
-            "state": {
-              "type": "google-calendar-view-year",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -262,60 +167,61 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "3c9a9885ee41c2d2",
+  "active": "3db135cd90ace92c",
   "lastOpenFiles": [
-    "Personal/Books.md",
-    "Biology/Evolution/Mutation.md",
-    "Biology/Evolution",
-    "Biology/Cellular Biology/Cell Cycle/Cell Cycle.md",
-    "Personal/Self Help.md",
-    "Math/Calculus/Derivatives/Derivatives.md",
-    "Personal",
-    "Biology/Molecular Biology/Macro Molecules/Macromolecules.md",
-    "Biology/Cellular Biology/Orgenells/Cytosol.md",
-    "Math/Shapes/Trig.md",
-    "Math/Shapes",
-    "Math/Calculus",
-    "Personal/Calendar.md",
-    "Media/Pasted image 20230729160925.jpg",
     "Media/Pasted image 20230729161248.jpg",
-    "Media/Pasted image 20230729162214.png",
-    "Media/Pasted image 20230729162222.png",
-    "Media/Pasted image 20230729163700.png",
-    "Media/Pasted image 20230729163829.png",
-    "Media/Pasted image 20230729163847.jpg",
-    "Biology/Cellular Biology/Cell Cycle/Cell replication.md",
-    "Biology/Molecular Biology/Transcription.md",
-    "Biology/The Central Dogma.canvas",
-    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/RNA.md",
-    "Biology/Molecular Biology/Macro Molecules/Proteins/Proteins.md",
-    "Biology/Molecular Biology/Translation.md",
-    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/DNA/DNA.md",
-    "Biology/The Central Dogma.md",
-    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/Eukaryotic RNA modification.md",
-    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/mRNA.md",
+    "Media/Pasted image 20230729160925.jpg",
     "Media/Pasted image 20230726000151.jpg",
-    "Biology/Molecular Biology/Macro Molecules/Sugar/Saccharide.md",
-    "Chemistry/Molecule.md",
-    "Physics/Fluids/Liquid.md",
-    "Physics/Fluids/Gas.md",
-    "ideal gase.md",
-    "Biology/Cellular Biology/Cell Cycle",
-    "Personal/TODO's.md",
-    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/Nucleotide.md",
     "Media/Pasted image 20230725002224.png",
     "Media/Pasted image 20230725001647.png",
-    "Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/RNA Polymerase.md",
-    "Programming/CLI",
-    "Physics/Electricity and Magnetism",
-    "Physics/Atoms",
-    "Physics/Fluids",
-    "Math/Imaginary Numbers"
+    "Media/Pasted image 20230723185019.png",
+    "Media/Pasted image 20230723003302.png",
+    "Media/Pasted image 20230722173243.png",
+    "Media/Pasted image 20230722172749.png",
+    "Media/Pasted image 20230722172409.png",
+    "Media/2560x1600.jpg",
+    "Science/Physics/Thermodynamics/Thermodynamics.md",
+    "Science/Physics/Fluids/Liquid.md",
+    "Science/Physics/Fluids/Gas.md",
+    "Science/Physics/Fluids/Fluids.md",
+    "Science/Physics/Electricity and Magnetism/Electricity.md",
+    "Science/Physics/Atoms/Electron.md",
+    "Science/Physics/Atoms/Atoms.md",
+    "Science/Chemistry/Naming Conventions.md",
+    "Science/Chemistry/Molecule.md",
+    "Science/Chemistry/Molecular Bonds.md",
+    "Science/Chemistry/Ions.md",
+    "Science/Biology/The Central Dogma.md",
+    "Science/Biology/The Central Dogma.canvas",
+    "Science/Biology/Molecular Biology/Translation.md",
+    "Science/Biology/Molecular Biology/Transcription.md",
+    "Science/Biology/Molecular Biology/Macro Molecules/Macromolecules.md",
+    "Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/Nucleotide.md",
+    "Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/DNA/DNA.md",
+    "Science/Biology/Cellular Biology/Orgenells/Ribosomes.md",
+    "Science/Biology/Cellular Biology/Orgenells/Cytosol.md",
+    "Science/Biology/Cellular Biology/Cell Cycle/Cell replication.md",
+    "Science/Biology/Cellular Biology/Cell Cycle/Cell Cycle.md",
+    "Programming/CLI/Commands.md",
+    "Personal/Books.md",
+    "Math/Shapes/Trig.md",
+    "Math/Calculus/Derivatives/Derivatives.md",
+    "Science/Physics/Thermodynamics",
+    "Math/Calculus/Series",
+    "Math/Calculus/Limits",
+    "Math/Calculus/Integrals",
+    "Video Ideas",
+    "Personal/Video idea",
+    "Science",
+    "Science/Biology/Evolution",
+    "Personal",
+    "Math/Shapes"
   ]
 }

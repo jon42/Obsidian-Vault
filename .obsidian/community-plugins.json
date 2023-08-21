@@ -1,16 +1,17 @@
 [
+  "obsidian-to-anki-plugin",
   "table-editor-obsidian",
+  "obsidian-auto-link-title",
+  "calendar",
   "dataview",
+  "obsidian-style-settings",
+  "darlal-switcher-plus",
+  "obsidian-spaced-repetition",
   "obsidian-git",
   "quick-latex",
   "obsidian-fullscreen-plugin",
-  "obsidian-style-settings",
-  "obsidian-auto-link-title",
-  "calendar",
-  "google-calendar",
-  "darlal-switcher-plus",
-  "obsidian-spaced-repetition",
-  "obsidian-mind-map",
   "obsidian-icon-folder",
-  "link-headers-directly"
+  "obsidian-mind-map",
+  "link-headers-directly",
+  "emoji-shortcodes"
 ]
