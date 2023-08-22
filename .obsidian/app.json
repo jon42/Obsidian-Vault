@@ -2,5 +2,6 @@
   "alwaysUpdateLinks": true,
   "showLineNumber": true,
   "vimMode": false,
-  "legacyEditor": false
+  "legacyEditor": false,
+  "attachmentFolderPath": "Media"
 }

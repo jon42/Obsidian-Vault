@@ -18,16 +18,22 @@ Protein secondary structure:: When the protein has undergone spontaneous folding
 <!--ID: 1692599055372-->
 
 ![[Pasted image 20230729163847.jpg]]
+### Beta pleated sheets
+Similar to the alpha helix there are carboxyl and amino groups pointing at each other creating kinks which is the pleated sheets
+### Alpha Helix
+In an alpha helix the carboxyl and amino pointing at each other. This means that at every coil there is a hydrogen bond. 
+### Random Coils
+This is just the amino acids strung together in a random fasion that connects the alpha helix and beta pleated sheets
 ## Tertiary Structure
 
-Protein tertiary structure:: The folding of a protein that occurs after entering the [[Golgi Apparatus]] and the [[Endoplasmic Reticulum]]. During this process [[Covalent Bonds]] and other structures are added to the protein. This is the final form for many of the proteins in the [[Cell]].
+Protein tertiary structure:: The folding of a protein that occurs after entering the [[Golgi Apparatus]] and the [[Endoplasmic Reticulum]]. During this process [[Molecular Bonds#Covalent Bonds]] and other structures are added to the protein. This is the final form for many of the proteins in the [[Cell]].
 <!--ID: 1692599055377-->
 
 ### Quaternary Structure
 Quaternary Structure:: This is the final possible structure obtainable by a protein. This is the structure when two or more tertiary structures are put together.
 <!--ID: 1692599055386-->
 
-One of the primary examples of this is in hemoglobin. Hemoglobin consists of four heme sub-units.
+One of the primary examples of this is in hemoglobin. Hemoglobin consists of four heme sub-units. 2 alpha heme and two beta heme groups
 
 # Enzymes
 Enzymes:: Proteins that act as catalysts

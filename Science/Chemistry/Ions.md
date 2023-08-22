@@ -2,13 +2,13 @@
 TARGET DECK: Chem
 Aliases: Ion, Anion
 ---
-Ions:: an [[Atoms|Atom]] that is positively charged from the loss of an election
+Ions:: an [[Atoms|Atom]] that is  [[charge|charged]] from the loss or gain of an election
 <!--ID: 1692597038800-->
 
 Anion:: An atom that is negatively charged from the gain of an electron
 <!--ID: 1692597038804-->
 
-
+Cation:: Ion that has lost an election and is positively charged
 # Basic ion rules
 Many atoms do not have a natural ion 
 General ions:

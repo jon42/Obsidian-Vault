@@ -2,10 +2,10 @@
 	"nodes":[
 		{"type":"file","file":"Science/Biology/The Central Dogma.md","id":"f46cd9c47414564e","x":-1240,"y":-240,"width":400,"height":400},
 		{"type":"file","file":"Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/DNA/DNA.md","id":"252cd81af0160c38","x":-760,"y":-200,"width":480,"height":560},
-		{"type":"file","file":"Science/Biology/Molecular Biology/Transcription.md","id":"4f41d90f28e3ac96","x":-220,"y":200,"width":500,"height":520},
 		{"type":"file","file":"Science/Biology/Molecular Biology/Translation.md","id":"4c203debad7efba7","x":-220,"y":1040,"width":400,"height":400},
 		{"type":"file","file":"Science/Biology/Molecular Biology/Macro Molecules/Proteins/Proteins.md","id":"82f5a5c9f86d02ac","x":-760,"y":1440,"width":400,"height":400},
-		{"type":"file","file":"Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/RNA.md","id":"84405464e2ceb078","x":360,"y":720,"width":400,"height":400}
+		{"type":"file","file":"Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/RNA.md","id":"84405464e2ceb078","x":360,"y":720,"width":400,"height":400},
+		{"type":"file","file":"Science/Biology/Molecular Biology/Transcription.md","id":"4f41d90f28e3ac96","x":-220,"y":280,"width":500,"height":520}
 	],
 	"edges":[
 		{"id":"6eeef9f5b741a744","fromNode":"252cd81af0160c38","fromSide":"bottom","toNode":"4f41d90f28e3ac96","toSide":"top"},

@@ -1,0 +1,1 @@
+When a Hydrogen and hydroxide detach from two molecules and creates a water byproduct. When this happens the two molecules will create a new bond and become one

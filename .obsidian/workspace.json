@@ -8,12 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3db135cd90ace92c",
+            "id": "c88359bb3b5a6e23",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Media/Pasted image 20230729162214.png"
+                "file": "Science/Physics/Electricity and Magnetism/Electricity.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5
+    "width": 289.5
   },
   "right": {
     "id": "8c06b695a80bb766",
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Media/Pasted image 20230729162214.png",
+                "file": "Science/Physics/Electricity and Magnetism/Electricity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Media/Pasted image 20230729162214.png",
+                "file": "Science/Physics/Electricity and Magnetism/Electricity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Media/Pasted image 20230729162214.png"
+                "file": "Science/Physics/Electricity and Magnetism/Electricity.md"
               }
             }
           },
@@ -171,57 +173,59 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-spaced-repetition:Review flashcards": false
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "ketcher:Create new structure": false
     }
   },
-  "active": "3db135cd90ace92c",
+  "active": "c88359bb3b5a6e23",
   "lastOpenFiles": [
+    "Science/Physics/Electricity and Magnetism/Cicuits/Voltage and amp throughout a circuit.md",
+    "Science/Chemistry/Molecular Bonds.md",
+    "Science/Physics/Electricity and Magnetism/Cicuits/Reading  circuits.md",
+    "Media/Pasted image 20230822150925.png",
+    "Media/Pasted image 20230822150822.png",
+    "Science/Physics/Electricity and Magnetism/Electricity.md",
+    "Science/Physics/Electricity and Magnetism/Cicuits",
+    "Science/Physics/Electricity and Magnetism/charge.md",
+    "Science/Biology/Molecular Biology/Macro Molecules/Lipids.md",
+    "Science/Biology/Cellular Biology/Orgenells/Lipid Bilayer and Cell Membrane.md",
+    "Media/Pasted image 20230822125948.jpg",
+    "Hydrophobic and Hydrophylic.md",
+    "Science/Biology/Molecular Biology/Macro Molecules/Proteins/Amino Acid.md",
+    "Science/Chemistry/Reactions/Dehydration synthesis.md",
+    "Science/Chemistry/Reactions",
+    "Science/Chemistry/Untitled.md",
+    "Bound.md",
+    "Science/Chemistry/Molecule.md",
+    "Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/DNA/DNA.md",
+    "Science/Biology/Techniques/Imaging/X-Ray crystalography.md",
+    "Science/Biology/The Central Dogma.canvas",
+    "Science/Biology/Techniques/Imaging",
+    "Science/Biology/Techniques",
+    "Science/Biology/T=.md",
+    "Science/Biology/The Central Dogma.md",
+    "Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/Nucleotide.md",
+    "Science/Biology/Molecular Biology/Macro Molecules/Proteins/Proteins.md",
+    "Science/Biology/Molecular Biology/Macro Molecules/Proteins/Enzymes.md",
+    "Ketcher/Ketcher 8-21-2023 19.05.46.ket",
+    "Science/Chemistry/Ions.md",
+    "Science/Biology/Cellular Biology/Orgenells/Ribosomes.md",
+    "Science/Biology/Cellular Biology/Cell.md",
+    "Science/Biology/Cellular Biology/Orgenells/Cytosol.md",
+    "Science/Biology/Cellular Biology/Cell Cycle/Cell replication.md",
+    "Science/Biology/Cellular Biology/Cell Cycle/Cell Cycle.md",
+    "Media/Pasted image 20230822102345.png",
+    "Science/Biology/Untitled.canvas",
+    "Ketcher",
+    "Media/Pasted image 20230729162214.png",
     "Media/Pasted image 20230729161248.jpg",
     "Media/Pasted image 20230729160925.jpg",
     "Media/Pasted image 20230726000151.jpg",
     "Media/Pasted image 20230725002224.png",
     "Media/Pasted image 20230725001647.png",
-    "Media/Pasted image 20230723185019.png",
-    "Media/Pasted image 20230723003302.png",
-    "Media/Pasted image 20230722173243.png",
-    "Media/Pasted image 20230722172749.png",
-    "Media/Pasted image 20230722172409.png",
-    "Media/2560x1600.jpg",
-    "Science/Physics/Thermodynamics/Thermodynamics.md",
-    "Science/Physics/Fluids/Liquid.md",
-    "Science/Physics/Fluids/Gas.md",
-    "Science/Physics/Fluids/Fluids.md",
-    "Science/Physics/Electricity and Magnetism/Electricity.md",
-    "Science/Physics/Atoms/Electron.md",
-    "Science/Physics/Atoms/Atoms.md",
-    "Science/Chemistry/Naming Conventions.md",
-    "Science/Chemistry/Molecule.md",
-    "Science/Chemistry/Molecular Bonds.md",
-    "Science/Chemistry/Ions.md",
-    "Science/Biology/The Central Dogma.md",
-    "Science/Biology/The Central Dogma.canvas",
-    "Science/Biology/Molecular Biology/Translation.md",
-    "Science/Biology/Molecular Biology/Transcription.md",
-    "Science/Biology/Molecular Biology/Macro Molecules/Macromolecules.md",
-    "Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/Nucleotide.md",
-    "Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/DNA/DNA.md",
-    "Science/Biology/Cellular Biology/Orgenells/Ribosomes.md",
-    "Science/Biology/Cellular Biology/Orgenells/Cytosol.md",
-    "Science/Biology/Cellular Biology/Cell Cycle/Cell replication.md",
-    "Science/Biology/Cellular Biology/Cell Cycle/Cell Cycle.md",
-    "Programming/CLI/Commands.md",
-    "Personal/Books.md",
-    "Math/Shapes/Trig.md",
-    "Math/Calculus/Derivatives/Derivatives.md",
     "Science/Physics/Thermodynamics",
     "Math/Calculus/Series",
     "Math/Calculus/Limits",
-    "Math/Calculus/Integrals",
-    "Video Ideas",
-    "Personal/Video idea",
-    "Science",
-    "Science/Biology/Evolution",
-    "Personal",
-    "Math/Shapes"
+    "Math/Calculus/Integrals"
   ]
 }

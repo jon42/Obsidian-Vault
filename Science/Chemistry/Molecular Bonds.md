@@ -6,16 +6,19 @@ Types of Molecular Bonds:: Ionic, Covalent, Hydrogen, and Vander-Walls force
 <!--ID: 1692597038788-->
 
 # Ionic Bonds
-Ionic bonds form between:: Metal and Non-metal or two [[Ions#Poly-atomic ions]]
+Ionic bonds form between:: Metal and Non-metal or [[Ions#Poly-atomic ions]]. The ionic bonding occurs when the [[Ions]] cancel charges. Ionic bonds occur when an atom with 1-3 valence electrons complete the orbital of the other atom
 <!--ID: 1692597038792-->
 
 
 
 # Covalent Bonds
-Covalent bonds form between:: Non-Metals
+Covalent bonds form between:: Non-Metals. Covalent bonds share electrons between the two atoms. These bonds can happen so long as the shared [[Electron]]  move the atom closer to having a complete orbital
 <!--ID: 1692597038795-->
-
-
+![[Pasted image 20230822102345.png]]
+Covalent bonds are more common than ionic bonds
 # Hydrogen Bonds
+Hydrogen bonds:: Bonds that are created when atoms have an electronegativity difference greater than 1.5
 
-# Vander-Walls force
+
+# Vander-Waals force
+These are the weakest form of bonds in a system.
