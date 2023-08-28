@@ -13,13 +13,74 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Science/Physics/Electricity and Magnetism/Electricity.md",
+                "file": "Science/Physics/Fluids/Gas.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0ad825dc4b58981f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Science/Biology/Molecular Biology/Macro Molecules/Proteins/Proteins.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e40846892ca0a301",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Science/Biology/Molecular Biology/Macro Molecules/Lipids.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5dfc6def1f1de7a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Science/Chemistry/Chemistry Symbols and Diagrams.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1ac88f63ad5bbd15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Science/Chemistry/Molecule.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "566616a4a3829d3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Science/Chemistry/Hydrophobic and Hydrophylic.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Science/Physics/Electricity and Magnetism/Electricity.md",
+                "file": "Science/Chemistry/Molecule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Science/Physics/Electricity and Magnetism/Electricity.md",
+                "file": "Science/Chemistry/Molecule.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Science/Physics/Electricity and Magnetism/Electricity.md"
+                "file": "Science/Chemistry/Molecule.md"
               }
             }
           },
@@ -177,26 +238,40 @@
       "ketcher:Create new structure": false
     }
   },
-  "active": "c88359bb3b5a6e23",
+  "active": "1ac88f63ad5bbd15",
   "lastOpenFiles": [
-    "Science/Physics/Electricity and Magnetism/Cicuits/Voltage and amp throughout a circuit.md",
     "Science/Chemistry/Molecular Bonds.md",
+    "Math/Calculus/Derivatives/Derivatives.md",
+    "Science/Chemistry/Chemistry Symbols and Diagrams.md",
+    "Science/Biology/Molecular Biology/Macro Molecules/Lipids.md",
+    "Science/Biology/Molecular Biology/Macro Molecules/Proteins/Proteins.md",
+    "Science/Physics/Fluids/Gas.md",
+    "Science/Physics/Fluids/Fluids.md",
+    "Science/Chemistry/Naming Conventions.md",
+    "Science/Chemistry/Stoichiometry and mass equations.md",
+    "Science/Chemistry/Molecule.md",
+    "Science/Chemistry/Ions.md",
+    "Science/Chemistry/Hydrophobic and Hydrophylic.md",
+    "Media/Pasted image 20230826224905.png",
+    "Media/Pasted image 20230825142153.png",
+    "Media/Pasted image 20230825141823.png",
+    "Media/Pasted image 20230825141756.jpg",
+    "Media/Pasted image 20230825141728.jpg",
+    "Media/Pasted image 20230825141237.png",
+    "Media/Pasted image 20230825140554.png",
+    "Science/Physics/Electricity and Magnetism/Electricity.md",
+    "Science/Physics/Electricity and Magnetism/Cicuits/Voltage and amp throughout a circuit.md",
     "Science/Physics/Electricity and Magnetism/Cicuits/Reading  circuits.md",
     "Media/Pasted image 20230822150925.png",
     "Media/Pasted image 20230822150822.png",
-    "Science/Physics/Electricity and Magnetism/Electricity.md",
     "Science/Physics/Electricity and Magnetism/Cicuits",
     "Science/Physics/Electricity and Magnetism/charge.md",
-    "Science/Biology/Molecular Biology/Macro Molecules/Lipids.md",
     "Science/Biology/Cellular Biology/Orgenells/Lipid Bilayer and Cell Membrane.md",
     "Media/Pasted image 20230822125948.jpg",
-    "Hydrophobic and Hydrophylic.md",
     "Science/Biology/Molecular Biology/Macro Molecules/Proteins/Amino Acid.md",
     "Science/Chemistry/Reactions/Dehydration synthesis.md",
     "Science/Chemistry/Reactions",
-    "Science/Chemistry/Untitled.md",
     "Bound.md",
-    "Science/Chemistry/Molecule.md",
     "Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/DNA/DNA.md",
     "Science/Biology/Techniques/Imaging/X-Ray crystalography.md",
     "Science/Biology/The Central Dogma.canvas",
@@ -205,24 +280,10 @@
     "Science/Biology/T=.md",
     "Science/Biology/The Central Dogma.md",
     "Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/Nucleotide.md",
-    "Science/Biology/Molecular Biology/Macro Molecules/Proteins/Proteins.md",
     "Science/Biology/Molecular Biology/Macro Molecules/Proteins/Enzymes.md",
     "Ketcher/Ketcher 8-21-2023 19.05.46.ket",
-    "Science/Chemistry/Ions.md",
-    "Science/Biology/Cellular Biology/Orgenells/Ribosomes.md",
-    "Science/Biology/Cellular Biology/Cell.md",
-    "Science/Biology/Cellular Biology/Orgenells/Cytosol.md",
-    "Science/Biology/Cellular Biology/Cell Cycle/Cell replication.md",
-    "Science/Biology/Cellular Biology/Cell Cycle/Cell Cycle.md",
-    "Media/Pasted image 20230822102345.png",
     "Science/Biology/Untitled.canvas",
     "Ketcher",
-    "Media/Pasted image 20230729162214.png",
-    "Media/Pasted image 20230729161248.jpg",
-    "Media/Pasted image 20230729160925.jpg",
-    "Media/Pasted image 20230726000151.jpg",
-    "Media/Pasted image 20230725002224.png",
-    "Media/Pasted image 20230725001647.png",
     "Science/Physics/Thermodynamics",
     "Math/Calculus/Series",
     "Math/Calculus/Limits",

@@ -21,7 +21,7 @@ Formal Definition of Derivative:: $$f'(x)=lim_{h{\rightarrow}0}{\frac{f(x+h) - f
 # Basic Derivative Rules
 ### Deriving Functions
 #### [[Trig]] Derivatives
-Derivative of [[Trig#sin]]:: $$\frac{d}{dx}sin(x)=cosx$$
+Derivative of [[Trig#sin]]:: $$\frac{d}{dx}sin(x)=cos(x)$$
 <!--ID: 1692597427817-->
 
 <!--SR:!2023-08-20,4,270-->
@@ -56,8 +56,12 @@ Quotient rule:: $$\frac{d}{dx}\frac{f(x)}{g(x)} = \frac{f'(x)g(x)-f(x)g'(x)}{g(x
 
 <!--SR:!2023-08-19,3,250-->
 
-
+Exponent::$$\frac{d}{dx}a^x=ln(a)a^x$$
 Chain Rule::: $$\frac{d}{dx}f(g(x))=g'(x)f'(g(x))$$
+Examples:
+$$30^{3x+x^2}=ln(30)(3+2x)30^{3x+x^2}$$
+$$\frac{d}{dx} csc(sin(x))=-cos(x)csc(sin(x))cot(sin(x))$$
+
 # Multi-variable Derivatives
 ## Partial Derivatives
 partial derivatives are denoted by:: $\frac{\delta{}}{\delta{}x}$ 
