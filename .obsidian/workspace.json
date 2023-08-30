@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Science/Chemistry/Molecule.md",
+                "file": "Math/Math Symbols.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Science/Chemistry/Molecule.md",
+                "file": "Math/Math Symbols.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Science/Chemistry/Molecule.md",
+                "file": "Math/Math Symbols.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Science/Chemistry/Molecule.md"
+                "file": "Math/Math Symbols.md"
               }
             }
           },
@@ -240,8 +240,12 @@
   },
   "active": "1ac88f63ad5bbd15",
   "lastOpenFiles": [
-    "Science/Chemistry/Molecular Bonds.md",
+    "Math/Calculus/Integrals/Integration.md",
+    "Math/Math Symbols.md",
+    "Math/Calculus/Derivatives/Gradient.md",
     "Math/Calculus/Derivatives/Derivatives.md",
+    "Science/Chemistry/Molecule.md",
+    "Science/Chemistry/Molecular Bonds.md",
     "Science/Chemistry/Chemistry Symbols and Diagrams.md",
     "Science/Biology/Molecular Biology/Macro Molecules/Lipids.md",
     "Science/Biology/Molecular Biology/Macro Molecules/Proteins/Proteins.md",
@@ -249,7 +253,6 @@
     "Science/Physics/Fluids/Fluids.md",
     "Science/Chemistry/Naming Conventions.md",
     "Science/Chemistry/Stoichiometry and mass equations.md",
-    "Science/Chemistry/Molecule.md",
     "Science/Chemistry/Ions.md",
     "Science/Chemistry/Hydrophobic and Hydrophylic.md",
     "Media/Pasted image 20230826224905.png",
@@ -278,9 +281,6 @@
     "Science/Biology/Techniques/Imaging",
     "Science/Biology/Techniques",
     "Science/Biology/T=.md",
-    "Science/Biology/The Central Dogma.md",
-    "Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/Nucleotide.md",
-    "Science/Biology/Molecular Biology/Macro Molecules/Proteins/Enzymes.md",
     "Ketcher/Ketcher 8-21-2023 19.05.46.ket",
     "Science/Biology/Untitled.canvas",
     "Ketcher",
