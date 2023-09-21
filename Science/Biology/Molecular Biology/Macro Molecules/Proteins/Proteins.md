@@ -11,7 +11,9 @@ There are four types of protein structure
 ## Primary Structure
 Protein primary structure:: When the amino acids that form the protein in a line.![[Pasted image 20230729163829.png]]
 <!--ID: 1692599055362-->
-
+When in this form a proteins amino acids will be numbered. This is done with the system Amino-acid number
+Example:
+His 95 for histidine at position 95
 
 ## Secondary Structure
 Protein secondary structure:: When the protein has undergone spontaneous folding. This includes structures called [[Proteins#Beta pleated sheets]], [[Proteins#Alpha Helix]], and [[Proteins#Random coils]].
@@ -39,7 +41,7 @@ One of the primary examples of this is in hemoglobin. Hemoglobin consists of fou
 Enzymes:: Proteins that act as catalysts
 <!--ID: 1692599055390-->
 
-Enzymes are specific proteins that catalyze other reactions within a cell.
+Enzymes are specific proteins that catalyze other reactions within a cell. see [[Enzymes]] for more.
 
 
 # Other interesting info
