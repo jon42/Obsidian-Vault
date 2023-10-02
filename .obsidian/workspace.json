@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "Science/Biology/Cellular Biology/Cell Cycle/Cell Cycle.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -42,9 +42,69 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e7ef6025415562d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Science/Biology/Techniques/DNA Detection/PCR.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dc0aaf3afaec1c52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ploidy.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dcd8d1bf8174c73b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023-10-02.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fea74094e7bedf78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Prefixes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c05567eaf90c67cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Math/Statistics/Null Hypotheses.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -110,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Science/Biology/Cellular Biology/Cell Cycle/Cell Cycle.md",
+                "file": "Prefixes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Science/Biology/Cellular Biology/Cell Cycle/Cell Cycle.md",
+                "file": "Prefixes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Science/Biology/Cellular Biology/Cell Cycle/Cell Cycle.md"
+                "file": "Prefixes.md"
               }
             }
           },
@@ -212,13 +272,25 @@
       "ketcher:Create new structure": false
     }
   },
-  "active": "fa1be5e2f7507750",
+  "active": "fea74094e7bedf78",
   "lastOpenFiles": [
+    "2023-10-02.md",
+    "Prefixes.md",
+    "Science/Biology/Cellular Biology/Cell Cycle/Cell replication.md",
+    "Ploidy.md",
+    "Science/Biology/Techniques/DNA Detection/PCR.md",
+    "2023-09-29.md",
+    "Science/Biology/Techniques/DNA Detection",
+    "Science/Biology/Techniques/Untitled.md",
+    "Math/Statistics",
+    "2023-09-27.md",
+    "Math/Statistics/Null Hypotheses.md",
+    "Science/Biology/Cellular Biology/Cell Cycle/Cell Cycle.md",
+    "Science/Biology/Molecular Biology/Macro Molecules/Proteins/Amino Acid.md",
     "Programming/CLI/Commands.md",
     "Personal/Books.md",
     "Science/Biology/The Central Dogma.canvas",
     "Science/Biology/Molecular Biology/Macro Molecules/Proteins/Proteins.md",
-    "Science/Biology/Molecular Biology/Macro Molecules/Proteins/Amino Acid.md",
     "Media/Pasted image 20230924204926.png",
     "Science/Biology/Molecular Biology/Macro Molecules/Proteins/Enzymes.md",
     "Science/Chemistry/Catalyze/Activation Barrier.md",
@@ -234,15 +306,6 @@
     "Math/Calculus/Derivatives/Derivatives.md",
     "Math/Math Symbols.md",
     "Math/Calculus/Derivatives/Gradient.md",
-    "Science/Chemistry/Molecule.md",
-    "Science/Chemistry/Molecular Bonds.md",
-    "Science/Chemistry/Chemistry Symbols and Diagrams.md",
-    "Science/Biology/Molecular Biology/Macro Molecules/Lipids.md",
-    "Science/Physics/Fluids/Gas.md",
-    "Science/Physics/Fluids/Fluids.md",
-    "Science/Chemistry/Naming Conventions.md",
-    "Science/Chemistry/Stoichiometry and mass equations.md",
-    "Science/Chemistry/Ions.md",
     "Media/Pasted image 20230826224905.png",
     "Media/Pasted image 20230825142153.png",
     "Media/Pasted image 20230825141823.png",
@@ -250,7 +313,6 @@
     "Media/Pasted image 20230825141728.jpg",
     "Media/Pasted image 20230825141237.png",
     "Media/Pasted image 20230825140554.png",
-    "Science/Physics/Electricity and Magnetism/Electricity.md",
     "Media/Pasted image 20230822150925.png",
     "Media/Pasted image 20230822150822.png",
     "Science/Physics/Electricity and Magnetism/Cicuits",
@@ -259,8 +321,6 @@
     "Science/Biology/Techniques",
     "Ketcher/Ketcher 8-21-2023 19.05.46.ket",
     "Science/Biology/Untitled.canvas",
-    "Ketcher",
-    "Science/Physics/Thermodynamics",
-    "Math/Calculus/Series"
+    "Ketcher"
   ]
 }

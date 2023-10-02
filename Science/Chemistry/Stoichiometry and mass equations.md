@@ -6,6 +6,8 @@ Examples:
 $$2H_2+O_{2} {\rightarrow} 2H_2O$$
 The Hydrogen and oxygen are both diatomic so to create an equal number of atoms two water [[Molecule]] are needed
 $$Mg(s) + O_{2} \rightarrow 2MgO$$::$$2Mg+O_{2} \rightarrow 2MgO$$
+<!--ID: 1696002543978-->
+
 
 Molar mass defines how many grams are in one mole of an atom
 ![[Pasted image 20230825140554.png|400]]

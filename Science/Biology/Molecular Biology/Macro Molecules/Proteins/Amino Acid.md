@@ -57,7 +57,7 @@ OC(=O)C(N)CC1=CC(O)=CC=C1
 #### Tryptophan
 Abr: Trp/W
 ```smiles
-OC(=O)CCC1CN2CCCC2C1
+OC(=O)CCC12NCCCC1C2
 ```
 ## Positive
 #### Arginine

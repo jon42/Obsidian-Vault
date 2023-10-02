@@ -57,6 +57,8 @@ Quotient rule:: $$\frac{d}{dx}\frac{f(x)}{g(x)} = \frac{f'(x)g(x)-f(x)g'(x)}{g(x
 <!--SR:!2023-08-19,3,250-->
 
 Exponent::$$\frac{d}{dx}a^x=ln(a)a^x$$
+<!--ID: 1696002544010-->
+
 Chain Rule::: $$\frac{d}{dx}f(g(x))=g'(x)f'(g(x))$$
 Examples:
 $$30^{3x+x^2}=ln(30)(3+2x)30^{3x+x^2}$$

@@ -4,6 +4,8 @@ TARGET DECK: Math
 ---
 
 Integration:: Also known as an anti-derivative, gives the area underneath a graph.
+<!--ID: 1696002544004-->
+
 # Indefinite Integrals
 Indefinite integrals are integrals that are not bound to any particular domain
 When computing an idefinite integral a C is added. This C is added because it is the anti-derivitave, and when there is a constant without an x it gets removed. So to compensate for not knowing whether or not a constant was removed a C is used as a place holder. DO NOT FORGET THE C OR THE ANSWER WILL BE WRONG

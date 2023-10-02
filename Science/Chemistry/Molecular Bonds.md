@@ -18,6 +18,8 @@ Covalent bonds form between:: Non-Metals. Covalent bonds share electrons between
 Covalent bonds are more common than ionic bonds
 # Hydrogen Bonds
 Hydrogen bonds:: Hydrogen bonds form when an electron is pulled towards one atom more than then other creating a charge difference. This can only happen if the electronegativity of the two atoms is greater than 1.5 making it [[Hydrophobic and Hydrophylic|polar]]. See [[Hydrophobic and Hydrophylic|polar molecuels]] for more. 
+<!--ID: 1696002543987-->
+
 
 
 # Vander-Waals force

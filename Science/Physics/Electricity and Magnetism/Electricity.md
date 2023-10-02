@@ -27,4 +27,6 @@ W = $V^{2} /{\ohm}$
 Resistance occurs in all conductors. 
 
 Resistance in a wire is:: $$R=p( \frac{L}{A})$$ where p is the resistivity of the material, l is the length, and A is the area of the conductor
+<!--ID: 1696002543968-->
+
 
