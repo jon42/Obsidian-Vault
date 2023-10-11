@@ -23,3 +23,7 @@ $$\frac{P_1}{V_1}=\frac{P_2}{V_2}$$
 $$PV=k$$
 $$\frac{P_1V_2}{T_2}=\frac{P_2V_2}{T_2}$$
 **This extends to any variation of the original equation**
+
+
+# Kinetic-Molecular theory of Gases
+Gas collisions are elastic and thus do not loose kinetic energy

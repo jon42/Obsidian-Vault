@@ -3,7 +3,7 @@ consist of a central carbon($C_\alpha$)
 a carboxyl group
 a hydrogen
 and an amine group
-$$3^x$$
+
 and a side chain that denotes which amino acid it is
 
 ```smiles
@@ -59,6 +59,7 @@ Abr: Trp/W
 ```smiles
 OC(=O)CCC12NCCCC1C2
 ```
+This is not even close god damn
 ## Positive
 #### Arginine
 Abr: Arg/R

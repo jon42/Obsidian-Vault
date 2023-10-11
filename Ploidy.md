@@ -1,4 +1,6 @@
 Ploidy:: The number of duplicate chromosomes that exist in the cell.
+<!--ID: 1696998808082-->
+
 # Diploid
 A Diploid is a cell that has 2 chromosomes
 Most human and mammalian cells are diploid consisting of the set of chromosomes from each parent

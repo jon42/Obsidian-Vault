@@ -1,7 +1,7 @@
 ---
 TARGET DECK: Bio
 ---
-DNA is a [[Molecule]] that is the instructions on how a [[Cell]] should operate.
+DNA is a [[Molecule]] that is the instructions on how a [[Cell]] should operate. [[Amino Acid#Isoleucine]]
 DNA has phosphate backbone $PO^{3-}_4$ with a pentose [[Saccharide]]
 DNA takes on a right hand double helix shape
 
