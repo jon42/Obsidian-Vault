@@ -26,7 +26,9 @@ $$\frac{P_1V_2}{T_2}=\frac{P_2V_2}{T_2}$$
 
 
 # Kinetic-Molecular theory of Gases
-Gas collisions are elastic and thus do not loose kinetic energy
+- Gas collisions are elastic and thus do not loose kinetic energy
+- Gas particles are tiny compared to the space between them? 
+- 
 
 # Root mean square speed
 The root mean square speed is the average speed of a particle 
@@ -37,6 +39,7 @@ Where $M_m$ is the molar mass of the molecule in Kg because R is in Kg units
 Therefore:
 $$
 \begin{align}
-u \pr
+u \propto \sqrt{T} \\
+u \propto \frac{1}{\sqrt{M_m}}
 \end{align}
 $$
