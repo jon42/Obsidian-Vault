@@ -104,6 +104,18 @@
             }
           },
           {
+            "id": "9fa6573e0626325b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personal/Obsidian and extension notes/Obsidian Latex.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e89f03a978f2c79e",
             "type": "leaf",
             "state": {
@@ -128,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -296,9 +308,11 @@
   },
   "active": "e89f03a978f2c79e",
   "lastOpenFiles": [
+    "Personal/Obsidian and extension notes/Obsidian Latex.md",
     "Science/Physics/Fluids/Gas.md",
-    "Science/Physics/Thermodynamics/Thermodynamics.md",
     "2023-10-10.md",
+    "Math/Math Symbols.md",
+    "Science/Physics/Thermodynamics/Thermodynamics.md",
     "Diffusion & Effusion.md",
     "2023-10-11.md",
     "Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/DNA/DNA.md",
@@ -322,9 +336,7 @@
     "2023-09-29.md",
     "2023-10-03.md",
     "2023-10-09.md",
-    "Personal/Obsidian and extension notes/Obsidian Math.md",
     "Personal/Obsidian and extension notes",
-    "Science/Physics/Fluids/Fluids.md",
     "Ketcher/Ketcher 8-21-2023 19.05.46.ket",
     "Science/Biology/Techniques/DNA Detection",
     "Math/Statistics",

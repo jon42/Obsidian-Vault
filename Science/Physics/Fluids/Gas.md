@@ -30,3 +30,13 @@ Gas collisions are elastic and thus do not loose kinetic energy
 
 # Root mean square speed
 The root mean square speed is the average speed of a particle 
+$$u_{rms}=\sqrt{\frac{3RT}{M_{m}}}$$
+Where $M_m$ is the molar mass of the molecule in Kg because R is in Kg units
+**Note**: This is dependent on the units within the R constant. Using Si units may differ from other units
+
+Therefore:
+$$
+\begin{align}
+u \pr
+\end{align}
+$$
