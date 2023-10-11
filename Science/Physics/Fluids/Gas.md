@@ -27,3 +27,6 @@ $$\frac{P_1V_2}{T_2}=\frac{P_2V_2}{T_2}$$
 
 # Kinetic-Molecular theory of Gases
 Gas collisions are elastic and thus do not loose kinetic energy
+
+# Root mean square speed
+The root mean square speed is the average speed of a particle 

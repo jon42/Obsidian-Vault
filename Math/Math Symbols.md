@@ -30,4 +30,7 @@ $\nexists$ : There does not exist
 $\forall$ : For all
 $\in$ : An element of/ belongs to
 $\notin$ : Does not belong to
+$\propto$: Equivalent to
+$\neq$: Not equal
+
 

@@ -104,6 +104,18 @@
             }
           },
           {
+            "id": "e89f03a978f2c79e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Math/Math Symbols.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "596769b566f2c06d",
             "type": "leaf",
             "state": {
@@ -116,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -182,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Science/Physics/Thermodynamics/Thermodynamics.md",
+                "file": "Math/Math Symbols.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Science/Physics/Thermodynamics/Thermodynamics.md",
+                "file": "Math/Math Symbols.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -222,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Science/Physics/Thermodynamics/Thermodynamics.md"
+                "file": "Math/Math Symbols.md"
               }
             }
           },
@@ -282,11 +294,12 @@
       "ketcher:Create new structure": false
     }
   },
-  "active": "6d4b75249591e27b",
+  "active": "e89f03a978f2c79e",
   "lastOpenFiles": [
+    "Science/Physics/Fluids/Gas.md",
+    "Science/Physics/Thermodynamics/Thermodynamics.md",
     "2023-10-10.md",
     "Diffusion & Effusion.md",
-    "Science/Physics/Fluids/Gas.md",
     "2023-10-11.md",
     "Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/DNA/DNA.md",
     "Science/Biology/Molecular Biology/Transcription.md",
@@ -312,7 +325,6 @@
     "Personal/Obsidian and extension notes/Obsidian Math.md",
     "Personal/Obsidian and extension notes",
     "Science/Physics/Fluids/Fluids.md",
-    "Science/Chemistry/Naming Conventions.md",
     "Ketcher/Ketcher 8-21-2023 19.05.46.ket",
     "Science/Biology/Techniques/DNA Detection",
     "Math/Statistics",
