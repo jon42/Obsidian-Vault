@@ -15,22 +15,31 @@ $\frac{d}{dx}$: [[Derivatives]] with respect to x
 y' [[Derivatives]] of y
 $\int$: indefinite [[Integration|integral]]
 $\int_a^b$: definite [[Integration]] 
+$\oint$: Conour integral
+$\epsilon$: epsilon
+$\varepsilon$: Epsilon but slightly different for some reason
+$\lambda$: Lambda
+ 
 
 # Linear Algebra and vector Calc symbols
 $\vec{x}$: vector x
 $|\vec{x}|$: Magnitude/length of a vector
 $\nabla$: Nabla primarily referred to as del. A vector of partial derivatives
-$\frac{\delta}{\delta(x)}$: Partial derivative with respect for x
+$\frac{\partial}{\partial(x)}$: Partial derivative with respect for x
 $\oint$: Closed contour/ line integral   
 # Logic
 $\because$ : Because
 $\therefore$ : Therefore
+
+## Sets
 $\exists$ : There exists
 $\nexists$ : There does not exist
 $\forall$ : For all
 $\in$ : An element of/ belongs to
 $\notin$ : Does not belong to
+
+## Equivalence
 $\propto$: Equivalent to
 $\neq$: Not equal
-
+$\gg$: Greater than 
 
