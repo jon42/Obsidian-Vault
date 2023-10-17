@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"37284c96955277e4","x":180,"y":-266,"width":328,"height":122,"color":"4","type":"text","text":"Understand Difference between proportion and frequency"},
+		{"id":"5421f8064a953adf","x":769,"y":-266,"width":325,"height":105,"color":"4","type":"text","text":"Learn how to calibrate microscope"},
+		{"id":"69c21b80128d3728","x":757,"y":-42,"width":297,"height":145,"color":"5","type":"text","text":"3-1 Test and record different zoom magnifications to total magnification on Dissecting scope"},
+		{"id":"ebcfe8a872730341","x":981,"y":213,"width":293,"height":110,"color":"5","type":"text","text":"3-2 Test the FOV of different zoom magnifications on dissecting scope"},
+		{"id":"c59b169f88bd7804","x":700,"y":470,"width":314,"height":133,"color":"5","type":"text","text":"3-3 Test and record zoom magnifications on compound microscope"},
+		{"id":"21e40e2727ea7312","x":-380,"y":-278,"width":336,"height":146,"color":"4","type":"text","text":"Understand Hardy-weinberg equation in relation to populations"},
+		{"id":"80dbd10838ab4da2","x":-72,"y":30,"width":332,"height":150,"color":"3","type":"text","text":"Read background that discusses hardy-weinberg and proportion vs frequency"},
+		{"id":"dcda72a2c086d8a0","x":-72,"y":268,"width":331,"height":219,"type":"text","text":"Simulate what would happen in several scenarios. Each scenario will have a different proportion and frequency"},
+		{"id":"1abd192411fe207c","x":-73,"y":603,"width":332,"height":137,"type":"text","text":"Describe why proportions did not change in some of the simulations"},
+		{"id":"282393f2f3b2306d","x":285,"y":584,"width":335,"height":136,"type":"text","text":"Describe why there was adifference between proportion and frequency"},
+		{"id":"1dd39ba5dbf00fcf","x":-521,"y":318,"width":281,"height":122,"type":"text","text":"Define Hardy-Weinberg equilibrium"}
+	],
+	"edges":[
+		{"id":"094f3fd9cea9a6d3","fromNode":"5421f8064a953adf","fromSide":"bottom","toNode":"69c21b80128d3728","toSide":"top"},
+		{"id":"ce2d7389c19dea0c","fromNode":"5421f8064a953adf","fromSide":"bottom","toNode":"ebcfe8a872730341","toSide":"top"},
+		{"id":"2bf8bdbc27617816","fromNode":"5421f8064a953adf","fromSide":"bottom","toNode":"c59b169f88bd7804","toSide":"top"},
+		{"id":"4b8c86088428a2ae","fromNode":"37284c96955277e4","fromSide":"bottom","toNode":"80dbd10838ab4da2","toSide":"top","color":"2"},
+		{"id":"ae883bf1734e38fa","fromNode":"21e40e2727ea7312","fromSide":"bottom","toNode":"80dbd10838ab4da2","toSide":"top","color":"2"},
+		{"id":"d014f70f51504cd4","fromNode":"21e40e2727ea7312","fromSide":"bottom","toNode":"dcda72a2c086d8a0","toSide":"top"},
+		{"id":"8423e83a1e43d9de","fromNode":"37284c96955277e4","fromSide":"bottom","toNode":"dcda72a2c086d8a0","toSide":"top"},
+		{"id":"9887d61774b544db","fromNode":"dcda72a2c086d8a0","fromSide":"bottom","toNode":"1abd192411fe207c","toSide":"top"},
+		{"id":"7f622ee4642dc188","fromNode":"dcda72a2c086d8a0","fromSide":"bottom","toNode":"282393f2f3b2306d","toSide":"top"},
+		{"id":"1a5539df664b8c51","fromNode":"21e40e2727ea7312","fromSide":"bottom","toNode":"1dd39ba5dbf00fcf","toSide":"top"}
+	]
+}

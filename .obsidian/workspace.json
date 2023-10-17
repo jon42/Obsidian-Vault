@@ -31,11 +31,14 @@
             "id": "be32488f3ffb47db",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Science/Chemistry/Molecule.md",
-                "mode": "source",
-                "source": false
+                "file": "Bio 204 lab 2.canvas",
+                "viewState": {
+                  "x": 357.08414927044305,
+                  "y": 195.39520949745216,
+                  "zoom": -0.5999999999999998
+                }
               }
             }
           },
@@ -114,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Science/Chemistry/Molecule.md",
+                "file": "Bio 204 lab 2.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Science/Chemistry/Molecule.md",
+                "file": "Bio 204 lab 2.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -154,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Science/Chemistry/Molecule.md"
+                "file": "Bio 204 lab 2.canvas"
               }
             }
           },
@@ -216,6 +219,8 @@
   },
   "active": "be32488f3ffb47db",
   "lastOpenFiles": [
+    "Science/Chemistry/Molecule.md",
+    "Bio 204 lab 2.canvas",
     "Science/Chemistry/Molecular Bonds.md",
     "Science/Chemistry/Ions.md",
     "Science/Chemistry/Hydrophobic and Hydrophylic.md",
@@ -235,7 +240,6 @@
     "Science/Chemistry/Chem Notation/Naming Conventions.md",
     "2023-10-10.md",
     "2023-10-11.md",
-    "Science/Chemistry/Molecule.md",
     "Science/Chemistry/Stoichiometry and mass equations.md",
     "Ploidy.md",
     "Science/Chemistry/Chem Notation",
@@ -243,7 +247,6 @@
     "2023-10-04.md",
     "2023-10-03.md",
     "2023-10-06.md",
-    "Science/Biology/Macro Biology/Life.md",
     "Science/Biology/Macro Biology",
     "Science/Biology/Ma",
     "Media/Pasted image 20231011134352.png",
