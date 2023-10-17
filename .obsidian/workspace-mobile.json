@@ -1,0 +1,164 @@
+{
+  "main": {
+    "id": "cb15e4426b41df17",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d1d140e63e4b510",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d339616e3196b55c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023-10-02.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "05781496d4ec86cc",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "dbcd7a771f982c95",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "c5980123faf2539c",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "f63cd81ae5b6dbdd",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "68f5a501a6ea1ad1",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "fa62c050fec2e731",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "419dc430a8f29e61",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "881c0dc54cf3dbf5",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "2023-10-02.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "db51746ea119999e",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "2023-10-02.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "c08819d52ece0745",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "2023-10-02.md"
+          }
+        }
+      },
+      {
+        "id": "ec4a1742644ca187",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "dbcd7a771f982c95",
+  "lastOpenFiles": [
+    "2023-09-27.md",
+    "2023-10-02.md",
+    "2023-09-29.md",
+    "Movie rec.md",
+    "Personal/Books.md",
+    "Math/Calculus/Integrals/Integration.md",
+    "Science/Biology/Molecular Biology/Macro Molecules/Proteins/Amino Acid.md"
+  ]
+}
