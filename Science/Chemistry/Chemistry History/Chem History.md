@@ -1,0 +1,3 @@
+Chemistry is one of the older sciences. When it comes to things such as biology many of the advances have happened in the past hundred years. However, chemistry has some much older roots.
+
+Chemistry has history that is semi intertwined with physics. Both early days of physics and chem have to do with what is matter and what happens with it. This also makes sense as chemistry is just exploiting principles withing physics.
