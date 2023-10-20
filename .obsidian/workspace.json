@@ -43,15 +43,61 @@
             }
           },
           {
-            "id": "5d608c6187582fe5",
+            "id": "fa5993530f854b31",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "canvas",
+              "state": {
+                "file": "Bio 204 lab 2.canvas",
+                "viewState": {
+                  "x": 399.9619037478726,
+                  "y": 256.8080941226493,
+                  "zoom": -0.7500549593502965
+                }
+              }
+            }
+          },
+          {
+            "id": "c5a970b4990d4d8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Science/Biology/Cellular Biology/Orgenells/Ribosomes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd6523f25a912e71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Science/Chemistry/Acids and Bases.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0e70c6ce0dee541c",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Bio 204 lab 2.canvas",
+                "viewState": {
+                  "x": 376.5,
+                  "y": 231,
+                  "zoom": -0.7500549593502965
+                }
+              }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -117,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bio 204 lab 2.canvas",
+                "file": "Science/Chemistry/Acids and Bases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bio 204 lab 2.canvas",
+                "file": "Science/Chemistry/Acids and Bases.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -157,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bio 204 lab 2.canvas"
+                "file": "Science/Chemistry/Acids and Bases.md"
               }
             }
           },
@@ -217,17 +263,24 @@
       "ketcher:Create new structure": false
     }
   },
-  "active": "be32488f3ffb47db",
+  "active": "cd6523f25a912e71",
   "lastOpenFiles": [
-    "Science/Chemistry/Molecule.md",
+    "Science/Biology/Cellular Biology/Orgenells/Ribosomes.md",
+    "Science/Biology/Cellular Biology/Orgenells/Lipid Bilayer and Cell Membrane.md",
+    "Science/Biology/Cellular Biology/Orgenells/Cytosol.md",
+    "Science/Biology/Cellular Biology/Cell.md",
+    "Science/Biology/Cellular Biology/Cell Cycle/Cell Cycle.md",
+    "Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/DNA/Chromosomes.md",
+    "Science/Biology/Cellular Biology/Cell Cycle/Cell replication.md",
     "Bio 204 lab 2.canvas",
+    "Personal/Books.md",
+    "Science/Chemistry/Acids and Bases.md",
+    "Science/Chemistry/Molecule.md",
     "Science/Chemistry/Molecular Bonds.md",
     "Science/Chemistry/Ions.md",
     "Science/Chemistry/Hydrophobic and Hydrophylic.md",
-    "Science/Chemistry/Acids and Bases.md",
     "Science/Chemistry/Chemistry History/John Dalton's atomic theory.md",
     "Science/Chemistry/Chemistry History/Chem History.md",
-    "Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/DNA/Chromosomes.md",
     "Science/Chemistry/Chemistry History",
     "Science/Chemistry/Chem Notation/Chemistry Symbols and Diagrams.md",
     "Science/Chemistry/Chem Notation/Chem Equations.md",
@@ -235,18 +288,12 @@
     "Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/DNA/Histones.md",
     "Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/DNA/DNA.md",
     "Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/DNA/Genes.md",
-    "Science/Biology/Cellular Biology/Cell Cycle/Cell replication.md",
-    "Science/Biology/Cellular Biology/Cell Cycle/Cell Cycle.md",
     "Science/Chemistry/Chem Notation/Naming Conventions.md",
     "2023-10-10.md",
     "2023-10-11.md",
     "Science/Chemistry/Stoichiometry and mass equations.md",
     "Ploidy.md",
     "Science/Chemistry/Chem Notation",
-    "2023-10-09.md",
-    "2023-10-04.md",
-    "2023-10-03.md",
-    "2023-10-06.md",
     "Science/Biology/Macro Biology",
     "Science/Biology/Ma",
     "Media/Pasted image 20231011134352.png",

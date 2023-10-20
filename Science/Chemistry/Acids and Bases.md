@@ -6,4 +6,9 @@ These definitions are broad and encompass many things. An odd example of a base 
 # Characteristics of Acids
 - Chorosive
 - Tastes sour
-- 
+
+
+
+
+Amphoteric: a substance that can act as either an acid or a base
+Amphiprotic A substance that can either accept or donate a proton. This is specific to the bronsted lowery definition but they are effectively synonyms
