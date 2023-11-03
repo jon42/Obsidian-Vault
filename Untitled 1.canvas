@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"6844b0f207eadef2","x":-430,"y":-386,"width":630,"height":126,"color":"4","type":"group","label":"Learning targets"},
+		{"id":"f22d095d0e28f887","x":-385,"y":-366,"width":205,"height":86,"type":"text","text":"Understand Genetic Drift"},
+		{"id":"80178037058fa569","x":-120,"y":-366,"width":260,"height":86,"type":"text","text":"Understand Natural selection"},
+		{"id":"07274618da1defe8","x":-407,"y":-180,"width":250,"height":252,"type":"text","text":"Do exercise 4A: Simulate when a natural event affects one allele more than another"},
+		{"id":"03c482f620143ffc","x":-407,"y":160,"width":250,"height":234,"type":"text","text":"Observe what happens when allele proportions stay the same over time"},
+		{"id":"b7f631ab393048b0","x":-110,"y":-180,"width":250,"height":60,"type":"text","text":"Read 4B"},
+		{"id":"448208342bb6ca22","x":-106,"y":-20,"width":250,"height":240,"type":"text","text":"Simulate what would happen if there was more selective pressure on one of the genotypes."},
+		{"id":"e0d8fb56919bfbc0","x":-120,"y":277,"width":250,"height":117,"type":"text","text":"Observe and record the effects on allelic proportions"},
+		{"id":"07100fdc26316f9a","x":-140,"y":460,"width":290,"height":161,"type":"text","text":"repeat previous steps with heterozygous genotypes with selective pressure."},
+		{"id":"990d6d4715abe2aa","x":-161,"y":680,"width":301,"height":92,"type":"text","text":"Repeat again with no genetic variation"},
+		{"id":"394c21476360ef5a","x":-430,"y":-600,"width":250,"height":80,"type":"text","text":"Understand Mutation"},
+		{"id":"53e34215648d98be","x":157,"y":-180,"width":250,"height":60,"type":"text","text":"Read 4C"},
+		{"id":"406060dbed1a9c56","x":195,"y":-48,"width":250,"height":148,"type":"text","text":"View the effects of sickle cell anemia and malaria"}
+	],
+	"edges":[
+		{"id":"dc914ddd00a1b16b","fromNode":"f22d095d0e28f887","fromSide":"bottom","toNode":"07274618da1defe8","toSide":"top"},
+		{"id":"593c81589adca0ea","fromNode":"07274618da1defe8","fromSide":"bottom","toNode":"03c482f620143ffc","toSide":"top"},
+		{"id":"0581d1d67e8b2b56","fromNode":"80178037058fa569","fromSide":"bottom","toNode":"b7f631ab393048b0","toSide":"top"},
+		{"id":"c2544b5355247da2","fromNode":"b7f631ab393048b0","fromSide":"bottom","toNode":"448208342bb6ca22","toSide":"top"},
+		{"id":"9a2c302d99ba2963","fromNode":"448208342bb6ca22","fromSide":"bottom","toNode":"e0d8fb56919bfbc0","toSide":"top"},
+		{"id":"4f1ee8f1a5db6c3e","fromNode":"e0d8fb56919bfbc0","fromSide":"bottom","toNode":"07100fdc26316f9a","toSide":"top"},
+		{"id":"8e536700a6ee3424","fromNode":"07100fdc26316f9a","fromSide":"bottom","toNode":"990d6d4715abe2aa","toSide":"top"},
+		{"id":"ba691b5f7f54c627","fromNode":"394c21476360ef5a","fromSide":"bottom","toNode":"f22d095d0e28f887","toSide":"top"},
+		{"id":"ddd6dad0a3b77246","fromNode":"394c21476360ef5a","fromSide":"bottom","toNode":"80178037058fa569","toSide":"top"},
+		{"id":"57bb1afa55af8d0a","fromNode":"80178037058fa569","fromSide":"bottom","toNode":"53e34215648d98be","toSide":"top"}
+	]
+}

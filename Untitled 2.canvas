@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"87af48da6b7624fe","x":-659,"y":-357,"width":1543,"height":202,"color":"3","type":"group","label":"Objectives"},
+		{"id":"964a9df299711e82","type":"text","text":"Practice building phylogenic trees with cladistics","x":-639,"y":-312,"width":259,"height":112,"color":"3"},
+		{"id":"44d24bda9c87dfb9","type":"text","text":"Read the introduction in the lab manual","x":-346,"y":-37,"width":250,"height":117,"color":"2"},
+		{"id":"9ecfbd568deb6d5f","type":"text","text":"Practice phylogenic trees with DNA sequences","x":-60,"y":-337,"width":229,"height":162,"color":"3"},
+		{"id":"fd9f107c2c1ce258","type":"text","text":"Understand interpreting phylogenic trees","x":-320,"y":-312,"width":240,"height":122,"color":"3"},
+		{"id":"0fddb88f7f1fb83a","type":"text","text":"Build a phylogenic tree in 5A Q1-5: building and analyzing a phylogenic tree based on mollusks","x":-580,"y":120,"width":321,"height":180,"color":"4"},
+		{"id":"902fd3799723d9db","type":"text","text":"Build a phylogenic tree with DNA data in 5A Q6-13","x":-152,"y":120,"width":270,"height":114,"color":"4"},
+		{"id":"977bd8bdadbd0471","type":"text","text":"Learn about recent research affecting the general topology of the tree of life","x":560,"y":-318,"width":304,"height":118,"color":"3"},
+		{"id":"6bc40395518b2365","type":"text","text":"Understand some of the metabolic diversity in bacteria","x":220,"y":-337,"width":300,"height":118,"color":"3"},
+		{"id":"7b0b1f835bcde057","x":220,"y":-37,"width":260,"height":214,"color":"5","type":"text","text":"Do section 5B: understanding the relationship of bacteria based on their metabolism."}
+	],
+	"edges":[
+		{"id":"7fa4f4301cda5ed9","fromNode":"964a9df299711e82","fromSide":"bottom","toNode":"44d24bda9c87dfb9","toSide":"top","color":"2"},
+		{"id":"d4eb4349c49f0978","fromNode":"9ecfbd568deb6d5f","fromSide":"bottom","toNode":"44d24bda9c87dfb9","toSide":"top","color":"2"},
+		{"id":"8fbf2b2960a348ac","fromNode":"fd9f107c2c1ce258","fromSide":"bottom","toNode":"44d24bda9c87dfb9","toSide":"top","color":"2"},
+		{"id":"e64b85686ab87fb1","fromNode":"fd9f107c2c1ce258","fromSide":"bottom","toNode":"0fddb88f7f1fb83a","toSide":"top","color":"4"},
+		{"id":"00100d79e24b7e12","fromNode":"964a9df299711e82","fromSide":"bottom","toNode":"0fddb88f7f1fb83a","toSide":"top","color":"4"},
+		{"id":"f6ab0c96740c7c23","fromNode":"9ecfbd568deb6d5f","fromSide":"bottom","toNode":"902fd3799723d9db","toSide":"top","color":"4"},
+		{"id":"1f7be600f784683e","fromNode":"fd9f107c2c1ce258","fromSide":"bottom","toNode":"902fd3799723d9db","toSide":"top","color":"4"},
+		{"id":"ae4d0cbbb6213d4c","fromNode":"6bc40395518b2365","fromSide":"bottom","toNode":"7b0b1f835bcde057","toSide":"top","color":"5"},
+		{"id":"073bc3667184c8ac","fromNode":"fd9f107c2c1ce258","fromSide":"bottom","toNode":"7b0b1f835bcde057","toSide":"top","color":"5"}
+	]
+}
