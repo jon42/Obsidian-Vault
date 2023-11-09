@@ -1,0 +1,34 @@
+{
+	"nodes":[
+		{"id":"40432b7cf296c7c5","x":-508,"y":-320,"width":2040,"height":320,"color":"4","type":"group","label":"Objectives"},
+		{"id":"a16359b8dd0abb31","type":"text","text":"Examine common characteristics shared by eukaryotes to understand their evolutionary relationships with other organisms in the Big tree of life","x":-488,"y":-300,"width":368,"height":280,"color":"3"},
+		{"id":"cc59673fb3fabc4e","type":"text","text":"Relate the basic structure of eukaryotes to prokaryotes","x":-100,"y":-242,"width":302,"height":179,"color":"3"},
+		{"id":"31bca469bdf8b34d","type":"text","text":"Investigate metabolism in eukaryotes and how it relates to  the mitochondria and chloroplast","x":240,"y":-242,"width":397,"height":157,"color":"3"},
+		{"id":"bc7a22a412dfd20f","type":"text","text":"Explore the roles of mitochondria and chloroplast in the context of the carbon cycle","x":660,"y":-242,"width":283,"height":222,"color":"3"},
+		{"id":"ff851a9bb90cedf6","type":"text","text":"Practice the process of science","x":1260,"y":-231,"width":252,"height":146,"color":"3"},
+		{"id":"0f8244467a034692","type":"text","text":"Read backround","x":-45,"y":240,"width":285,"height":62,"color":"4"},
+		{"id":"b198fc0ab5982c19","type":"text","text":"Do excersize 6A: examine a bacteria and eukaryotic cell under a microscope and compare what is seen","x":240,"y":360,"width":366,"height":161,"color":"2"},
+		{"id":"78842453c79d5691","type":"text","text":"6A mitochondria and chlorplast section: Compare the mitochondria and chloroplast and define it in the cell cycle","x":307,"y":650,"width":330,"height":150,"color":"5"},
+		{"id":"d4b53ea93a78c76b","type":"text","text":"Sketch out the steps of evolution of the mitochondria and chloroplast","x":668,"y":800,"width":315,"height":168,"color":"1"},
+		{"id":"5a4d5e47517e92af","type":"text","text":"Compare different cell and explain features within the cell","x":943,"y":1020,"width":358,"height":109,"color":"6"},
+		{"id":"13c8cfc00e9f6901","type":"text","text":"Explore the evoluton and diversification of eukaryotes","x":983,"y":-231,"width":237,"height":164,"color":"3"},
+		{"id":"190fdbf37a4ac7fe","type":"text","text":"Do excersize 6.1 comparing the cells observed","x":650,"y":1201,"width":293,"height":119,"color":"4"}
+	],
+	"edges":[
+		{"id":"817e8b3569d21aba","fromNode":"a16359b8dd0abb31","fromSide":"bottom","toNode":"0f8244467a034692","toSide":"top","color":"4"},
+		{"id":"e338e5ad2d25807c","fromNode":"31bca469bdf8b34d","fromSide":"bottom","toNode":"0f8244467a034692","toSide":"top","color":"4"},
+		{"id":"ac31d3df1d378ff8","fromNode":"cc59673fb3fabc4e","fromSide":"bottom","toNode":"b198fc0ab5982c19","toSide":"top","color":"2"},
+		{"id":"bfc9ad04209cf2ca","fromNode":"0f8244467a034692","fromSide":"bottom","toNode":"b198fc0ab5982c19","toSide":"top","color":"2"},
+		{"id":"d545eb06015d01e9","fromNode":"b198fc0ab5982c19","fromSide":"bottom","toNode":"78842453c79d5691","toSide":"top","color":"5"},
+		{"id":"fefde59c4746c35f","fromNode":"31bca469bdf8b34d","fromSide":"bottom","toNode":"78842453c79d5691","toSide":"top","color":"5"},
+		{"id":"842de0f44e2710e3","fromNode":"bc7a22a412dfd20f","fromSide":"bottom","toNode":"78842453c79d5691","toSide":"top","color":"5"},
+		{"id":"cfcf1d20804d2c13","fromNode":"78842453c79d5691","fromSide":"bottom","toNode":"d4b53ea93a78c76b","toSide":"top","color":"1"},
+		{"id":"58464b8c900e7a93","fromNode":"13c8cfc00e9f6901","fromSide":"bottom","toNode":"d4b53ea93a78c76b","toSide":"top","color":"1"},
+		{"id":"2c57525263e6fa72","fromNode":"31bca469bdf8b34d","fromSide":"bottom","toNode":"d4b53ea93a78c76b","toSide":"top","color":"1"},
+		{"id":"8ba321bff6d1cfc5","fromNode":"a16359b8dd0abb31","fromSide":"bottom","toNode":"d4b53ea93a78c76b","toSide":"top","color":"1"},
+		{"id":"f43fc963a5466355","fromNode":"ff851a9bb90cedf6","fromSide":"bottom","toNode":"5a4d5e47517e92af","toSide":"top","color":"6"},
+		{"id":"e00f1773c0dbe8ba","fromNode":"13c8cfc00e9f6901","fromSide":"bottom","toNode":"5a4d5e47517e92af","toSide":"top","color":"6"},
+		{"id":"a2a3b5758aef2162","fromNode":"31bca469bdf8b34d","fromSide":"bottom","toNode":"5a4d5e47517e92af","toSide":"top","color":"6"},
+		{"id":"2702ea4ddb727747","fromNode":"5a4d5e47517e92af","fromSide":"bottom","toNode":"190fdbf37a4ac7fe","toSide":"top","color":"4"}
+	]
+}

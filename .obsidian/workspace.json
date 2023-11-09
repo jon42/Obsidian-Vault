@@ -11,18 +11,40 @@
             "id": "09d6404b6128ec65",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 462.46258320408066,
-                  "y": 525.8717445466787,
-                  "zoom": -0.525
-                }
+                "file": "STEM/Science/Biology/Evolution/The Tree of life.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4f0f64c235d792ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023-10-04.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "91e68956fb75da66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEM/Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/DNA/Genes.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -72,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 289.5
   },
   "right": {
     "id": "8c06b695a80bb766",
@@ -88,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "2023-10-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "2023-10-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -128,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.canvas"
+                "file": "2023-10-04.md"
               }
             }
           },
@@ -188,58 +210,59 @@
       "ketcher:Create new structure": false
     }
   },
-  "active": "09d6404b6128ec65",
+  "active": "bc3bb0e9ef63ee23",
   "lastOpenFiles": [
+    "STEM",
+    "Raven Communication Notes.md",
+    "Prefixes.md",
+    "2023-10-04.md",
+    "Personal/Movie rec.md",
+    "STEM/Science/Biology/The Central Dogma.canvas",
+    "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "Ketcher/Ketcher 8-21-2023 19.05.46.ket",
-    "Math/Math Symbols.md",
-    "Science/Chemistry/Reactions/Acid-Base.md",
-    "Science/Chemistry/Reactions/Dehydration synthesis.md",
-    "Science/Chemistry/Reactions/Enthalpy.md",
-    "Untitled 2.canvas",
     "Bio 204 lab 2.canvas",
-    "Mistranslated tRNA seminar.md",
-    "Raven Communication Notes.md",
-    "2023-10-09.md",
-    "2023-10-10.md",
-    "2023-10-04.md",
-    "2023-10-03.md",
-    "Movie rec.md",
+    "STEM/Science/Biology/Molecular Biology/Translation.md",
+    "STEM/Science/Biology/Molecular Biology/Transcription.md",
+    "STEM/Science/Biology/Molecular Biology/Macro Molecules/Macromolecules.md",
+    "STEM/Science/Biology/Molecular Biology/Macro Molecules/Lipids.md",
+    "STEM/Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/DNA/Chromosomes.md",
     "Ploidy.md",
-    "Prefixes.md",
-    "Natural Product-Inspired Peptide Cyclization Ctrategies and their Therapeutic Applications seminar.md",
-    "Science/Biology/Molecular Biology/Macro Molecules/Proteins/Amino Acid.md",
-    "Science/Chemistry/Chem Notation/Naming Conventions.md",
-    "Science/Chemistry/Chem Notation/Chemistry Symbols and Diagrams.md",
-    "Science/Chemistry/Chem Notation/Chem Equations.md",
-    "Science/Chemistry/Chemistry History/Chem History.md",
-    "Science/Chemistry/Chemistry History/John Dalton's atomic theory.md",
-    "Science/Biology/The Central Dogma.canvas",
-    "Science/Biology/The Central Dogma.md",
-    "Science/Biology/Macro Biology/Organisms & Viruses/Viruses/Influenza.md",
-    "Science/Biology/Macro Biology/Organisms & Viruses",
-    "Science/Chemistry/Acids and Bases.md",
-    "Science/Biology/Macro Biology/Organisms & Viruses/Viruses",
-    "Science/Biology/Cellular Biology/Orgenells/Ribosomes.md",
-    "Science/Biology/Cellular Biology/Orgenells/Lipid Bilayer and Cell Membrane.md",
-    "Science/Chemistry/Chemistry History",
-    "Science/Chemistry/Chem Notation",
-    "Science/Biology/Macro Biology",
+    "STEM/Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/DNA/Genes.md",
+    "STEM/Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/mRNA.md",
+    "STEM/Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/RNA.md",
+    "STEM/Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/siRNA.md",
+    "STEM/Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/tRNA.md",
+    "STEM/Science/Biology/Evolution/The Tree of life.md",
+    "Media/Pasted image 20231108180633.png",
+    "Media/Pasted image 20231108175933.png",
+    "Media/Pasted image 20231108175837.png",
+    "STEM/Science/Biology/Evolution/Evolution.md",
+    "STEM/Science/Chemistry/Reactions/Enthalpy.md",
+    "STEM/Science/Chemistry/Reactions/Dehydration synthesis.md",
+    "STEM/Science/Chemistry/Reactions/Acid-Base.md",
+    "STEM/Science/Physics/Thermodynamics/Thermodynamics.md",
+    "Mistranslated tRNA seminar.md",
+    "2023-10-10.md",
+    "2023-10-09.md",
+    "2023-10-03.md",
+    "Ketcher/Ketcher 8-21-2023 19.05.46.ket",
+    "STEM/Science/Biology/Macro Biology/Organisms & Viruses",
+    "STEM/Science/Biology/Macro Biology/Organisms & Viruses/Viruses",
+    "STEM/Science/Chemistry/Chemistry History",
+    "STEM/Science/Chemistry/Chem Notation",
+    "STEM/Science/Biology/Macro Biology",
     "Science/Biology/Ma",
     "Media/Pasted image 20231011134352.png",
     "Personal/Obsidian and extension notes",
-    "Science/Biology/Techniques/DNA Detection",
-    "Math/Statistics",
+    "STEM/Science/Biology/Techniques/DNA Detection",
+    "STEM/Math/Statistics",
     "Media/Pasted image 20230924204926.png",
     "Media/Pasted image 20230826224905.png",
     "Media/Pasted image 20230825142153.png",
     "Media/Pasted image 20230825141823.png",
     "Media/Pasted image 20230825141756.jpg",
     "Media/Pasted image 20230825141728.jpg",
-    "Media/Pasted image 20230825141237.png",
-    "Media/Pasted image 20230825140554.png",
-    "Media/Pasted image 20230822150925.png",
     "Science/Biology/Untitled.canvas"
   ]
 }

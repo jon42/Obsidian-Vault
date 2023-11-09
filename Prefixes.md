@@ -3,3 +3,5 @@ Poly-: Many. The exact cuttoff defining when to use poly depends but it always m
 Mono-: one 
 Di-: two
 tri-: three
+tetra-: 4
+penta-: 5
