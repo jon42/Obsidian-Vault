@@ -1,4 +1,4 @@
-This is a seminar on raven communication by Douglas Wacker, professor at UW-Bothel
+This is a seminar on raven communication by Douglas Wacker, professor at UW-Bothell
 
 Title: Ravens Calling in a Random Forest: Using Machine learning to Describe Corvid Vocal Communication
 

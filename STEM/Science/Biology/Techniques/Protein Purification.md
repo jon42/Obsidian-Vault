@@ -1,0 +1,1 @@
+Protein Purification starts by lysing the cell and collecting the proteins in a tube. Then it is washed through a matrix that will allow most proteins to go through but it will isolate the ideal protein by its size and charge. 

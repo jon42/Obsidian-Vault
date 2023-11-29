@@ -17,7 +17,7 @@
 | Go set a watchmen                 | Harper Lee          | This book is about racism in a rural town. This book never sat right with me. The writing is good but there are a lot of things that I do not like about it.                                | 2/10   |
 | Ready Player One                  | Cline Ernest        | This book is about a video game that has taken over a capitalist distopia. It is a very good book with compelling charecters.                                                               | 9/10   |
 | The four Winds                    | Kristin Hannah      | This book starts out slow with a coming of age and motherly story. It grows into an excellent book about motherhood and fighting capitalism.                                                | 8/10   |
-| Les Misrables                     | Victor Hugo         | Very different from the movie. It is a great book that follows a similar plot to the movie but is a fantastic short read                                                                    | 8/10       |
+| Les Misrables                     | Victor Hugo         | Very different from the movie. It is a great book that follows a similar plot to the movie but is a fantastic short read                                                                    | 8/10   |
 
 
 # To Read

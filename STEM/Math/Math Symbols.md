@@ -2,10 +2,10 @@ This can also be used to see the latex of an opperation
 # Basic Math for the sake of completion
 $+$: Addition
 $-$: Subtraction
-$*$: Multiplication
-$\frac{a}{b}$:devision
-$|a|$:absolute value of a
-$a^b$:a to the exponent b or $a *a$ b times
+$\times | *$ : Multiplication
+$\frac{a}{b}$: Division
+$|a|$: absolute value of a
+$a^b$: a to the exponent b or $a *a$ b times
 $!$: factorial
 $\infty$: infinity
 # Calculus Symbols
@@ -41,5 +41,5 @@ $\notin$ : Does not belong to
 ## Equivalence
 $\propto$: Equivalent to
 $\neq$: Not equal
-$\gg$: Greater than 
+$\gg$: Greater than  
 
