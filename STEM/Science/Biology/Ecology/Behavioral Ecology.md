@@ -1,0 +1,1 @@
+Behavioural Ecology is the study of why individual animals make the choices they do in regards to food, mates, movement, etc.

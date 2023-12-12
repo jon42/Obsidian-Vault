@@ -4,5 +4,7 @@
   "enabledCssSnippets": [
     "obsidian-workspace-background(Shiba Uni Theme)"
   ],
-  "baseFontSize": 22
+  "baseFontSize": 22,
+  "textFontFamily": "Hack",
+  "interfaceFontFamily": "Hack"
 }

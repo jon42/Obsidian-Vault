@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:Science/Biology  ",
@@ -54,5 +54,5 @@
   "linkStrength": 0.77681660899654,
   "linkDistance": 30,
   "scale": 0.3968936060208235,
-  "close": true
+  "close": false
 }

@@ -8,127 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "09d6404b6128ec65",
+            "id": "6cfb537794376d5d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STEM/Science/Biology/Evolution/The Tree of life.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4f0f64c235d792ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-10-04.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "47a0cc124b1bbfe7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Seminar Notes/Raven Communication Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f23c79ed2b7e415c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-11-10.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8b8e78afa30af01b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Glycolysis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0185ff5cddda8fe0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STEM/Science/Chemistry/Reactions/Enthalpy.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "59e96643e9daef73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Entropy.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7f3b1dc122d51a67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spontaneous reactions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6e00d8cb9afbf25f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal/Books.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "91e68956fb75da66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STEM/Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/DNA/Genes.md",
+                "file": "STEM/Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/RNA.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spontaneous reactions.md",
+                "file": "STEM/Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/RNA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spontaneous reactions.md",
+                "file": "STEM/Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/RNA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -234,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spontaneous reactions.md"
+                "file": "STEM/Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/RNA.md"
               }
             }
           },
@@ -295,40 +186,41 @@
       "ketcher:Create new structure": false
     }
   },
-  "active": "7f3b1dc122d51a67",
+  "active": "6cfb537794376d5d",
   "lastOpenFiles": [
-    "Entropy.md",
-    "Spontaneous reactions.md",
-    "STEM/Science/Chemistry/Reactions/Enthalpy.md",
+    "STEM/Science/Biology/Ecology/Population Ecology.md",
+    "STEM/Science/Biology/Ecology/Organismal Ecology.md",
+    "STEM/Science/Biology/Ecology/Ecosystem Ecology.md",
+    "STEM/Science/Biology/Ecology/Community Ecology.md",
+    "STEM/Science/Biology/Ecology/Behavioral Ecology.md",
+    "STEM/Science/Biology/The Central Dogma.canvas",
+    "STEM/Science/Biology/Molecular Biology/Macro Molecules/Lipids.md",
     "Untitled.canvas",
+    "Bound.md",
+    "STEM/Science/Chemistry/Molecule.md",
+    "STEM/Math/Calculus/Integrals/Integration.md",
+    "STEM/Science/Biology/Molecular Biology/Macro Molecules/Proteins/Proteins.md",
+    "STEM/Math/Terms.md",
+    "STEM/Math/Math Symbols.md",
+    "Spontaneous reactions.md",
+    "STEM/Science/Biology/Ecology",
+    "Rate of Reations.md",
+    "Entropy.md",
+    "Media/Pasted image 20231130202033.png",
+    "STEM/Science/Chemistry/Reactions/Enthalpy.md",
     "Glycolysis.md",
     "2023-11-10.md",
     "STEM/Science/Biology/Techniques/Protein Purification.md",
     "Personal/Obsidian and extension notes/Obsidian Latex.md",
     "Seminar Notes/Raven Communication Notes.md",
     "Seminar Notes",
-    "STEM/Math/Math Symbols.md",
     "STEM/Math/Calculus/Integrals/The Feynman Technique.md",
-    "STEM/Math/Calculus/Integrals/Integration.md",
     "STEM/Math/Calculus/Derivatives/Multivariable Derivatives.md",
     "STEM/Math/Calculus/Derivatives/Gradient.md",
     "STEM/Math/Calculus/Derivatives/Derivatives.md",
-    "STEM/Science/Physics/Thermodynamics/Thermodynamics.md",
-    "STEM/Science/Physics/Fluids/Gas.md",
-    "STEM/Science/Physics/Thermodynamics/Ideal Gas Law.md",
-    "STEM/Science/Chemistry/Hydrophobic and Hydrophylic.md",
-    "STEM/Science/Chemistry/Acids and Bases.md",
-    "STEM/Science/Chemistry/Reactions/Dehydration synthesis.md",
-    "STEM/Science/Chemistry/Reactions/Acid-Base.md",
-    "STEM/Science/Chemistry/Chemistry History/Chem History.md",
-    "STEM/Science/Chemistry/Chem Notation/Naming Conventions.md",
-    "STEM/Science/Chemistry/Chem Notation/Chemistry Symbols and Diagrams.md",
-    "STEM/Science/Chemistry/Chem Notation/Chem Equations.md",
     "Media/Pasted image 20231108205400.png",
-    "Personal/Books.md",
     "Media/Pasted image 20231108194254.png",
     "STEM",
-    "STEM/Science/Biology/The Central Dogma.canvas",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Bio 204 lab 2.canvas",
@@ -343,11 +235,9 @@
     "STEM/Science/Biology/Macro Biology",
     "Science/Biology/Ma",
     "Media/Pasted image 20231011134352.png",
-    "Personal/Obsidian and extension notes",
     "Media/Pasted image 20230924204926.png",
     "Media/Pasted image 20230826224905.png",
     "Media/Pasted image 20230825142153.png",
-    "Media/Pasted image 20230825141823.png",
     "Science/Biology/Untitled.canvas"
   ]
 }
