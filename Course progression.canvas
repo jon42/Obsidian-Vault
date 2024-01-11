@@ -23,8 +23,8 @@
 		{"id":"6ce58b6d73b45e6e","type":"text","text":"Math 204 elementary lin alg","x":183,"y":97,"width":297,"height":126,"color":"1"},
 		{"id":"a7628fcff571561e","type":"text","text":"Math 341 stats","x":283,"y":311,"width":250,"height":60,"color":"1"},
 		{"id":"1b4c80bfe81ef38e","type":"text","text":"16 elective credits preffered 471, 571, 584","x":893,"y":622,"width":307,"height":162},
-		{"id":"90edcf5adedb9d14","type":"text","text":"Bio 204 intro bio","x":-407,"y":-34,"width":250,"height":85,"color":"4"},
-		{"id":"cc57bdccd4e07162","type":"text","text":"Chem 162","x":-782,"y":163,"width":250,"height":60,"color":"4"},
+		{"id":"90edcf5adedb9d14","type":"text","text":"Bio 204 intro bio","x":-407,"y":-34,"width":250,"height":85},
+		{"id":"cc57bdccd4e07162","type":"text","text":"Chem 162","x":-782,"y":163,"width":250,"height":60},
 		{"id":"8f4b3dc3ef0d9623","type":"text","text":"Chem 163","x":-914,"y":310,"width":250,"height":60,"color":"4"},
 		{"id":"6148af603b1029af","type":"text","text":"Bio 324 methoids in molec bio","x":-384,"y":841,"width":224,"height":119,"color":"4"},
 		{"id":"df5c8b7dc8ec5081","type":"text","text":"Chem 471 biochem","x":-843,"y":829,"width":179,"height":72,"color":"4"},
@@ -39,11 +39,11 @@
 		{"id":"fe2ae6b384e2670c","type":"text","text":"bio 432 evolution (also wp3 :))","x":74,"y":725,"width":239,"height":104,"color":"4"},
 		{"id":"8034f28a0e42885a","type":"text","text":"Physics 114","x":-155,"y":-94,"width":250,"height":60,"color":"4"},
 		{"id":"617a2039e6edc881","type":"text","text":"Physics 116","x":-122,"y":37,"width":250,"height":60,"color":"4"},
-		{"id":"8289adefa94690ac","type":"text","text":"Chem 161","x":-665,"y":-154,"width":250,"height":60,"color":"4"},
-		{"id":"a7619fa8ee03a82d","x":-1301,"y":-181,"width":250,"height":60,"type":"text","text":"GURs"},
-		{"id":"8109bf77a0fa84af","x":-1297,"y":-38,"width":250,"height":60,"type":"text","text":"1 ACGM"},
-		{"id":"03fa1ad15f3a851e","x":-1314,"y":120,"width":250,"height":60,"type":"text","text":"2 credits ssc"},
-		{"id":"f41f9164f3516344","x":-1320,"y":278,"width":250,"height":60,"type":"text","text":"7 HUM credits"}
+		{"id":"8289adefa94690ac","type":"text","text":"Chem 161","x":-665,"y":-154,"width":250,"height":60},
+		{"id":"a7619fa8ee03a82d","type":"text","text":"GURs","x":-1301,"y":-181,"width":250,"height":60},
+		{"id":"8109bf77a0fa84af","type":"text","text":"1 ACGM","x":-1297,"y":-38,"width":250,"height":60},
+		{"id":"03fa1ad15f3a851e","type":"text","text":"2 credits ssc","x":-1314,"y":120,"width":250,"height":60},
+		{"id":"f41f9164f3516344","type":"text","text":"7 HUM credits","x":-1320,"y":278,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"d946da3cb3845554","fromNode":"4b0e0e320107168b","fromSide":"bottom","toNode":"78ae2ef55713481d","toSide":"top"},

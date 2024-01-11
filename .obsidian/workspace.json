@@ -51,9 +51,9 @@
               "state": {
                 "file": "Course progression.canvas",
                 "viewState": {
-                  "x": 1276.9299496404333,
-                  "y": 637.9096322864185,
-                  "zoom": -1.0999999999999996
+                  "x": 1643.0475000000035,
+                  "y": 575.9049999999992,
+                  "zoom": -1.222392421336448
                 }
               }
             }
@@ -199,7 +199,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
