@@ -1,0 +1,238 @@
+{
+  "workspaces": {
+    "Bio": {
+      "main": {
+        "id": "0175e151aca6a030",
+        "type": "split",
+        "children": [
+          {
+            "id": "a6327400c8165760",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "beba2d567d71c073",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "STEM/Science/Biology/Cellular Biology/Cell Cycle/Cell Cycle.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "d6227b1f257b9458",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "STEM/Science/Chemistry/Chem Notation/Chem Equations.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "e24010d8a15542d0",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "STEM/Science/Chemistry/Reactions/Enthalpy.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "1d27311b53e1ebaa",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "Course progression.canvas",
+                    "viewState": {
+                      "x": 1643.0475000000035,
+                      "y": 575.9049999999992,
+                      "zoom": -1.222392421336448
+                    }
+                  }
+                }
+              }
+            ],
+            "currentTab": 3
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "e309d334a6d1f717",
+        "type": "split",
+        "children": [
+          {
+            "id": "c34cc75a960a9ddd",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "bc3bb0e9ef63ee23",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "909ee2691cc499ea",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#todo",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "9e3230d4f0108dec",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 289.5
+      },
+      "right": {
+        "id": "8c06b695a80bb766",
+        "type": "split",
+        "children": [
+          {
+            "id": "2232416e6c480e9b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "dfd77da1108efb68",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Course progression.canvas",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "84f9ba143bff266c",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Course progression.canvas",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": false
+                  }
+                }
+              },
+              {
+                "id": "876b2e56fe76133b",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "c29d60ea1c97bfd1",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Course progression.canvas"
+                  }
+                }
+              },
+              {
+                "id": "b8cf347807876498",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "06381eee207fe909",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "4ab5a4f15afe8c23",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  }
+                }
+              },
+              {
+                "id": "d1579f2c59215d2c",
+                "type": "leaf",
+                "state": {
+                  "type": "review-queue-list-view",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 7
+          }
+        ],
+        "direction": "horizontal",
+        "width": 271.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "darlal-switcher-plus:Open in Headings Mode": false,
+          "darlal-switcher-plus:Open Symbols for the active editor": false,
+          "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
+          "obsidian-spaced-repetition:Review flashcards": false,
+          "ketcher:Create new structure": false,
+          "workspaces:Manage workspace layouts": false
+        }
+      },
+      "active": "1d27311b53e1ebaa"
+    }
+  },
+  "active": "Bio"
+}

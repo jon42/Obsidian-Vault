@@ -29,3 +29,7 @@ The Lewis structure is one of the most simple ways of displaying an chemical
 ![[Pasted image 20230826224905.png]]
 In lewis diagrams each atomic symbol is shown. Each bond is shown through a line and dots represent other electrons not involved in bonding
 In the diagram above note that the hydrogen electrons are used in the bond, however the electrons from oxygen are not so they are shown
+This diagram is often abbreviated to the skeleton structure or combine. 
+
+
+

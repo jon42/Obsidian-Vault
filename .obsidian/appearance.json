@@ -6,5 +6,6 @@
   ],
   "baseFontSize": 22,
   "textFontFamily": "Hack",
-  "interfaceFontFamily": "Hack"
+  "interfaceFontFamily": "Hack",
+  "theme": "obsidian"
 }

@@ -37,24 +37,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STEM/Science/Chemistry/Reactions/Enthalpy.md",
+                "file": "STEM/Science/Chemistry/Chem Notation/Chemistry Symbols and Diagrams.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1d27311b53e1ebaa",
+            "id": "ccb2a07ff9eae187",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Course progression.canvas",
-                "viewState": {
-                  "x": 1643.0475000000035,
-                  "y": 575.9049999999992,
-                  "zoom": -1.222392421336448
-                }
+                "file": "STEM/Science/Chemistry/Functional group.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -125,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Course progression.canvas",
+                "file": "STEM/Science/Chemistry/Functional group.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Course progression.canvas",
+                "file": "STEM/Science/Chemistry/Functional group.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -165,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Course progression.canvas"
+                "file": "STEM/Science/Chemistry/Functional group.md"
               }
             }
           },
@@ -186,14 +183,6 @@
             }
           },
           {
-            "id": "1489d8bfa922053a",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
-            }
-          },
-          {
             "id": "4ab5a4f15afe8c23",
             "type": "leaf",
             "state": {
@@ -204,13 +193,21 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "d1579f2c59215d2c",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 271.5
+    "width": 207.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,20 +217,25 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "ketcher:Create new structure": false
+      "ketcher:Create new structure": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "1d27311b53e1ebaa",
+  "active": "ccb2a07ff9eae187",
   "lastOpenFiles": [
-    "Entropy.md",
+    "STEM/Science/Chemistry/Chem Notation/Chemistry Symbols and Diagrams.md",
     "Course progression.canvas",
-    "STEM/Science/Chemistry/Reactions/Enthalpy.md",
+    "STEM/Science/Chemistry/Functional group.md",
+    "STEM/Science/Chemistry/Chem Notation/Naming Conventions.md",
     "STEM/Science/Chemistry/Chem Notation/Chem Equations.md",
+    "STEM/Science/Chemistry/Reactions/Enthalpy.md",
+    "Untitled.canvas",
+    "Entropy.md",
     "STEM/Science/Biology/Cellular Biology/Cell Cycle/Cell Cycle.md",
     "Personal/Obsidian and extension notes/Obsidian Latex.md",
     "Personal/TODO's.md",
@@ -255,11 +257,7 @@
     "STEM/Science/Biology/Ecology/Behavioral Ecology.md",
     "STEM/Science/Biology/The Central Dogma.canvas",
     "STEM/Science/Biology/Molecular Biology/Macro Molecules/Lipids.md",
-    "Untitled.canvas",
     "STEM/Science/Chemistry/Molecule.md",
-    "STEM/Math/Calculus/Integrals/Integration.md",
-    "STEM/Science/Biology/Molecular Biology/Macro Molecules/Proteins/Proteins.md",
-    "STEM/Math/Terms.md",
     "STEM/Science/Biology/Ecology",
     "Media/Pasted image 20231130202033.png",
     "Seminar Notes",
