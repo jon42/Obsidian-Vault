@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "293e706e25673781",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-01-22.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STEM/Science/Chemistry/Chem Notation/Chem Equations.md",
+                "file": "2024-01-22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STEM/Science/Chemistry/Chem Notation/Chem Equations.md",
+                "file": "2024-01-22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STEM/Science/Chemistry/Chem Notation/Chem Equations.md"
+                "file": "2024-01-22.md"
               }
             }
           },
@@ -227,10 +239,12 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "23621e6b82282301",
+  "active": "293e706e25673781",
   "lastOpenFiles": [
-    "STEM/Science/Chemistry/Catalyze/Activation Barrier.md",
     "STEM/Science/Chemistry/Functional Group.md",
+    "2024-01-22.md",
+    "STEM/Science/Chemistry/Chem Notation/Chem Equations.md",
+    "STEM/Science/Chemistry/Catalyze/Activation Barrier.md",
     "STEM/Science/Chemistry/Acids and Bases.md",
     "STEM/Science/Chemistry/Reactions/Enthalpy.md",
     "STEM/Science/Chemistry/Reactions/Dehydration synthesis.md",
@@ -253,8 +267,6 @@
     "STEM/Science/Biology/Cellular Biology/Orgenells/Endoplasmic Reticulum.md",
     "STEM/Science/Biology/Cellular Biology/Orgenells/Golgi.md",
     "STEM/Science/Biology/Cellular Biology/Orgenells/Lipid Bilayer and Cell Membrane.md",
-    "STEM/Science/Biology/Cellular Biology/Orgenells/Lysosomes.md",
-    "STEM/Science/Biology/Cellular Biology/Orgenells/Nucleus.md",
     "Course progression.canvas",
     "Untitled.canvas",
     "Media/Pasted image 20230722172749.png",
