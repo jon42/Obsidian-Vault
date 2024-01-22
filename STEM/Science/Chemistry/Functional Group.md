@@ -4,7 +4,7 @@ Functional groups are the groups attached to molecules that actually contribute 
 ```smiles
 *cccc*
 ```
-Alkane is not techniquely a functional group which is the exact reason it is on this list. It does not react but instead attaches to the functional groups that do react. This group sometimes abbreviated or listed by $CH_3(CH_{2})_x$ for however many times it repeats. 
+Alkane is not technically a functional group which is the exact reason it is on this list. It does not react but instead attaches to the functional groups that do react. This group sometimes abbreviated or listed by $CH_3(CH_{2})_x$ for however many times it repeats. 
 # Alkene 
 ```smiles
 *c=c*
@@ -14,26 +14,33 @@ Alkane is not techniquely a functional group which is the exact reason it is on 
 ```smiles
 *c#c*
 ```
+
 # Aryl
 ```smiles
 *C1=CC=CC=C1
 ```
+
 # Alcohol
 ```smiles
 c(*)(*)(*)O
 ```
+[[Functional Group#Degree of Separation]] Applies
 # Ether
 ```smiles
-*cOc*
+*O*
 ```
+
 # Amine
 ```smiles
 *cN
 ```
+[[Functional Group#Degree of Separation]] Applies
 # Alkyl Halide
 ```smiles
 *CI
 ```
+This is any Halogen
+[[Functional Group#Degree of Seperation]] Applies
 # Nitrile
 ```smiles
 *c#n
@@ -56,5 +63,6 @@ cc(=O)o
 ```
 # Amide
 ```smiles
-CC(=O)N
+C\C(=O)N
 ```
+# Degree of Separation

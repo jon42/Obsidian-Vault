@@ -44,12 +44,12 @@
             }
           },
           {
-            "id": "ccb2a07ff9eae187",
+            "id": "23621e6b82282301",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STEM/Science/Chemistry/Functional group.md",
+                "file": "STEM/Science/Chemistry/Chem Notation/Chem Equations.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#todo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.5
+    "width": 293.49999618530273
   },
   "right": {
     "id": "8c06b695a80bb766",
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STEM/Science/Chemistry/Functional group.md",
+                "file": "STEM/Science/Chemistry/Chem Notation/Chem Equations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STEM/Science/Chemistry/Functional group.md",
+                "file": "STEM/Science/Chemistry/Chem Notation/Chem Equations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STEM/Science/Chemistry/Functional group.md"
+                "file": "STEM/Science/Chemistry/Chem Notation/Chem Equations.md"
               }
             }
           },
@@ -207,7 +207,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 207.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,38 +227,39 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "ccb2a07ff9eae187",
+  "active": "23621e6b82282301",
   "lastOpenFiles": [
-    "STEM/Science/Chemistry/Chem Notation/Chemistry Symbols and Diagrams.md",
-    "Course progression.canvas",
-    "STEM/Science/Chemistry/Functional group.md",
-    "STEM/Science/Chemistry/Chem Notation/Naming Conventions.md",
-    "STEM/Science/Chemistry/Chem Notation/Chem Equations.md",
+    "STEM/Science/Chemistry/Catalyze/Activation Barrier.md",
+    "STEM/Science/Chemistry/Functional Group.md",
+    "STEM/Science/Chemistry/Acids and Bases.md",
     "STEM/Science/Chemistry/Reactions/Enthalpy.md",
-    "Untitled.canvas",
-    "Entropy.md",
-    "STEM/Science/Biology/Cellular Biology/Cell Cycle/Cell Cycle.md",
-    "Personal/Obsidian and extension notes/Obsidian Latex.md",
-    "Personal/TODO's.md",
-    "STEM/Math/Calculus/Derivatives/Derivatives.md",
-    "Media/Pasted image 20230722172749.png",
-    "Personal/Movie rec.md",
-    "Personal/Books.md",
-    "Personal/Calendar.md",
-    "Bound.md",
-    "Force.md",
-    "STEM/Science/Biology/Molecular Biology/Macro Molecules/Sugar/Saccharide.md",
-    "STEM/Science/Biology/Molecular Biology/Macro Molecules/Proteins/Amino Acid.md",
-    "Media/Pasted image 20230722172409.png",
-    "STEM/Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/RNA.md",
+    "STEM/Science/Chemistry/Reactions/Dehydration synthesis.md",
+    "STEM/Science/Chemistry/Reactions/Acid-Base.md",
+    "STEM/Science/Chemistry/Chem Notation/Chemistry Symbols and Diagrams.md",
+    "STEM/Science/Chemistry/Chem Notation/Naming Conventions.md",
+    "STEM/Science/Biology/Molecular Biology/Translation.md",
+    "STEM/Science/Biology/Molecular Biology/Transcription.md",
+    "STEM/Science/Biology/Evolution/The Tree of life.md",
+    "STEM/Science/Biology/Evolution/Evolution.md",
     "STEM/Science/Biology/Ecology/Population Ecology.md",
     "STEM/Science/Biology/Ecology/Organismal Ecology.md",
     "STEM/Science/Biology/Ecology/Ecosystem Ecology.md",
     "STEM/Science/Biology/Ecology/Community Ecology.md",
     "STEM/Science/Biology/Ecology/Behavioral Ecology.md",
+    "STEM/Science/Biology/Cellular Biology/Orgenells/Cell Wall.md",
+    "STEM/Science/Biology/Cellular Biology/Orgenells/Chloroplast.md",
+    "STEM/Science/Biology/Cellular Biology/Orgenells/Cytoskeleton.md",
+    "STEM/Science/Biology/Cellular Biology/Orgenells/Cytosol.md",
+    "STEM/Science/Biology/Cellular Biology/Orgenells/Endoplasmic Reticulum.md",
+    "STEM/Science/Biology/Cellular Biology/Orgenells/Golgi.md",
+    "STEM/Science/Biology/Cellular Biology/Orgenells/Lipid Bilayer and Cell Membrane.md",
+    "STEM/Science/Biology/Cellular Biology/Orgenells/Lysosomes.md",
+    "STEM/Science/Biology/Cellular Biology/Orgenells/Nucleus.md",
+    "Course progression.canvas",
+    "Untitled.canvas",
+    "Media/Pasted image 20230722172749.png",
+    "Media/Pasted image 20230722172409.png",
     "STEM/Science/Biology/The Central Dogma.canvas",
-    "STEM/Science/Biology/Molecular Biology/Macro Molecules/Lipids.md",
-    "STEM/Science/Chemistry/Molecule.md",
     "STEM/Science/Biology/Ecology",
     "Media/Pasted image 20231130202033.png",
     "Seminar Notes",
