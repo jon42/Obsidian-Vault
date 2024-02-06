@@ -14,4 +14,12 @@ Di: 2
 tri: 3
 Tetra-: 4
 Hepta-: 5
+Hexa-: 6
+Septa-: 7
+Octa-: 8
+Nona-: 9
+Deca-:
+
+
+
 

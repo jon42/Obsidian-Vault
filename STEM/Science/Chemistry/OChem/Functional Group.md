@@ -24,7 +24,7 @@ Alkane is not technically a functional group which is the exact reason it is on 
 ```smiles
 c(*)(*)(*)O
 ```
-[[Functional Group#Degree of Separation]] Applies
+[[Functional Group#Degree of Separation]] Applies for the carbon connected to the OH
 # Ether
 ```smiles
 *O*
@@ -34,13 +34,37 @@ c(*)(*)(*)O
 ```smiles
 *cN
 ```
-[[Functional Group#Degree of Separation]] Applies
+[[Functional Group#Degree of Separation]] Applies to Nitrogen
+$1\degree$:
+```smiles
+ccn
+```
+$2\degree$
+```smiles
+CNC
+```
+$3\degree$
+```smiles
+CN(C)C
+```
 # Alkyl Halide
 ```smiles
 *CI
 ```
 This is any Halogen
-[[Functional Group#Degree of Seperation]] Applies
+[[Functional Group#Degree of Seperation]] Applies to the carbon
+$1\degree$:
+```smiles
+ICCC
+```
+$2\degree$:
+```smiles
+CC(C)I
+```
+$3\degree$:
+```smiles
+IC(C)(C)CC
+```
 # Nitrile
 ```smiles
 *c#n
@@ -51,7 +75,7 @@ CCC(=O)
 ```
 # Ketone
 ```smiles
-CC(=O)*
+*C(=O)*
 ```
 # Ester
 ```smiles

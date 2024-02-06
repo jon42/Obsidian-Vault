@@ -57,9 +57,8 @@ OC(=O)C(N)CC1=CC(O)=CC=C1
 #### Tryptophan
 Abr: Trp/W
 ```smiles
-OC(=O)CCC12NCCCC1C2
+OC(=O)C(N)CC1=CNC2=CC=CC=C231
 ```
-This is not even close god damn
 ## Positive
 #### Arginine
 Abr: Arg/R
@@ -78,7 +77,7 @@ Abr: Lys/K
 OC(=O)C(N)CCCC[NH3]
 ```
 ## Negative
-#### Aspartic Acid
+- [ ] #### Aspartic Acid
 Abr: Aps/D
 ```smiles
 OC(=O)C(N)CC(=O)[O-]
@@ -123,4 +122,39 @@ OC(=O)C(N)
 Abr: Pro/P
 ```smiles
 OC(=O)C1NCCC1
+```
+```tikz
+\begin{tikzpicture}
+\orbital[pos = {(2,5.5)}]{lobe}
+\node[above] at (2.5,6) {simple lobe};
+
+\orbital[pos = {(0,5.5)}]{s}
+\node[above] at (0,6) {s};
+
+\orbital[pos = {(0,3)}]{px}
+\node[above] at (0,4) {p$_x$};
+\orbital[pos = {(2,3)}]{py}
+\node[above] at (2,4) {p$_y$};
+\orbital[pos = {(4,3)}]{pz}
+\node[above] at (4,4) {p$_z$};
+
+\orbital[pos = {(0,0)}]{-px}
+\node[above] at (0,1) {-p$_x$};
+\orbital[pos = {(2,0)}]{-py}
+\node[above] at (2,1) {-p$_y$};
+\orbital[pos = {(4,0)}]{-pz}
+\node[above] at (4,1) {-p$_z$};
+
+\orbital[pos = {(0,-3)}]{dxy}
+\node[above] at (0,-2) {d$_{xy}$};
+\orbital[pos = {(2,-3)}]{dxz}
+\node[above] at (2,-2) {d$_{xz}$};
+\orbital[pos = {(4,-3)}]{dyz}
+\node[above] at (4,-2) {d$_{yz}$};
+
+\orbital[pos = {(0,-5)}]{dx2y2}
+\node[below] at (0,-6) {d$_{x^2-y^2}$};
+\orbital[pos = {(2,-5)}]{dz2}
+\node[below] at (2,-6) {d$_{z^2}$};
+\end{tikzpicture}
 ```

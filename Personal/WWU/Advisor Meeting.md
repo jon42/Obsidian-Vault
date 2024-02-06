@@ -1,0 +1,10 @@
+- When I'm Going to graduate
+	- Financials of graduating early
+		- It seems like it is possible but will be a challenege. I can't do upper division courses till im in the major
+	- Summer classes
+		- Summer classes work fine I just have to insure that I can transfer them. I can also do them here and get into upper bio courses as long as I am in the major by spring
+	- Course progression and advised classes
+		- Just as I thought
+- Double major
+	- It is useful but I have opportunities while in grad school
+	- Getting into lee lab is #1 priority

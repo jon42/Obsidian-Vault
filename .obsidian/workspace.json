@@ -4,71 +4,110 @@
     "type": "split",
     "children": [
       {
-        "id": "a6327400c8165760",
+        "id": "6bdb0645e075ce02",
         "type": "tabs",
         "children": [
           {
-            "id": "beba2d567d71c073",
+            "id": "3842a6739e85f05c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STEM/Science/Biology/Cellular Biology/Cell Cycle/Cell Cycle.md",
+                "file": "STEM/Science/Chemistry/OChem/Functional Group.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d6227b1f257b9458",
+            "id": "27b84a8ccce45872",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STEM/Science/Chemistry/Chem Notation/Chem Equations.md",
+                "file": "STEM/Science/Biology/Cellular Biology/Orgenells/Cytosol.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e24010d8a15542d0",
+            "id": "f55256880ddf2878",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STEM/Science/Chemistry/Chem Notation/Chemistry Symbols and Diagrams.md",
+                "file": "STEM/Science/Chemistry/OChem/Organic Chemistry Naming Conventions.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "23621e6b82282301",
+            "id": "59c72e71d35478c2",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Personal/WWU/Course progression.canvas",
+                "viewState": {
+                  "x": -838.2145789417868,
+                  "y": 1205.5043741692866,
+                  "zoom": -1.0817879226701792
+                }
+              }
+            }
+          },
+          {
+            "id": "c504466dfc8d0db9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STEM/Science/Chemistry/Chem Notation/Chem Equations.md",
+                "file": "Gibbs Free Energy.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "293e706e25673781",
+            "id": "e1041efda1bb18c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-01-22.md",
+                "file": "Equilibrium.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b10124080604b1ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEM/Science/Chemistry/Acids and Bases.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7c38b22b294a5190",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEM/Science/Biology/Molecular Biology/Macro Molecules/Proteins/Amino Acid.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +157,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.49999618530273
+    "width": 277.49999618530273
   },
   "right": {
     "id": "8c06b695a80bb766",
@@ -134,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-01-22.md",
+                "file": "STEM/Science/Biology/Cellular Biology/Orgenells/Cytosol.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-01-22.md",
+                "file": "STEM/Science/Biology/Cellular Biology/Orgenells/Cytosol.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -174,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-01-22.md"
+                "file": "STEM/Science/Biology/Cellular Biology/Orgenells/Cytosol.md"
               }
             }
           },
@@ -213,14 +252,29 @@
               "type": "review-queue-list-view",
               "state": {}
             }
+          },
+          {
+            "id": "24b93c3017277b59",
+            "type": "leaf",
+            "state": {
+              "type": "google-calendar-view-day",
+              "state": {}
+            }
+          },
+          {
+            "id": "6e3ec9e7eea0fde7",
+            "type": "leaf",
+            "state": {
+              "type": "google-calendar-view-schedule",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,59 +293,59 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "293e706e25673781",
+  "active": "bc3bb0e9ef63ee23",
   "lastOpenFiles": [
-    "STEM/Science/Chemistry/Functional Group.md",
-    "2024-01-22.md",
-    "STEM/Science/Chemistry/Chem Notation/Chem Equations.md",
-    "STEM/Science/Chemistry/Catalyze/Activation Barrier.md",
+    "STEM/Science/Chemistry/OChem/Functional Group.md",
     "STEM/Science/Chemistry/Acids and Bases.md",
-    "STEM/Science/Chemistry/Reactions/Enthalpy.md",
-    "STEM/Science/Chemistry/Reactions/Dehydration synthesis.md",
-    "STEM/Science/Chemistry/Reactions/Acid-Base.md",
-    "STEM/Science/Chemistry/Chem Notation/Chemistry Symbols and Diagrams.md",
+    "Equilibrium.md",
+    "Personal/Obsidian and extension notes/Obsidian Latex.md",
+    "Gibbs Free Energy.md",
+    "Entropy.md",
+    "Personal/WWU/Course progression.canvas",
+    "Seminar 1.31.md",
+    "STEM/Science/Biology/Molecular Biology/Macro Molecules/Proteins/Amino Acid.md",
+    "STEM/Science/Chemistry/OChem/Organic Chemistry Naming Conventions.md",
+    "Ketcher/Ketcher 8-21-2023 19.05.46.ket",
     "STEM/Science/Chemistry/Chem Notation/Naming Conventions.md",
-    "STEM/Science/Biology/Molecular Biology/Translation.md",
-    "STEM/Science/Biology/Molecular Biology/Transcription.md",
-    "STEM/Science/Biology/Evolution/The Tree of life.md",
-    "STEM/Science/Biology/Evolution/Evolution.md",
-    "STEM/Science/Biology/Ecology/Population Ecology.md",
-    "STEM/Science/Biology/Ecology/Organismal Ecology.md",
-    "STEM/Science/Biology/Ecology/Ecosystem Ecology.md",
-    "STEM/Science/Biology/Ecology/Community Ecology.md",
-    "STEM/Science/Biology/Ecology/Behavioral Ecology.md",
-    "STEM/Science/Biology/Cellular Biology/Orgenells/Cell Wall.md",
-    "STEM/Science/Biology/Cellular Biology/Orgenells/Chloroplast.md",
-    "STEM/Science/Biology/Cellular Biology/Orgenells/Cytoskeleton.md",
-    "STEM/Science/Biology/Cellular Biology/Orgenells/Cytosol.md",
-    "STEM/Science/Biology/Cellular Biology/Orgenells/Endoplasmic Reticulum.md",
+    "TODO.md",
+    "Dr.Lee Seminar.md",
+    "STEM/Science/Chemistry/Stoichiometry and mass equations.md",
+    "STEM/Science/Chemistry/OChem",
+    "STEM/Science/Chemistry/Reactions/Enthalpy.md",
+    "Personal/Movie rec.md",
+    "Personal/Books.md",
+    "Personal/WWU/Advisor Meeting.md",
+    "STEM/Math/Statistics/Null Hypotheses.md",
+    "STEM/Math/Calculus/Derivatives/Multivariable Derivatives.md",
+    "STEM/Math/Calculus/Derivatives/Gradient.md",
+    "STEM/Math/Calculus/Derivatives/Derivatives.md",
     "STEM/Science/Biology/Cellular Biology/Orgenells/Golgi.md",
-    "STEM/Science/Biology/Cellular Biology/Orgenells/Lipid Bilayer and Cell Membrane.md",
-    "Course progression.canvas",
+    "STEM/Science/Biology/Cellular Biology/Cell Cycle/Cell replication.md",
+    "STEM/Science/Biology/Cellular Biology/Cell Cycle/Cell Cycle.md",
+    "Personal/Video Ideas/Obsidian.md",
+    "Personal/Video Ideas/Mushroom.md",
+    "Media/Pasted image 20240125153955.png",
+    "Media/Pasted image 20240125153051.png",
+    "Media/Pasted image 20240125153033.png",
+    "Media/Pasted image 20240125153021.png",
+    "Media/Pasted image 20240125153004.png",
+    "Media/Pasted image 20240125153101.png",
+    "Media/Pasted image 20240125153506.png",
+    "2024-01-25.epub",
+    "2024-01-25.html",
+    "Media/Pasted image 20240125152946.png",
+    "2024-01-25.tex",
+    "Media/Pasted image 20240125150609.png",
+    "STEM/Science/Biology/The Central Dogma.canvas",
+    "Personal/WWU",
     "Untitled.canvas",
     "Media/Pasted image 20230722172749.png",
-    "Media/Pasted image 20230722172409.png",
-    "STEM/Science/Biology/The Central Dogma.canvas",
     "STEM/Science/Biology/Ecology",
-    "Media/Pasted image 20231130202033.png",
     "Seminar Notes",
-    "Media/Pasted image 20231108205400.png",
-    "Media/Pasted image 20231108194254.png",
     "STEM",
     "Untitled 2.canvas",
     "Bio 204 lab 2.canvas",
-    "Media/Pasted image 20231108180633.png",
-    "Media/Pasted image 20231108175933.png",
-    "Media/Pasted image 20231108175837.png",
-    "Ketcher/Ketcher 8-21-2023 19.05.46.ket",
     "STEM/Science/Biology/Macro Biology/Organisms & Viruses",
-    "STEM/Science/Biology/Macro Biology/Organisms & Viruses/Viruses",
-    "STEM/Science/Chemistry/Chemistry History",
-    "STEM/Science/Chemistry/Chem Notation",
-    "STEM/Science/Biology/Macro Biology",
-    "Science/Biology/Ma",
-    "Media/Pasted image 20231011134352.png",
-    "Media/Pasted image 20230924204926.png",
     "Science/Biology/Untitled.canvas"
   ]
 }

@@ -1,5 +1,10 @@
 ---
-Aliases: Hydrophobic, Hydrophylic, polar molecuels, polar, electronegativity
+aliases:
+  - Hydrophobic
+  - Hydrophylic
+  - polar molecules
+  - polar
+  - electronegativity
 ---
 Hydrophobic/non-polar:: Does not create [[Molecular Bonds#Hydrogen Bonds]]
 <!--ID: 1692734890634-->
