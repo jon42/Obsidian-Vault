@@ -20,11 +20,11 @@ Strong bases typically include a hydroxide group attached to a metal. They start
 | HBr | $Ca(OH)_2$ |
 | HI | $Sr(OH)_2$ |
 | $HClO_4$  | $Ba(OH)_2$ |
-| $HCLO_3$ |  |
+| $HCLO_3$ | RbOh |
 # Oxoacids
 Oxoacids are a group of acids with the general formula $H_{n}EO_m$ where E is another element such as a non metal or an early transition metal
 There are several trends that may effect the strength of the Acid
-- In homolgous series acidity increases with electornegativity
+- In homolgous series acidity increases with electronegativity
 - As oxidation of central atom increases the acidity increases
 	-  This increases stability of base 
 	- This occurs when there are more oxygens bound to the central atom
@@ -33,7 +33,13 @@ There are several trends that may effect the strength of the Acid
 - Acidity decreases when a proton is removed
 	- This would be indicated by a - at the top of the molecule
 
-
+# Calculating pH
+$$pH=-log([H_{3}O^{+}])$$
+if it is a strong acid all of the atoms will be dissociated so the hydronium matches the concentration of the acid. 
+## pH vs pOH
+There will always be an [[Equilibrium]] between $OH^-$ and $H_{3}O^{+}$. This equilibrium is 
+$[OH^{-}][H_{3}O^{+}]=10^{-14}$ 
+This means that if you have a known concentration of one you can find the concentration of the other.
 # Characteristics of Acids
 - Chorosive
 - Tastes sour

@@ -1,0 +1,38 @@
+{
+	"nodes":[
+		{"id":"71d9b7b0e57285e2","type":"text","text":"Isomers","x":-182,"y":23,"width":250,"height":60},
+		{"id":"32da2e46dbfb7a6b","type":"text","text":"Same connectivity?","x":-182,"y":200,"width":250,"height":80},
+		{"id":"abebdbc4f7f4bba3","type":"text","text":"No","x":-588,"y":285,"width":250,"height":60},
+		{"id":"3526555ed3052b45","type":"text","text":"Yes","x":98,"y":315,"width":250,"height":60},
+		{"id":"6a88e00d0dcfd771","type":"text","text":"Yes","x":395,"y":760,"width":250,"height":60},
+		{"id":"84021d417443869f","type":"file","file":"STEM/Science/Chemistry/OChem/Isomers/Conformer Isomers.md","x":320,"y":960,"width":400,"height":400},
+		{"id":"9ab1228dca85e3da","type":"text","text":"Configuration Isomers","x":-247,"y":840,"width":254,"height":80},
+		{"id":"7707ca1d9645b2a4","type":"text","text":"Mirror Images?","x":-274,"y":1000,"width":250,"height":60},
+		{"id":"6bed4addaec6a173","type":"text","text":"Yes","x":-120,"y":1130,"width":250,"height":60},
+		{"id":"1f2d7112e76293a6","type":"file","file":"STEM/Science/Chemistry/OChem/Isomers/Enantiomers.md","x":-102,"y":1293,"width":400,"height":400},
+		{"id":"45914fe39f13d438","type":"text","text":"No","x":-432,"y":1130,"width":250,"height":60},
+		{"id":"a22da2c48c8cb01d","type":"file","file":"STEM/Science/Chemistry/OChem/Isomers/Diastereomers.md","x":-647,"y":1293,"width":400,"height":400},
+		{"id":"989d623c57826b5a","type":"text","text":"Isomers share the same molecular formula but are different in some way\nThere are several different types of isomers. The flow char will show the different categories ","x":-246,"y":-320,"width":378,"height":280},
+		{"id":"cfbae7b77017bab4","type":"file","file":"STEM/Science/Chemistry/OChem/Isomers/Constitutional Isomers.md","x":-920,"y":420,"width":400,"height":400},
+		{"id":"7a4b8b9b374c180b","type":"text","text":"Stereo Isomers","x":98,"y":420,"width":250,"height":60},
+		{"id":"a22ab9f4822413dc","type":"text","text":"Different by a rotation of a single bond?","x":100,"y":557,"width":248,"height":126},
+		{"id":"9f531737bbc3f2b7","type":"text","text":"No","x":-102,"y":730,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"59b26114abb7e364","fromNode":"71d9b7b0e57285e2","fromSide":"bottom","toNode":"32da2e46dbfb7a6b","toSide":"top"},
+		{"id":"c34aabebf7e1908b","fromNode":"32da2e46dbfb7a6b","fromSide":"bottom","toNode":"abebdbc4f7f4bba3","toSide":"top"},
+		{"id":"c5f55a6c76274440","fromNode":"32da2e46dbfb7a6b","fromSide":"bottom","toNode":"3526555ed3052b45","toSide":"top"},
+		{"id":"59e5943f95c45650","fromNode":"abebdbc4f7f4bba3","fromSide":"bottom","toNode":"cfbae7b77017bab4","toSide":"top"},
+		{"id":"c368e3d7da739a60","fromNode":"3526555ed3052b45","fromSide":"bottom","toNode":"7a4b8b9b374c180b","toSide":"top"},
+		{"id":"359fbbbd583b13fb","fromNode":"7a4b8b9b374c180b","fromSide":"bottom","toNode":"a22ab9f4822413dc","toSide":"top"},
+		{"id":"6d68a3c21d4883d3","fromNode":"a22ab9f4822413dc","fromSide":"bottom","toNode":"9f531737bbc3f2b7","toSide":"top"},
+		{"id":"ec0540a439693008","fromNode":"a22ab9f4822413dc","fromSide":"bottom","toNode":"6a88e00d0dcfd771","toSide":"top"},
+		{"id":"b7ff36882567aa3c","fromNode":"6a88e00d0dcfd771","fromSide":"bottom","toNode":"84021d417443869f","toSide":"top"},
+		{"id":"196151ef349e8971","fromNode":"9f531737bbc3f2b7","fromSide":"bottom","toNode":"9ab1228dca85e3da","toSide":"top"},
+		{"id":"27cabcb584cb623a","fromNode":"9ab1228dca85e3da","fromSide":"bottom","toNode":"7707ca1d9645b2a4","toSide":"top"},
+		{"id":"2187ca955095ed19","fromNode":"7707ca1d9645b2a4","fromSide":"bottom","toNode":"6bed4addaec6a173","toSide":"top"},
+		{"id":"916bb5aa47efc9db","fromNode":"7707ca1d9645b2a4","fromSide":"bottom","toNode":"45914fe39f13d438","toSide":"top"},
+		{"id":"079f42f5e97375cc","fromNode":"45914fe39f13d438","fromSide":"bottom","toNode":"a22da2c48c8cb01d","toSide":"top"},
+		{"id":"77b7d769be43b7ec","fromNode":"6bed4addaec6a173","fromSide":"bottom","toNode":"1f2d7112e76293a6","toSide":"top"}
+	]
+}

@@ -95,6 +95,197 @@
             }
           },
           {
+            "id": "6324f86690cab84c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEM/Science/Biology/Molecular Biology/Macro Molecules/Lipids.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ace679fc56cdeaba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEM/Science/Biology/Cellular Biology/Orgenells/Lipid Bilayer and Cell Membrane.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "20f92eb244f3308b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEM/Science/Biology/Molecular Biology/Macro Molecules/Proteins/Proteins.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "01027959835aa7b7",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "8d90d837f7aba63d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEM/Science/Biology/Cellular Biology/Orgenells/Lysosomes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "738c714f1e6ee512",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEM/Science/Biology/Cellular Biology/Orgenells/Vacuoles.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2d8699c923970698",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEM/Science/Biology/Cellular Biology/Orgenells/Mitochondria.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8d46e25b4697fe26",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "STEM/Science/Chemistry/OChem/Isomers/Isomers.canvas",
+                "viewState": {
+                  "x": -100,
+                  "y": 686.5,
+                  "zoom": -1.170120475332035
+                }
+              }
+            }
+          },
+          {
+            "id": "e21711cf20d81c51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEM/Science/Chemistry/OChem/Isomers/Conformer Isomers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "235a01cf703800d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEM/Science/Chemistry/OChem/Isomers/Enantiomers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "18e63affb820525e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEM/Science/Biology/Cellular Biology/Orgenells/Organelles.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "66f98ef24aebce55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEM/Science/Physics/Atoms/Atoms.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6f71fb66f14c19ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEM/Science/Biology/Cellular Biology/Orgenells/Ribosomes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ea246c8cbdf71058",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEM/Science/Biology/Cellular Biology/Cell.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "13909f8a860620be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEM/Science/Biology/Cellular Biology/Orgenells/Endoplasmic Reticulum.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "58e0be31f2034ffa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEM/Science/Biology/Cellular Biology/Orgenells/Golgi  Apparatus.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7c38b22b294a5190",
             "type": "leaf",
             "state": {
@@ -107,7 +298,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -173,7 +364,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STEM/Science/Biology/Cellular Biology/Orgenells/Cytosol.md",
+                "file": "STEM/Science/Chemistry/Acids and Bases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +381,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STEM/Science/Biology/Cellular Biology/Orgenells/Cytosol.md",
+                "file": "STEM/Science/Chemistry/Acids and Bases.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -213,7 +404,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STEM/Science/Biology/Cellular Biology/Orgenells/Cytosol.md"
+                "file": "STEM/Science/Chemistry/Acids and Bases.md"
               }
             }
           },
@@ -293,37 +484,42 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "bc3bb0e9ef63ee23",
+  "active": "b10124080604b1ad",
   "lastOpenFiles": [
-    "STEM/Science/Chemistry/OChem/Functional Group.md",
-    "STEM/Science/Chemistry/Acids and Bases.md",
-    "Equilibrium.md",
-    "Personal/Obsidian and extension notes/Obsidian Latex.md",
-    "Gibbs Free Energy.md",
-    "Entropy.md",
-    "Personal/WWU/Course progression.canvas",
-    "Seminar 1.31.md",
-    "STEM/Science/Biology/Molecular Biology/Macro Molecules/Proteins/Amino Acid.md",
+    "STEM/Science/Chemistry/OChem/Isomers/Enantiomers.md",
+    "STEM/Science/Chemistry/OChem/Isomers/Conformer Isomers.md",
+    "STEM/Science/Chemistry/OChem/Isomers/Stereocenter.md",
+    "Media/Pasted image 20240211211829.png",
+    "Media/Pasted image 20240211211751.png",
+    "STEM/Science/Chemistry/OChem/Isomers/Constitutional Isomers.md",
     "STEM/Science/Chemistry/OChem/Organic Chemistry Naming Conventions.md",
-    "Ketcher/Ketcher 8-21-2023 19.05.46.ket",
-    "STEM/Science/Chemistry/Chem Notation/Naming Conventions.md",
-    "TODO.md",
+    "STEM/Science/Chemistry/OChem/Isomers/Isomers.canvas",
+    "2023-10-04.md",
+    "2023-11-10.md",
+    "2024-01-22.md",
+    "STEM/Science/Chemistry/OChem/Big Ideas",
+    "2024-01-25.md",
+    "Bound.md",
     "Dr.Lee Seminar.md",
-    "STEM/Science/Chemistry/Stoichiometry and mass equations.md",
+    "Rate of Reations.md",
+    "Prefixes.md",
+    "Glycolysis.md",
+    "OChem test.md",
+    "Golgi Apparatus.md",
+    "Personal/TODO.md",
+    "STEM/Science/Biology/Cellular Biology/Orgenells/Organelles.md",
+    "STEM/Science/Chemistry/OChem/Isomers/Diastereomers.md",
+    "STEM/Science/Biology/Cellular Biology/Orgenells/Cytoskeleton.md",
+    "STEM/Science/Chemistry/OChem/Isomers",
+    "STEM/Science/Biology/Cellular Biology/Orgenells/Mitochondria.md",
+    "STEM/Science/Biology/Cellular Biology/Orgenells/Peroxisomes.md",
+    "STEM/Science/Biology/Cellular Biology/Orgenells/Vacuoles.md",
+    "STEM/Science/Biology/Cellular Biology/Orgenells/Lysosomes.md",
+    "STEM/Science/Biology/Molecular Biology/Macro Molecules/Proteins/Proteins.md",
+    "STEM/Science/Biology/Cellular Biology/Orgenells/Golgi  Apparatus.md",
+    "Personal/WWU/Course progression.canvas",
+    "Ketcher/Ketcher 8-21-2023 19.05.46.ket",
     "STEM/Science/Chemistry/OChem",
-    "STEM/Science/Chemistry/Reactions/Enthalpy.md",
-    "Personal/Movie rec.md",
-    "Personal/Books.md",
-    "Personal/WWU/Advisor Meeting.md",
-    "STEM/Math/Statistics/Null Hypotheses.md",
-    "STEM/Math/Calculus/Derivatives/Multivariable Derivatives.md",
-    "STEM/Math/Calculus/Derivatives/Gradient.md",
-    "STEM/Math/Calculus/Derivatives/Derivatives.md",
-    "STEM/Science/Biology/Cellular Biology/Orgenells/Golgi.md",
-    "STEM/Science/Biology/Cellular Biology/Cell Cycle/Cell replication.md",
-    "STEM/Science/Biology/Cellular Biology/Cell Cycle/Cell Cycle.md",
-    "Personal/Video Ideas/Obsidian.md",
-    "Personal/Video Ideas/Mushroom.md",
     "Media/Pasted image 20240125153955.png",
     "Media/Pasted image 20240125153051.png",
     "Media/Pasted image 20240125153033.png",
@@ -335,17 +531,13 @@
     "2024-01-25.html",
     "Media/Pasted image 20240125152946.png",
     "2024-01-25.tex",
-    "Media/Pasted image 20240125150609.png",
     "STEM/Science/Biology/The Central Dogma.canvas",
     "Personal/WWU",
     "Untitled.canvas",
-    "Media/Pasted image 20230722172749.png",
     "STEM/Science/Biology/Ecology",
     "Seminar Notes",
-    "STEM",
     "Untitled 2.canvas",
     "Bio 204 lab 2.canvas",
-    "STEM/Science/Biology/Macro Biology/Organisms & Viruses",
     "Science/Biology/Untitled.canvas"
   ]
 }

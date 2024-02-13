@@ -43,6 +43,14 @@ Enzymes:: Proteins that act as catalysts
 
 Enzymes are specific proteins that catalyze other reactions within a cell. see [[Enzymes]] for more.
 
+# Protein Regulation
+# Allosteric regulation
+
+Allosteric regulation refers to regulating a protein by binding to a site on the protein other than the active site. 
+This can either work with the regulator binding to inactivate or activate the protein. 
+# Competitive inhibition
+
+Competitive inhibition is when a non-substrate molecule binds to the proteins active site. This prevents the substrate from binding and undergoing the reaction. 
 
 # Other interesting info
 ## Medicine
