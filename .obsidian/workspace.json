@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6bdb0645e075ce02",
+        "id": "7b726bee970efc43",
         "type": "tabs",
         "children": [
           {
-            "id": "3842a6739e85f05c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STEM/Science/Chemistry/OChem/Functional Group.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "27b84a8ccce45872",
+            "id": "a85f2417f19c0fb8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,273 +20,130 @@
             }
           },
           {
-            "id": "f55256880ddf2878",
+            "id": "d40087f3c9eeda4c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STEM/Science/Chemistry/OChem/Organic Chemistry Naming Conventions.md",
+                "file": "STEM/Science/Chemistry/OChem/Functional Group.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "59c72e71d35478c2",
+            "id": "48f24cc7d027cbae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEM/Science/Biology/The Central Dogma.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0abfb0bdbc2b8ed4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEM/Math/Calculus/Derivatives/Derivatives.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6f3bdb62b68b7c80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STEM/Science/Biology/Cellular Biology/Cell Cycle/Cell replication.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dbd97495ec98459f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-01-25.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d2fe71612b8bf5ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023-10-04.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ff0fe55941592049",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "Personal/WWU/Course progression.canvas",
                 "viewState": {
-                  "x": -838.2145789417868,
-                  "y": 1205.5043741692866,
-                  "zoom": -1.0817879226701792
+                  "x": -1013.8523089794725,
+                  "y": 1019.7134875166271,
+                  "zoom": -0.9839884309035579
                 }
               }
             }
           },
           {
-            "id": "c504466dfc8d0db9",
+            "id": "0181a205ffba803a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gibbs Free Energy.md",
+                "file": "2024-02-29.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e1041efda1bb18c2",
+            "id": "bcf1afc964a86d09",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Equilibrium.md",
+                "file": "STEM/Science/Biology/Evolution/Mutation.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b10124080604b1ad",
+            "id": "93413994e9a7617d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STEM/Science/Chemistry/Acids and Bases.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6324f86690cab84c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STEM/Science/Biology/Molecular Biology/Macro Molecules/Lipids.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ace679fc56cdeaba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STEM/Science/Biology/Cellular Biology/Orgenells/Lipid Bilayer and Cell Membrane.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "20f92eb244f3308b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STEM/Science/Biology/Molecular Biology/Macro Molecules/Proteins/Proteins.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "01027959835aa7b7",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "8d90d837f7aba63d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STEM/Science/Biology/Cellular Biology/Orgenells/Lysosomes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "738c714f1e6ee512",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STEM/Science/Biology/Cellular Biology/Orgenells/Vacuoles.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2d8699c923970698",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STEM/Science/Biology/Cellular Biology/Orgenells/Mitochondria.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8d46e25b4697fe26",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "STEM/Science/Chemistry/OChem/Isomers/Isomers.canvas",
-                "viewState": {
-                  "x": -100,
-                  "y": 686.5,
-                  "zoom": -1.170120475332035
-                }
-              }
-            }
-          },
-          {
-            "id": "e21711cf20d81c51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STEM/Science/Chemistry/OChem/Isomers/Conformer Isomers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "235a01cf703800d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STEM/Science/Chemistry/OChem/Isomers/Enantiomers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "18e63affb820525e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STEM/Science/Biology/Cellular Biology/Orgenells/Organelles.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "66f98ef24aebce55",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STEM/Science/Physics/Atoms/Atoms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6f71fb66f14c19ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STEM/Science/Biology/Cellular Biology/Orgenells/Ribosomes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ea246c8cbdf71058",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STEM/Science/Biology/Cellular Biology/Cell.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "13909f8a860620be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STEM/Science/Biology/Cellular Biology/Orgenells/Endoplasmic Reticulum.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "58e0be31f2034ffa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STEM/Science/Biology/Cellular Biology/Orgenells/Golgi  Apparatus.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7c38b22b294a5190",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STEM/Science/Biology/Molecular Biology/Macro Molecules/Proteins/Amino Acid.md",
+                "file": "STEM/Science/Biology/Cellular Biology/Gene regulation/Transcription Regulation/Chromatin Remodeling.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -348,7 +193,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.49999618530273
+    "width": 305.49999618530273
   },
   "right": {
     "id": "8c06b695a80bb766",
@@ -364,7 +209,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STEM/Science/Chemistry/Acids and Bases.md",
+                "file": "STEM/Science/Biology/Cellular Biology/Gene regulation/Transcription Regulation/Chromatin Remodeling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -381,7 +226,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STEM/Science/Chemistry/Acids and Bases.md",
+                "file": "STEM/Science/Biology/Cellular Biology/Gene regulation/Transcription Regulation/Chromatin Remodeling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -404,7 +249,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STEM/Science/Chemistry/Acids and Bases.md"
+                "file": "STEM/Science/Biology/Cellular Biology/Gene regulation/Transcription Regulation/Chromatin Remodeling.md"
               }
             }
           },
@@ -465,7 +310,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -484,42 +330,50 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "b10124080604b1ad",
+  "active": "93413994e9a7617d",
   "lastOpenFiles": [
-    "STEM/Science/Chemistry/OChem/Isomers/Enantiomers.md",
-    "STEM/Science/Chemistry/OChem/Isomers/Conformer Isomers.md",
-    "STEM/Science/Chemistry/OChem/Isomers/Stereocenter.md",
-    "Media/Pasted image 20240211211829.png",
-    "Media/Pasted image 20240211211751.png",
-    "STEM/Science/Chemistry/OChem/Isomers/Constitutional Isomers.md",
-    "STEM/Science/Chemistry/OChem/Organic Chemistry Naming Conventions.md",
-    "STEM/Science/Chemistry/OChem/Isomers/Isomers.canvas",
-    "2023-10-04.md",
-    "2023-11-10.md",
-    "2024-01-22.md",
-    "STEM/Science/Chemistry/OChem/Big Ideas",
+    "STEM/Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/1709324539-USPT.md",
+    "STEM/Science/Biology/Cellular Biology/Cell.md",
+    "STEM/Science/Biology/Cellular Biology/Gene regulation/Transcription Regulation/Chromatin Remodeling.md",
+    "STEM/Science/Biology/Molecular Biology/Macro Molecules/Macromolecules.md",
+    "STEM/Science/Biology/Cellular Biology/Gene regulation/Protein Regulation",
+    "STEM/Science/Biology/Cellular Biology/Gene regulation/Translation Regulation",
+    "STEM/Science/Biology/Cellular Biology/Gene regulation/Transcription Regulation",
+    "STEM/Science/Biology/Cellular Biology/Gene regulation/Eukaryotes/Untitled",
+    "STEM/Science/Biology/Cellular Biology/Gene regulation/Eukaryotes/Translation Regulation",
+    "STEM/Science/Biology/Cellular Biology/Gene regulation/Eukaryotes/Transcription Regulation",
+    "STEM/Science/Biology/Cellular Biology/Gene regulation/Prokaryotes",
+    "STEM/Science/Biology/Cellular Biology/Gene regulation/Eukaryotes",
+    "STEM/Science/Biology/Cellular Biology/Gene regulation",
+    "STEM/Science/Biology/Molecular Biology/Macro Molecules/Lipids.md",
+    "STEM/Science/Biology/Molecular Biology/Macro Molecules/Proteins/Enzymes.md",
+    "STEM/Science/Biology/Molecular Biology/Macro Molecules/Proteins/Proteins.md",
+    "STEM/Science/Biology/Molecular Biology/Macro Molecules/Proteins/Amino Acid.md",
+    "STEM/Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/miRNA.md",
+    "STEM/Science/Biology/Cellular Biology/Biology Systems.canvas",
+    "STEM/Science/Biology/Evolution/Mutation.md",
+    "Seminar Notes/Seminar 2.29.md",
+    "2024-02-29.md",
+    "STEM/Science/Chemistry/OChem/Functional Group.md",
+    "STEM/Science/Biology/Molecular Biology/Translation.md",
+    "Personal/WWU/Course progression.canvas",
+    "STEM/Science/Biology/Cellular Biology/Orgenells/Cytosol.md",
+    "STEM/Science/Chemistry/OChem/Resonance.md",
+    "STEM/Science/Chemistry/OChem/Big Ideas/Big Idea 2.md",
+    "STEM/Science/Chemistry/OChem/Big Ideas/Big Idea 1.md",
+    "Seminar Notes/2.21 seminar.md",
     "2024-01-25.md",
-    "Bound.md",
-    "Dr.Lee Seminar.md",
     "Rate of Reations.md",
     "Prefixes.md",
     "Glycolysis.md",
-    "OChem test.md",
-    "Golgi Apparatus.md",
-    "Personal/TODO.md",
-    "STEM/Science/Biology/Cellular Biology/Orgenells/Organelles.md",
-    "STEM/Science/Chemistry/OChem/Isomers/Diastereomers.md",
-    "STEM/Science/Biology/Cellular Biology/Orgenells/Cytoskeleton.md",
-    "STEM/Science/Chemistry/OChem/Isomers",
-    "STEM/Science/Biology/Cellular Biology/Orgenells/Mitochondria.md",
-    "STEM/Science/Biology/Cellular Biology/Orgenells/Peroxisomes.md",
-    "STEM/Science/Biology/Cellular Biology/Orgenells/Vacuoles.md",
-    "STEM/Science/Biology/Cellular Biology/Orgenells/Lysosomes.md",
-    "STEM/Science/Biology/Molecular Biology/Macro Molecules/Proteins/Proteins.md",
-    "STEM/Science/Biology/Cellular Biology/Orgenells/Golgi  Apparatus.md",
-    "Personal/WWU/Course progression.canvas",
-    "Ketcher/Ketcher 8-21-2023 19.05.46.ket",
-    "STEM/Science/Chemistry/OChem",
+    "Gibbs Free Energy.md",
+    "STEM/Science/Chemistry/Reactions/Dehydration synthesis.md",
+    "Bound.md",
+    "STEM/Science/Biology/The Central Dogma.canvas",
+    "Media/Pasted image 20240211211829.png",
+    "Media/Pasted image 20240211211751.png",
+    "STEM/Science/Chemistry/OChem/Isomers/Isomers.canvas",
+    "STEM/Science/Chemistry/OChem/Big Ideas",
     "Media/Pasted image 20240125153955.png",
     "Media/Pasted image 20240125153051.png",
     "Media/Pasted image 20240125153033.png",
@@ -527,15 +381,8 @@
     "Media/Pasted image 20240125153004.png",
     "Media/Pasted image 20240125153101.png",
     "Media/Pasted image 20240125153506.png",
-    "2024-01-25.epub",
-    "2024-01-25.html",
     "Media/Pasted image 20240125152946.png",
-    "2024-01-25.tex",
-    "STEM/Science/Biology/The Central Dogma.canvas",
-    "Personal/WWU",
     "Untitled.canvas",
-    "STEM/Science/Biology/Ecology",
-    "Seminar Notes",
     "Untitled 2.canvas",
     "Bio 204 lab 2.canvas",
     "Science/Biology/Untitled.canvas"

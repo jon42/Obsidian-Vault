@@ -40,6 +40,17 @@ if it is a strong acid all of the atoms will be dissociated so the hydronium mat
 There will always be an [[Equilibrium]] between $OH^-$ and $H_{3}O^{+}$. This equilibrium is 
 $[OH^{-}][H_{3}O^{+}]=10^{-14}$ 
 This means that if you have a known concentration of one you can find the concentration of the other.
+## $K_a$ and $K_b$ 
+Acids and bases have K values relative to the concentration of the product and reactants. 
+$$K_{a}=\frac{[A^-][H_{3}O^{+}]}{[HA]}$$
+$$K_{b}=\frac{[HA][OH^-]}{[A]}$$
+
+These values can be a challenge to understand so they often create a $pK_{a}$ and $pK_{b}$ which comes from taking the $-log(k_{a})$ or b respectively.
+From this value hydronium concentration can be calculated and thus pH can be calculated
+##  Henderson-Hasselbalch law
+The  Henderson-Hasselbalch law refers to the relationship of pH to the concentration of acids and bases. 
+$$pH=pK_a+log(\frac{base}{acid})$$
+
 # Characteristics of Acids
 - Chorosive
 - Tastes sour

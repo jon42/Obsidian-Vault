@@ -5,6 +5,7 @@ Functional groups are the groups attached to molecules that actually contribute 
 *cccc*
 ```
 Alkane is not technically a functional group which is the exact reason it is on this list. It does not react but instead attaches to the functional groups that do react. This group sometimes abbreviated or listed by $CH_3(CH_{2})_x$ for however many times it repeats. 
+
 # Alkene 
 ```smiles
 *c=c*

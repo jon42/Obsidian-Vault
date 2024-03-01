@@ -1,5 +1,8 @@
 ---
-TARGET DECK: Bio
+id: DNA
+aliases: []
+tags: []
+DECK: Bio
 ---
 DNA is a [[Molecule]] that is the instructions on how a [[Cell]] should operate. [[Amino Acid#Isoleucine]]
 DNA has phosphate backbone $PO^{3-}_4$ with a pentose [[Saccharide]]
@@ -23,4 +26,3 @@ What is the backbone of DNA made of::$PO^{3-}_4$
 
 DNA has what [[charge]]:: Negative
 <!--ID: 1692599410651-->
-

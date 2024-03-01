@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"9c55973b009f807f","type":"file","file":"STEM/Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/DNA/DNA.md","x":-75,"y":-136,"width":400,"height":400},
+		{"id":"8fb564b49dd36847","type":"file","file":"STEM/Science/Biology/Molecular Biology/Transcription.md","x":-73,"y":526,"width":400,"height":400},
+		{"id":"82d4d167f4847b29","type":"file","file":"STEM/Science/Biology/Molecular Biology/Translation.md","x":-73,"y":1785,"width":400,"height":400},
+		{"id":"537855ab6f36a0d8","type":"file","file":"STEM/Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/RNA.md","x":-300,"y":1100,"width":400,"height":400},
+		{"id":"e12be3a37329bd33","type":"file","file":"STEM/Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/RNA/tRNA.md","x":241,"y":1091,"width":400,"height":400},
+		{"id":"bca31131bf2483aa","type":"file","file":"STEM/Science/Biology/Cellular Biology/Orgenells/Ribosomes.md","x":500,"y":1785,"width":400,"height":400},
+		{"id":"ff86d6399f8bfc9d","type":"file","file":"STEM/Science/Biology/Cellular Biology/Orgenells/Endoplasmic Reticulum.md","x":-760,"y":2320,"width":400,"height":400},
+		{"id":"2b6b6b57c58979cb","type":"file","file":"STEM/Science/Biology/Cellular Biology/Orgenells/Golgi  Apparatus.md","x":960,"y":2320,"width":400,"height":400},
+		{"id":"b942b6d85fafff07","type":"file","file":"STEM/Science/Biology/Molecular Biology/Macro Molecules/Proteins/Proteins.md","x":-100,"y":2880,"width":400,"height":400},
+		{"id":"2b68e1b8b8b696d1","type":"file","file":"STEM/Science/Biology/Molecular Biology/Macro Molecules/Proteins/Enzymes.md","x":-100,"y":3560,"width":400,"height":400},
+		{"id":"140e30f83fe7682a","x":-1080,"y":-40,"width":400,"height":400,"type":"file","file":"STEM/Science/Biology/Evolution/Mutation.md"},
+		{"id":"a31c65921e19ce0f","x":-1136,"y":536,"width":400,"height":400,"type":"file","file":"STEM/Science/Biology/Evolution/Evolution.md"},
+		{"id":"dcb8c7698d46ee04","type":"file","file":"STEM/Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/DNA/Histones.md","x":600,"y":264,"width":400,"height":400},
+		{"id":"e0f78ad10f8479ce","x":1200,"y":-280,"width":400,"height":400,"type":"file","file":"STEM/Science/Biology/Cellular Biology/Cell Cycle/Cell Cycle.md"},
+		{"id":"25ae7af2212ec3bb","x":1258,"y":364,"width":400,"height":400,"type":"file","file":"STEM/Science/Biology/Cellular Biology/Cell Cycle/Cell replication.md"},
+		{"id":"31538e9b78ae38ed","x":1800,"y":326,"width":400,"height":400,"type":"file","file":"STEM/Science/Biology/Molecular Biology/Macro Molecules/Nucleic Acid/DNA/Chromosomes.md"}
+	],
+	"edges":[
+		{"id":"4d8c902840473be7","fromNode":"9c55973b009f807f","fromSide":"bottom","toNode":"8fb564b49dd36847","toSide":"top"},
+		{"id":"d5077a36caebf229","fromNode":"8fb564b49dd36847","fromSide":"bottom","toNode":"537855ab6f36a0d8","toSide":"top"},
+		{"id":"b4600630c53be744","fromNode":"537855ab6f36a0d8","fromSide":"bottom","toNode":"82d4d167f4847b29","toSide":"top"},
+		{"id":"8eeb4424e3aadc3f","fromNode":"8fb564b49dd36847","fromSide":"bottom","toNode":"e12be3a37329bd33","toSide":"top"},
+		{"id":"dc2f053fc2804844","fromNode":"e12be3a37329bd33","fromSide":"bottom","toNode":"82d4d167f4847b29","toSide":"top"},
+		{"id":"66cd0449523fc4fc","fromNode":"bca31131bf2483aa","fromSide":"left","toNode":"82d4d167f4847b29","toSide":"right"},
+		{"id":"2b3b3937720731a3","fromNode":"dcb8c7698d46ee04","fromSide":"left","toNode":"9c55973b009f807f","toSide":"right"},
+		{"id":"8d76faa34526e068","fromNode":"dcb8c7698d46ee04","fromSide":"left","toNode":"8fb564b49dd36847","toSide":"right"},
+		{"id":"2745847a7c18dfe9","fromNode":"82d4d167f4847b29","fromSide":"bottom","toNode":"2b6b6b57c58979cb","toSide":"top"},
+		{"id":"4260bf4efddae3c4","fromNode":"2b6b6b57c58979cb","fromSide":"bottom","toNode":"b942b6d85fafff07","toSide":"top"},
+		{"id":"b9b7d9a9c5b87908","fromNode":"82d4d167f4847b29","fromSide":"bottom","toNode":"b942b6d85fafff07","toSide":"top"},
+		{"id":"42e702cafbad9df0","fromNode":"b942b6d85fafff07","fromSide":"bottom","toNode":"2b68e1b8b8b696d1","toSide":"top"},
+		{"id":"1cf0f3e06dea03ac","fromNode":"ff86d6399f8bfc9d","fromSide":"bottom","toNode":"b942b6d85fafff07","toSide":"top"},
+		{"id":"1057c94e1f43297c","fromNode":"82d4d167f4847b29","fromSide":"bottom","toNode":"ff86d6399f8bfc9d","toSide":"top"},
+		{"id":"012e710db84c9c1b","fromNode":"9c55973b009f807f","fromSide":"left","toNode":"140e30f83fe7682a","toSide":"right"},
+		{"id":"de5c5c0ede06167d","fromNode":"140e30f83fe7682a","fromSide":"bottom","toNode":"a31c65921e19ce0f","toSide":"top"},
+		{"id":"89c24897ca255a39","fromNode":"9c55973b009f807f","fromSide":"right","toNode":"e0f78ad10f8479ce","toSide":"left"},
+		{"id":"ebcf5d0a43144553","fromNode":"e0f78ad10f8479ce","fromSide":"bottom","toNode":"25ae7af2212ec3bb","toSide":"top"},
+		{"id":"0425383c04eb00a5","fromNode":"31538e9b78ae38ed","fromSide":"left","toNode":"25ae7af2212ec3bb","toSide":"right"}
+	]
+}
