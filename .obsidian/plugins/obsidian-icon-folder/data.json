@@ -1,11 +1,16 @@
 {
   "settings": {
-    "migrated": 3,
+    "migrated": 4,
     "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
     "fontSize": 16,
     "emojiStyle": "none",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "LiCircuitBoard",
+      "LiAtom",
+      "LiDna",
+      "IbBeaker"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
@@ -18,6 +23,14 @@
     "iconInTitleEnabled": false,
     "iconInFrontmatterEnabled": false,
     "iconsBackgroundCheckEnabled": false,
-    "iconsInNotesEnabled": true
-  }
+    "iconsInNotesEnabled": true,
+    "iconIdentifier": ":"
+  },
+  "STEM/Science/Chemistry": {
+    "iconName": "IbBeaker",
+    "iconColor": "#176282"
+  },
+  "STEM/Science/Biology": "LiDna",
+  "STEM/Science/Physics": "LiAtom",
+  "STEM/Science/Physics/Electricity and Magnetism": "LiCircuitBoard"
 }

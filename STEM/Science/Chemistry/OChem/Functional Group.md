@@ -10,7 +10,8 @@ Alkane is not technically a functional group which is the exact reason it is on 
 ```smiles
 *c=c*
 ```
-
+## Alkene stability
+![[Pasted image 20240317142109.png]]
 # Alkyne
 ```smiles
 *c#c*

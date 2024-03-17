@@ -6963,8 +6963,8 @@ var require_SvgWrapper = __commonJS({
         mask.setAttributeNS(null, "fill", "white");
         masks.appendChild(mask);
         masks.setAttributeNS(null, "id", this.uid + "-text-mask");
-        for (let path of pathChildNodes) {
-          paths.appendChild(path);
+        for (let path2 of pathChildNodes) {
+          paths.appendChild(path2);
         }
         for (let backgroundItem of this.backgroundItems) {
           background.appendChild(backgroundItem);
@@ -13349,7 +13349,7 @@ var require_ReactionDrawer = __commonJS({
         let s = this.opts.arrow.headSize;
         let sw = s * (7 / 4.5);
         let marker = document.createElementNS("http://www.w3.org/2000/svg", "marker");
-        let path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+        let path2 = document.createElementNS("http://www.w3.org/2000/svg", "path");
         marker.setAttributeNS(null, "id", "arrowhead");
         marker.setAttributeNS(null, "viewBox", `0 0 ${sw} ${s}`);
         marker.setAttributeNS(null, "markerUnits", "userSpaceOnUse");
@@ -13359,9 +13359,9 @@ var require_ReactionDrawer = __commonJS({
         marker.setAttributeNS(null, "refY", 2.2);
         marker.setAttributeNS(null, "orient", "auto");
         marker.setAttributeNS(null, "fill", this.themeManager.getColor("C"));
-        path.setAttributeNS(null, "style", "fill-rule:nonzero;");
-        path.setAttributeNS(null, "d", "m 0 0 l 7 2.25 l -7 2.25 c 0 0 0.735 -1.084 0.735 -2.28 c 0 -1.196 -0.735 -2.22 -0.735 -2.22 z");
-        marker.appendChild(path);
+        path2.setAttributeNS(null, "style", "fill-rule:nonzero;");
+        path2.setAttributeNS(null, "d", "m 0 0 l 7 2.25 l -7 2.25 c 0 0 0.735 -1.084 0.735 -2.28 c 0 -1.196 -0.735 -2.22 -0.735 -2.22 z");
+        marker.appendChild(path2);
         return marker;
       }
       getArrow() {
@@ -20373,12 +20373,12 @@ var require_lib = __commonJS({
         return dur;
       return dur.shiftToAll().normalize();
     }
-    function getFileTitle(path) {
-      if (path.includes("/"))
-        path = path.substring(path.lastIndexOf("/") + 1);
-      if (path.endsWith(".md"))
-        path = path.substring(0, path.length - 3);
-      return path;
+    function getFileTitle(path2) {
+      if (path2.includes("/"))
+        path2 = path2.substring(path2.lastIndexOf("/") + 1);
+      if (path2.endsWith(".md"))
+        path2 = path2.substring(0, path2.length - 3);
+      return path2;
     }
     parsimmon_umd_minExports.alt(parsimmon_umd_minExports.regex(new RegExp(emojiRegex(), "")), parsimmon_umd_minExports.regex(/[0-9\p{Letter}_-]+/u).map((str) => str.toLocaleLowerCase()), parsimmon_umd_minExports.whitespace.map((_) => "-"), parsimmon_umd_minExports.any.map((_) => "")).many().map((result) => result.join(""));
     var HEADER_CANONICALIZER = parsimmon_umd_minExports.alt(parsimmon_umd_minExports.regex(new RegExp(emojiRegex(), "")), parsimmon_umd_minExports.regex(/[0-9\p{Letter}_-]+/u), parsimmon_umd_minExports.whitespace.map((_) => " "), parsimmon_umd_minExports.any.map((_) => " ")).many().map((result) => {
@@ -20702,9 +20702,9 @@ var require_lib = __commonJS({
     })(Groupings || (Groupings = {}));
     var Link = class {
       /** Create a link to a specific file. */
-      static file(path, embed = false, display) {
+      static file(path2, embed = false, display) {
         return new Link({
-          path,
+          path: path2,
           embed,
           display,
           subpath: void 0,
@@ -20722,9 +20722,9 @@ var require_lib = __commonJS({
           return Link.file(linkpath, embed, display);
       }
       /** Create a link to a specific file and header in that file. */
-      static header(path, header, embed, display) {
+      static header(path2, header, embed, display) {
         return new Link({
-          path,
+          path: path2,
           embed,
           display,
           subpath: normalizeHeaderForLink(header),
@@ -20732,9 +20732,9 @@ var require_lib = __commonJS({
         });
       }
       /** Create a link to a specific file and block in that file. */
-      static block(path, blockId, embed, display) {
+      static block(path2, blockId, embed, display) {
         return new Link({
-          path,
+          path: path2,
           embed,
           display,
           subpath: blockId,
@@ -20763,8 +20763,8 @@ var require_lib = __commonJS({
       }
       /** Update this link with a new path. */
       //@ts-ignore; error appeared after updating Obsidian to 0.15.4; it also updated other packages but didn't say which
-      withPath(path) {
-        return new Link(Object.assign({}, this, { path }));
+      withPath(path2) {
+        return new Link(Object.assign({}, this, { path: path2 }));
       }
       /** Return a new link which points to the same location but with a new display value. */
       withDisplay(display) {
@@ -20935,8 +20935,8 @@ var require_lib = __commonJS({
         return { type: "tag", tag: tag2 };
       }
       Sources2.tag = tag;
-      function csv(path) {
-        return { type: "csv", path };
+      function csv(path2) {
+        return { type: "csv", path: path2 };
       }
       Sources2.csv = csv;
       function folder(prefix) {
@@ -21123,7 +21123,7 @@ var require_lib = __commonJS({
       rawNull: (_) => parsimmon_umd_minExports.string("null"),
       // Source parsing.
       tagSource: (q) => q.tag.map((tag) => Sources.tag(tag)),
-      csvSource: (q) => parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.string("csv(").skip(parsimmon_umd_minExports.optWhitespace), q.string, parsimmon_umd_minExports.string(")"), (_1, path, _2) => Sources.csv(path)),
+      csvSource: (q) => parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.string("csv(").skip(parsimmon_umd_minExports.optWhitespace), q.string, parsimmon_umd_minExports.string(")"), (_1, path2, _2) => Sources.csv(path2)),
       linkIncomingSource: (q) => q.link.map((link) => Sources.link(link.path, true)),
       linkOutgoingSource: (q) => parsimmon_umd_minExports.seqMap(parsimmon_umd_minExports.string("outgoing(").skip(parsimmon_umd_minExports.optWhitespace), q.link, parsimmon_umd_minExports.string(")"), (_1, link, _2) => Sources.link(link.path, false)),
       folderSource: (q) => q.string.map((str) => Sources.folder(str)),
@@ -21346,18 +21346,23 @@ __export(main_exports, {
   default: () => ChemPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian4 = require("obsidian");
+var import_obsidian6 = require("obsidian");
 
-// src/settings/base.ts
-var SAMPLE_SMILES_1 = "OC(=O)C(C)=CC1=CC=CC=C1";
-var SAMPLE_SMILES_2 = "OC(C(=O)O[C@H]1C[N+]2(CCCOC3=CC=CC=C3)CCC1CC2)(C1=CC=CS1)C1=CC=CS1";
-var SETTINGS_VERSION = "v2";
-var DEFAULT_SETTINGS = {
-  version: SETTINGS_VERSION,
+// src/settings/v1.ts
+var DEFAULT_SETTINGS_V1 = {
   darkTheme: "dark",
   lightTheme: "light",
-  sample1: SAMPLE_SMILES_1,
-  sample2: SAMPLE_SMILES_2,
+  sample: "CC(=O)NC1=C-C=C-C=C1-C(=O)O",
+  width: "300"
+};
+
+// src/settings/v2.ts
+var DEFAULT_SETTINGS_V2 = {
+  version: "v2",
+  darkTheme: "dark",
+  lightTheme: "light",
+  sample1: "OC(=O)C(C)=CC1=CC=CC=C1",
+  sample2: "OC(C(=O)O[C@H]1C[N+]2(CCCOC3=CC=CC=C3)CCC1CC2)(C1=CC=CS1)C1=CC=CS1",
   imgWidth: 300,
   copy: {
     scale: 2,
@@ -21365,232 +21370,386 @@ var DEFAULT_SETTINGS = {
     theme: "default"
   },
   dataview: false,
+  inlineSmiles: false,
+  inlineSmilesPrefix: "$smiles=",
   options: {}
 };
-var DEFAULT_SD_OPTIONS = {
-  width: 300,
-  height: 300,
-  scale: 1,
-  bondThickness: 1,
-  shortBondLength: 0.8,
-  bondSpacing: 5.1,
-  atomVisualization: "default",
-  isomeric: true,
-  debug: false,
-  terminalCarbons: false,
-  explicitHydrogens: true,
-  overlapSensitivity: 0.42,
-  overlapResolutionIterations: 1,
-  compactDrawing: false,
-  fontFamily: "Arial, Helvetica, sans-serif",
-  fontSizeLarge: 11,
-  fontSizeSmall: 3,
-  padding: 2,
-  experimentalSSSR: true,
-  kkThreshold: 0.1,
-  kkInnerThreshold: 0.1,
-  kkMaxIteration: 2e4,
-  kkMaxInnerIteration: 50,
-  kkMaxEnergy: 1e9,
-  themes: {
-    dark: {
-      C: "#fff",
-      O: "#e74c3c",
-      N: "#3498db",
-      F: "#27ae60",
-      CL: "#16a085",
-      BR: "#d35400",
-      I: "#8e44ad",
-      P: "#d35400",
-      S: "#f1c40f",
-      B: "#e67e22",
-      SI: "#e67e22",
-      H: "#aaa",
-      BACKGROUND: "#141414"
-    },
-    light: {
-      C: "#222",
-      O: "#e74c3c",
-      N: "#3498db",
-      F: "#27ae60",
-      CL: "#16a085",
-      BR: "#d35400",
-      I: "#8e44ad",
-      P: "#d35400",
-      S: "#f1c40f",
-      B: "#e67e22",
-      SI: "#e67e22",
-      H: "#666",
-      BACKGROUND: "#fff"
-    },
-    oldschool: {
-      C: "#000",
-      O: "#000",
-      N: "#000",
-      F: "#000",
-      CL: "#000",
-      BR: "#000",
-      I: "#000",
-      P: "#000",
-      S: "#000",
-      B: "#000",
-      SI: "#000",
-      H: "#000",
-      BACKGROUND: "#fff"
-    },
-    "oldschool-dark": {
-      C: "#fff",
-      O: "#fff",
-      N: "#fff",
-      F: "#fff",
-      CL: "#fff",
-      BR: "#fff",
-      I: "#fff",
-      P: "#fff",
-      S: "#fff",
-      B: "#fff",
-      SI: "#fff",
-      H: "#fff",
-      BACKGROUND: "#000"
-    },
-    solarized: {
-      C: "#586e75",
-      O: "#dc322f",
-      N: "#268bd2",
-      F: "#859900",
-      CL: "#16a085",
-      BR: "#cb4b16",
-      I: "#6c71c4",
-      P: "#d33682",
-      S: "#b58900",
-      B: "#2aa198",
-      SI: "#2aa198",
-      H: "#657b83",
-      BACKGROUND: "#fff"
-    },
-    "solarized-dark": {
-      C: "#93a1a1",
-      O: "#dc322f",
-      N: "#268bd2",
-      F: "#859900",
-      CL: "#16a085",
-      BR: "#cb4b16",
-      I: "#6c71c4",
-      P: "#d33682",
-      S: "#b58900",
-      B: "#2aa198",
-      SI: "#2aa198",
-      H: "#839496",
-      BACKGROUND: "#fff"
-    },
-    matrix: {
-      C: "#678c61",
-      O: "#2fc079",
-      N: "#4f7e7e",
-      F: "#90d762",
-      CL: "#82d967",
-      BR: "#23755a",
-      I: "#409931",
-      P: "#c1ff8a",
-      S: "#faff00",
-      B: "#50b45a",
-      SI: "#409931",
-      H: "#426644",
-      BACKGROUND: "#fff"
-    },
-    github: {
-      C: "#24292f",
-      O: "#cf222e",
-      N: "#0969da",
-      F: "#2da44e",
-      CL: "#6fdd8b",
-      BR: "#bc4c00",
-      I: "#8250df",
-      P: "#bf3989",
-      S: "#d4a72c",
-      B: "#fb8f44",
-      SI: "#bc4c00",
-      H: "#57606a",
-      BACKGROUND: "#fff"
-    },
-    carbon: {
-      C: "#161616",
-      O: "#da1e28",
-      N: "#0f62fe",
-      F: "#198038",
-      CL: "#007d79",
-      BR: "#fa4d56",
-      I: "#8a3ffc",
-      P: "#ff832b",
-      S: "#f1c21b",
-      B: "#8a3800",
-      SI: "#e67e22",
-      H: "#525252",
-      BACKGROUND: "#fff"
-    },
-    cyberpunk: {
-      C: "#ea00d9",
-      O: "#ff3131",
-      N: "#0abdc6",
-      F: "#00ff9f",
-      CL: "#00fe00",
-      BR: "#fe9f20",
-      I: "#ff00ff",
-      P: "#fe7f00",
-      S: "#fcee0c",
-      B: "#ff00ff",
-      SI: "#ffffff",
-      H: "#913cb1",
-      BACKGROUND: "#fff"
-    },
-    gruvbox: {
-      C: "#665c54",
-      O: "#cc241d",
-      N: "#458588",
-      F: "#98971a",
-      CL: "#79740e",
-      BR: "#d65d0e",
-      I: "#b16286",
-      P: "#af3a03",
-      S: "#d79921",
-      B: "#689d6a",
-      SI: "#427b58",
-      H: "#7c6f64",
-      BACKGROUND: "#fbf1c7"
-    },
-    "gruvbox-dark": {
-      C: "#ebdbb2",
-      O: "#cc241d",
-      N: "#458588",
-      F: "#98971a",
-      CL: "#b8bb26",
-      BR: "#d65d0e",
-      I: "#b16286",
-      P: "#fe8019",
-      S: "#d79921",
-      B: "#8ec07c",
-      SI: "#83a598",
-      H: "#bdae93",
-      BACKGROUND: "#282828"
-    },
-    custom: {
-      C: "#222",
-      O: "#e74c3c",
-      N: "#3498db",
-      F: "#27ae60",
-      CL: "#16a085",
-      BR: "#d35400",
-      I: "#8e44ad",
-      P: "#d35400",
-      S: "#f1c40f",
-      B: "#e67e22",
-      SI: "#e67e22",
-      H: "#666",
-      BACKGROUND: "#fff"
+
+// src/settings/v3.ts
+var DEFAULT_SETTINGS_V3 = {
+  version: "v3",
+  darkTheme: "dark",
+  lightTheme: "light",
+  sample1: "OC(=O)C(C)=CC1=CC=CC=C1",
+  sample2: "OC(C(=O)O[C@H]1C[N+]2(CCCOC3=CC=CC=C3)CCC1CC2)(C1=CC=CS1)C1=CC=CS1",
+  copy: {
+    scale: 2,
+    transparent: true,
+    theme: "default"
+  },
+  dataview: false,
+  inlineSmiles: false,
+  inlineSmilesPrefix: "$smiles=",
+  core: "smiles-drawer",
+  commonOptions: {
+    width: 300,
+    scale: 1,
+    unifiedWidth: 300,
+    compactDrawing: false,
+    explicitHydrogens: false,
+    explicitMethyl: false
+  },
+  smilesDrawerOptions: {
+    moleculeOptions: {},
+    reactionOptions: {}
+  },
+  rdkitOptions: {}
+};
+
+// src/settings/base.ts
+var DEFAULT_SETTINGS = DEFAULT_SETTINGS_V3;
+var migrate_1_3 = (v1) => {
+  v1 = { ...DEFAULT_SETTINGS_V1, ...v1 };
+  return {
+    ...DEFAULT_SETTINGS_V3,
+    darkTheme: v1.darkTheme,
+    lightTheme: v1.lightTheme,
+    sample1: v1.sample,
+    commonOptions: {
+      ...DEFAULT_SETTINGS_V3.commonOptions,
+      unifiedWidth: parseInt(v1.width)
     }
+  };
+};
+var migrate_2_3 = (v2) => {
+  v2 = { ...DEFAULT_SETTINGS_V2, ...v2 };
+  return {
+    ...DEFAULT_SETTINGS_V3,
+    darkTheme: v2.darkTheme,
+    lightTheme: v2.lightTheme,
+    sample1: v2.sample1,
+    sample2: v2.sample2,
+    copy: {
+      scale: v2.copy.scale,
+      transparent: v2.copy.transparent,
+      theme: v2.copy.theme
+    },
+    dataview: v2.dataview,
+    inlineSmiles: v2.inlineSmiles,
+    inlineSmilesPrefix: v2.inlineSmilesPrefix,
+    commonOptions: {
+      width: v2.options.width,
+      scale: v2.options.scale,
+      unifiedWidth: v2.imgWidth,
+      compactDrawing: v2.options.compactDrawing,
+      explicitHydrogens: v2.options.explicitHydrogens,
+      explicitMethyl: v2.options.terminalCarbons
+    },
+    smilesDrawerOptions: {
+      ...DEFAULT_SETTINGS_V3.smilesDrawerOptions,
+      moleculeOptions: v2.options
+    },
+    rdkitOptions: {
+      explicitMethyl: v2.options.terminalCarbons
+    }
+  };
+};
+var migrate_3_3 = (draft) => {
+  return { ...DEFAULT_SETTINGS, ...draft };
+};
+var migrateSettings = (draft) => {
+  if (!draft || Object.keys(draft).length === 0)
+    return DEFAULT_SETTINGS;
+  if (!("version" in draft))
+    return migrate_1_3(draft);
+  else if (draft.version === "v2")
+    return migrate_2_3(draft);
+  else if (draft.version === "v3")
+    return migrate_3_3(draft);
+  return DEFAULT_SETTINGS;
+};
+
+// src/lib/themes/rdkitThemes.ts
+var RDKitThemes = {
+  "rdkit-default": {
+    "-1": [0, 0, 0],
+    "0": [0.1, 0.1, 0.1],
+    "6": [0, 0, 0],
+    "7": [0, 0, 1],
+    "8": [1, 0, 0],
+    "9": [0.2, 0.8, 0.8],
+    "15": [1, 0.5, 0],
+    "16": [0.8, 0.8, 0],
+    "17": [0, 0.802, 0],
+    "35": [0.5, 0.3, 0.1],
+    "53": [0.63, 0.12, 0.94],
+    "201": [0.68, 0.85, 0.9]
+  },
+  "rdkit-avalon": {
+    "-1": [0, 0, 0],
+    "0": [0.1, 0.1, 0.1],
+    "6": [0, 0, 0],
+    "7": [0, 0, 1],
+    "8": [1, 0, 0],
+    "9": [0, 0.498, 0],
+    "15": [0.498, 0, 0.498],
+    "16": [0.498, 0.247, 0],
+    "17": [0, 0.498, 0],
+    "35": [0, 0.498, 0],
+    "53": [0.247, 0, 0.498],
+    "201": [0.68, 0.85, 0.9]
+  },
+  "rdkit-cdk": {
+    "-1": [0, 0, 0],
+    "0": [0.1, 0.1, 0.1],
+    "6": [0, 0, 0],
+    "7": [0.188, 0.314, 0.972],
+    "8": [1, 0.051, 0.051],
+    "9": [0.565, 0.878, 0.314],
+    "15": [1, 0.5, 0],
+    "16": [0.776, 0.776, 0.173],
+    "17": [0.122, 0.498, 0.122],
+    "35": [0.651, 0.161, 0.161],
+    "53": [0.58, 0, 0.58],
+    "5": [1, 0.71, 0.71],
+    "201": [0.68, 0.85, 0.9]
+  },
+  "rdkit-dark": {
+    "-1": [0.8, 0.8, 0.8],
+    "0": [0.9, 0.9, 0.9],
+    "6": [0.9, 0.9, 0.9],
+    "7": [0.33, 0.41, 0.92],
+    "8": [1, 0.2, 0.2],
+    "9": [0.2, 0.8, 0.8],
+    "15": [1, 0.5, 0],
+    "16": [0.8, 0.8, 0],
+    "17": [0, 0.802, 0],
+    "35": [0.71, 0.4, 0.07],
+    "53": [0.89, 4e-3, 1],
+    "201": [0.68, 0.85, 0.9]
   }
 };
+
+// src/lib/themes/smilesDrawerThemes.ts
+var SDThemes = {
+  dark: {
+    C: "#fff",
+    O: "#e74c3c",
+    N: "#3498db",
+    F: "#27ae60",
+    CL: "#16a085",
+    BR: "#d35400",
+    I: "#8e44ad",
+    P: "#d35400",
+    S: "#f1c40f",
+    B: "#e67e22",
+    SI: "#e67e22",
+    H: "#aaa",
+    BACKGROUND: "#141414"
+  },
+  light: {
+    C: "#222",
+    O: "#e74c3c",
+    N: "#3498db",
+    F: "#27ae60",
+    CL: "#16a085",
+    BR: "#d35400",
+    I: "#8e44ad",
+    P: "#d35400",
+    S: "#f1c40f",
+    B: "#e67e22",
+    SI: "#e67e22",
+    H: "#666",
+    BACKGROUND: "#fff"
+  },
+  oldschool: {
+    C: "#000",
+    O: "#000",
+    N: "#000",
+    F: "#000",
+    CL: "#000",
+    BR: "#000",
+    I: "#000",
+    P: "#000",
+    S: "#000",
+    B: "#000",
+    SI: "#000",
+    H: "#000",
+    BACKGROUND: "#fff"
+  },
+  "oldschool-dark": {
+    C: "#fff",
+    O: "#fff",
+    N: "#fff",
+    F: "#fff",
+    CL: "#fff",
+    BR: "#fff",
+    I: "#fff",
+    P: "#fff",
+    S: "#fff",
+    B: "#fff",
+    SI: "#fff",
+    H: "#fff",
+    BACKGROUND: "#000"
+  },
+  solarized: {
+    C: "#586e75",
+    O: "#dc322f",
+    N: "#268bd2",
+    F: "#859900",
+    CL: "#16a085",
+    BR: "#cb4b16",
+    I: "#6c71c4",
+    P: "#d33682",
+    S: "#b58900",
+    B: "#2aa198",
+    SI: "#2aa198",
+    H: "#657b83",
+    BACKGROUND: "#fff"
+  },
+  "solarized-dark": {
+    C: "#93a1a1",
+    O: "#dc322f",
+    N: "#268bd2",
+    F: "#859900",
+    CL: "#16a085",
+    BR: "#cb4b16",
+    I: "#6c71c4",
+    P: "#d33682",
+    S: "#b58900",
+    B: "#2aa198",
+    SI: "#2aa198",
+    H: "#839496",
+    BACKGROUND: "#fff"
+  },
+  matrix: {
+    C: "#678c61",
+    O: "#2fc079",
+    N: "#4f7e7e",
+    F: "#90d762",
+    CL: "#82d967",
+    BR: "#23755a",
+    I: "#409931",
+    P: "#c1ff8a",
+    S: "#faff00",
+    B: "#50b45a",
+    SI: "#409931",
+    H: "#426644",
+    BACKGROUND: "#fff"
+  },
+  github: {
+    C: "#24292f",
+    O: "#cf222e",
+    N: "#0969da",
+    F: "#2da44e",
+    CL: "#6fdd8b",
+    BR: "#bc4c00",
+    I: "#8250df",
+    P: "#bf3989",
+    S: "#d4a72c",
+    B: "#fb8f44",
+    SI: "#bc4c00",
+    H: "#57606a",
+    BACKGROUND: "#fff"
+  },
+  carbon: {
+    C: "#161616",
+    O: "#da1e28",
+    N: "#0f62fe",
+    F: "#198038",
+    CL: "#007d79",
+    BR: "#fa4d56",
+    I: "#8a3ffc",
+    P: "#ff832b",
+    S: "#f1c21b",
+    B: "#8a3800",
+    SI: "#e67e22",
+    H: "#525252",
+    BACKGROUND: "#fff"
+  },
+  cyberpunk: {
+    C: "#ea00d9",
+    O: "#ff3131",
+    N: "#0abdc6",
+    F: "#00ff9f",
+    CL: "#00fe00",
+    BR: "#fe9f20",
+    I: "#ff00ff",
+    P: "#fe7f00",
+    S: "#fcee0c",
+    B: "#ff00ff",
+    SI: "#ffffff",
+    H: "#913cb1",
+    BACKGROUND: "#fff"
+  },
+  gruvbox: {
+    C: "#665c54",
+    O: "#cc241d",
+    N: "#458588",
+    F: "#98971a",
+    CL: "#79740e",
+    BR: "#d65d0e",
+    I: "#b16286",
+    P: "#af3a03",
+    S: "#d79921",
+    B: "#689d6a",
+    SI: "#427b58",
+    H: "#7c6f64",
+    BACKGROUND: "#fbf1c7"
+  },
+  "gruvbox-dark": {
+    C: "#ebdbb2",
+    O: "#cc241d",
+    N: "#458588",
+    F: "#98971a",
+    CL: "#b8bb26",
+    BR: "#d65d0e",
+    I: "#b16286",
+    P: "#fe8019",
+    S: "#d79921",
+    B: "#8ec07c",
+    SI: "#83a598",
+    H: "#bdae93",
+    BACKGROUND: "#282828"
+  },
+  custom: {
+    C: "#222",
+    O: "#e74c3c",
+    N: "#3498db",
+    F: "#27ae60",
+    CL: "#16a085",
+    BR: "#d35400",
+    I: "#8e44ad",
+    P: "#d35400",
+    S: "#f1c40f",
+    B: "#e67e22",
+    SI: "#e67e22",
+    H: "#666",
+    BACKGROUND: "#fff"
+  }
+};
+
+// src/lib/themes/helpers.ts
+function hex2RGB(hex) {
+  hex = hex.slice(1);
+  if (hex.length === 3) {
+    hex = hex.split("").map((l) => l.repeat(2)).join("");
+  }
+  const hexInt = parseInt(hex, 16);
+  const r = hexInt >> 16 & 255;
+  const g = hexInt >> 8 & 255;
+  const b = hexInt & 255;
+  return [r / 255, g / 255, b / 255];
+}
+function RGB2hex(rgb) {
+  return "#" + rgb.map(
+    (v) => Math.round(v * 255).toString(16).padStart(2, "0")
+  ).join("");
+}
+
+// src/lib/themes/theme.ts
 var themeList = {
+  // from smiles-drawer
   light: "Light",
   dark: "Dark",
   oldschool: "Oldschool",
@@ -21602,47 +21761,148 @@ var themeList = {
   carbon: "Carbon",
   cyberpunk: "Cyberpunk",
   gruvbox: "Gruvbox",
-  "gruvbox-dark": "Gruvbox Dark"
+  "gruvbox-dark": "Gruvbox Dark",
+  // from RDKit
+  "rdkit-default": "Light (RDKit)",
+  "rdkit-avalon": "Avalon (RDKit)",
+  "rdkit-cdk": "CDK (RDKit)",
+  "rdkit-dark": "Dark (RDKit)"
 };
+var convertToSDTheme = (name) => {
+  if (Object.keys(SDThemes).includes(name)) {
+    return SDThemes[name];
+  } else if (Object.keys(RDKitThemes).includes(name)) {
+    const p = RDKitThemes[name];
+    const t2 = {};
+    Keys_RD2SD.forEach((v, k) => {
+      if (p[v])
+        t2[k] = RGB2hex(p[v]);
+    });
+    t2["BACKGROUND"] = getSDBGColor(name);
+    return t2;
+  }
+  return SDThemes["light"];
+};
+var convertToRDKitTheme = (name) => {
+  if (Object.keys(SDThemes).includes(name)) {
+    const t2 = SDThemes[name];
+    const p = {};
+    Keys_SD2RD.forEach((v, k) => {
+      p[k] = hex2RGB(t2[v]);
+    });
+    return p;
+  } else if (Object.keys(RDKitThemes).includes(name)) {
+    return RDKitThemes[name];
+  }
+  return RDKitThemes["rdkit-default"];
+};
+var getSDBGColor = (name) => {
+  if (Object.keys(SDThemes).includes(name)) {
+    const t2 = SDThemes[name];
+    return t2["BACKGROUND"];
+  } else if (Object.keys(RDKitThemes).includes(name)) {
+    return RGB2hex(RDKitThemes[name][6].map((v) => 1 - v));
+  }
+  return "#000";
+};
+var Keys_RD2SD = /* @__PURE__ */ new Map([
+  ["C", 6],
+  ["O", 8],
+  ["N", 7],
+  ["F", 9],
+  ["CL", 17],
+  ["BR", 35],
+  ["I", 53],
+  ["P", 15],
+  ["S", 16],
+  ["B", 5],
+  ["SI", 14],
+  ["H", 1]
+]);
+var Keys_SD2RD = /* @__PURE__ */ new Map([
+  [-1, "H"],
+  [0, "C"],
+  [6, "C"],
+  [7, "N"],
+  [8, "O"],
+  [9, "F"],
+  [14, "SI"],
+  [15, "P"],
+  [16, "S"],
+  [17, "CL"],
+  [35, "BR"],
+  [53, "I"],
+  [5, "B"],
+  [201, "H"]
+]);
 
-// src/settings/SettingTab.ts
-var import_obsidian2 = require("obsidian");
-
-// src/global/drawer.ts
+// src/lib/core/smilesDrawerCore.ts
 var import_smiles_drawer = __toESM(require_app());
-var gDrawer = new import_smiles_drawer.default.SmiDrawer(DEFAULT_SD_OPTIONS);
-var setDrawer = (options) => {
-  gDrawer = new import_smiles_drawer.default.SmiDrawer({ ...DEFAULT_SD_OPTIONS, ...options });
+
+// src/lib/core/smilesDrawerOptions.ts
+var collectThemes = () => {
+  const newThemes = {};
+  Object.keys(RDKitThemes).forEach(
+    (name) => newThemes[name] = {
+      ...SDThemes["light"],
+      // TODO: 0.4.2 check this override
+      ...convertToSDTheme(name)
+    }
+  );
+  return {
+    ...SDThemes,
+    ...newThemes
+  };
 };
-var clearDrawer = () => {
-  gDrawer = {};
+var DEFAULT_SD_OPTIONS = {
+  moleculeOptions: {
+    width: 300,
+    height: 300,
+    scale: 1,
+    bondThickness: 1,
+    shortBondLength: 0.8,
+    bondSpacing: 5.1,
+    atomVisualization: "default",
+    isomeric: true,
+    debug: false,
+    terminalCarbons: false,
+    explicitHydrogens: true,
+    overlapSensitivity: 0.42,
+    overlapResolutionIterations: 1,
+    compactDrawing: false,
+    fontFamily: "Arial, Helvetica, sans-serif",
+    fontSizeLarge: 11,
+    fontSizeSmall: 3,
+    padding: 2,
+    experimentalSSSR: true,
+    kkThreshold: 0.1,
+    kkInnerThreshold: 0.1,
+    kkMaxIteration: 2e4,
+    kkMaxInnerIteration: 50,
+    kkMaxEnergy: 1e9,
+    themes: collectThemes()
+  },
+  reactionOptions: {
+    fontSize: 9,
+    fontFamily: "Arial, Helvetica, sans-serif",
+    spacing: 10,
+    plus: {
+      size: 9,
+      thickness: 1
+    },
+    arrow: {
+      length: 120,
+      headSize: 6,
+      thickness: 1,
+      margin: 3
+    }
+  }
 };
 
-// src/global/blocks.ts
-var gBlocks;
-var setBlocks = () => {
-  gBlocks = new Array();
+// src/lib/themes/getCurrentTheme.ts
+var getCurrentTheme = (settings) => {
+  return document.body.hasClass("theme-dark") && !document.body.hasClass("theme-light") ? settings.darkTheme : settings.lightTheme;
 };
-var addBlock = (block) => {
-  gBlocks.push(block);
-};
-var removeBlock = (block) => {
-  if (gBlocks.indexOf(block) != -1)
-    gBlocks.splice(gBlocks.indexOf(block), 1);
-};
-var refreshBlocks = () => {
-  gBlocks.forEach((block) => {
-    block.render();
-  });
-};
-var clearBlocks = () => {
-  gBlocks.forEach((block) => {
-    removeBlock(block);
-  });
-};
-
-// src/global/dataview.ts
-var import_obsidian_dataview = __toESM(require_lib());
 
 // node_modules/i18next/dist/esm/i18next.js
 var consoleLogger = {
@@ -21779,14 +22039,14 @@ function copy(a, s, t2) {
       t2[m] = s[m];
   });
 }
-function getLastOfPath(object, path, Empty) {
+function getLastOfPath(object, path2, Empty) {
   function cleanKey(key) {
     return key && key.indexOf("###") > -1 ? key.replace(/###/g, ".") : key;
   }
   function canNotTraverseDeeper() {
     return !object || typeof object === "string";
   }
-  const stack = typeof path !== "string" ? [].concat(path) : path.split(".");
+  const stack = typeof path2 !== "string" ? [].concat(path2) : path2.split(".");
   while (stack.length > 1) {
     if (canNotTraverseDeeper())
       return {};
@@ -21806,29 +22066,29 @@ function getLastOfPath(object, path, Empty) {
     k: cleanKey(stack.shift())
   };
 }
-function setPath(object, path, newValue) {
+function setPath(object, path2, newValue) {
   const {
     obj,
     k
-  } = getLastOfPath(object, path, Object);
+  } = getLastOfPath(object, path2, Object);
   obj[k] = newValue;
 }
-function pushPath(object, path, newValue, concat) {
+function pushPath(object, path2, newValue, concat) {
   const {
     obj,
     k
-  } = getLastOfPath(object, path, Object);
+  } = getLastOfPath(object, path2, Object);
   obj[k] = obj[k] || [];
   if (concat)
     obj[k] = obj[k].concat(newValue);
   if (!concat)
     obj[k].push(newValue);
 }
-function getPath(object, path) {
+function getPath(object, path2) {
   const {
     obj,
     k
-  } = getLastOfPath(object, path);
+  } = getLastOfPath(object, path2);
   if (!obj)
     return void 0;
   return obj[k];
@@ -21891,13 +22151,13 @@ function looksLikeObjectPath(key, nsSeparator, keySeparator) {
   }
   return matched;
 }
-function deepFind(obj, path) {
+function deepFind(obj, path2) {
   let keySeparator = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : ".";
   if (!obj)
     return void 0;
-  if (obj[path])
-    return obj[path];
-  const paths = path.split(keySeparator);
+  if (obj[path2])
+    return obj[path2];
+  const paths = path2.split(keySeparator);
   let current = obj;
   for (let i = 0; i < paths.length; ++i) {
     if (!current)
@@ -21918,7 +22178,7 @@ function deepFind(obj, path) {
         return void 0;
       if (mix === null)
         return null;
-      if (path.endsWith(p)) {
+      if (path2.endsWith(p)) {
         if (typeof mix === "string")
           return mix;
         if (p && typeof mix[p] === "string")
@@ -21969,15 +22229,15 @@ var ResourceStore = class extends EventEmitter {
     let options = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : {};
     const keySeparator = options.keySeparator !== void 0 ? options.keySeparator : this.options.keySeparator;
     const ignoreJSONStructure = options.ignoreJSONStructure !== void 0 ? options.ignoreJSONStructure : this.options.ignoreJSONStructure;
-    let path = [lng, ns];
+    let path2 = [lng, ns];
     if (key && typeof key !== "string")
-      path = path.concat(key);
+      path2 = path2.concat(key);
     if (key && typeof key === "string")
-      path = path.concat(keySeparator ? key.split(keySeparator) : key);
+      path2 = path2.concat(keySeparator ? key.split(keySeparator) : key);
     if (lng.indexOf(".") > -1) {
-      path = lng.split(".");
+      path2 = lng.split(".");
     }
-    const result = getPath(this.data, path);
+    const result = getPath(this.data, path2);
     if (result || !ignoreJSONStructure || typeof key !== "string")
       return result;
     return deepFind(this.data && this.data[lng] && this.data[lng][ns], key, keySeparator);
@@ -21987,16 +22247,16 @@ var ResourceStore = class extends EventEmitter {
       silent: false
     };
     const keySeparator = options.keySeparator !== void 0 ? options.keySeparator : this.options.keySeparator;
-    let path = [lng, ns];
+    let path2 = [lng, ns];
     if (key)
-      path = path.concat(keySeparator ? key.split(keySeparator) : key);
+      path2 = path2.concat(keySeparator ? key.split(keySeparator) : key);
     if (lng.indexOf(".") > -1) {
-      path = lng.split(".");
+      path2 = lng.split(".");
       value = ns;
-      ns = path[1];
+      ns = path2[1];
     }
     this.addNamespaces(ns);
-    setPath(this.data, path, value);
+    setPath(this.data, path2, value);
     if (!options.silent)
       this.emit("added", lng, ns, key, value);
   }
@@ -22017,15 +22277,15 @@ var ResourceStore = class extends EventEmitter {
     let options = arguments.length > 5 && arguments[5] !== void 0 ? arguments[5] : {
       silent: false
     };
-    let path = [lng, ns];
+    let path2 = [lng, ns];
     if (lng.indexOf(".") > -1) {
-      path = lng.split(".");
+      path2 = lng.split(".");
       deep = resources;
       resources = ns;
-      ns = path[1];
+      ns = path2[1];
     }
     this.addNamespaces(ns);
-    let pack = getPath(this.data, path) || {};
+    let pack = getPath(this.data, path2) || {};
     if (deep) {
       deepExtend(pack, resources, overwrite);
     } else {
@@ -22034,7 +22294,7 @@ var ResourceStore = class extends EventEmitter {
         ...resources
       };
     }
-    setPath(this.data, path, pack);
+    setPath(this.data, path2, pack);
     if (!options.silent)
       this.emit("added", lng, ns, resources);
   }
@@ -22901,13 +23161,13 @@ var PluralResolver = class {
 function deepFindWithDefaults(data, defaultData, key) {
   let keySeparator = arguments.length > 3 && arguments[3] !== void 0 ? arguments[3] : ".";
   let ignoreJSONStructure = arguments.length > 4 && arguments[4] !== void 0 ? arguments[4] : true;
-  let path = getPathWithDefaults(data, defaultData, key);
-  if (!path && ignoreJSONStructure && typeof key === "string") {
-    path = deepFind(data, key, keySeparator);
-    if (path === void 0)
-      path = deepFind(defaultData, key, keySeparator);
+  let path2 = getPathWithDefaults(data, defaultData, key);
+  if (!path2 && ignoreJSONStructure && typeof key === "string") {
+    path2 = deepFind(data, key, keySeparator);
+    if (path2 === void 0)
+      path2 = deepFind(defaultData, key, keySeparator);
   }
-  return path;
+  return path2;
 }
 var Interpolator = class {
   constructor() {
@@ -22961,12 +23221,12 @@ var Interpolator = class {
     }
     const handleFormat = (key) => {
       if (key.indexOf(this.formatSeparator) < 0) {
-        const path = deepFindWithDefaults(data, defaultData, key, this.options.keySeparator, this.options.ignoreJSONStructure);
-        return this.alwaysFormat ? this.format(path, void 0, lng, {
+        const path2 = deepFindWithDefaults(data, defaultData, key, this.options.keySeparator, this.options.ignoreJSONStructure);
+        return this.alwaysFormat ? this.format(path2, void 0, lng, {
           ...options,
           ...data,
           interpolationkey: key
-        }) : path;
+        }) : path2;
       }
       const p = key.split(this.formatSeparator);
       const k = p.shift().trim();
@@ -24091,6 +24351,9 @@ var translation = {
     },
     dataview: {
       title: "Dataview plugin is missing or disabled."
+    },
+    rdkit: {
+      title: "RDKit failed to parse the SMILES."
     }
   },
   menus: {
@@ -24133,6 +24396,10 @@ var translation = {
     },
     advanced: {
       title: "Advanced",
+      core: {
+        name: "Core configuration",
+        description: "Select render core."
+      },
       "compact-drawing": {
         name: "Compact drawing",
         description: "Linearize simple structures and functional groups."
@@ -24140,6 +24407,10 @@ var translation = {
       "terminal-carbons": {
         name: "Show terminal carbons",
         description: "Explictly draw terminal carbons like methyl or methylene."
+      },
+      "explicit-hydrogen": {
+        name: "Explicit hydrogen",
+        description: "Enable to show explicit hydrogen."
       }
     },
     copy: {
@@ -24161,8 +24432,19 @@ var translation = {
     dataview: {
       title: "Dataview",
       enable: {
-        name: "Inline Dataview",
-        description: "Recognize and get return values from Dataview queries and DataviewJS lines as rendering source according to Dataview settings."
+        name: "Parse Dataview",
+        description: "In smiles block, recognize and get return values from Dataview queries and DataviewJS lines as rendering source according to Dataview settings."
+      }
+    },
+    inline: {
+      title: "Inline SMILES",
+      enable: {
+        name: "Enable inline SMILES",
+        description: "Render SMILES code lines."
+      },
+      prefix: {
+        name: "Inline SMILES Prefix",
+        description: "The prefix to inline SMILES."
       }
     }
   }
@@ -24184,6 +24466,9 @@ var translation2 = {
     },
     dataview: {
       title: "Dataview \u63D2\u4EF6\u672A\u542F\u7528\u3002"
+    },
+    rdkit: {
+      title: "RDKit \u65E0\u6CD5\u8BC6\u522B\u8BE5 SMILES \u5B57\u7B26\u4E32"
     }
   },
   menus: {
@@ -24196,7 +24481,7 @@ var translation2 = {
   settings: {
     scale: {
       name: "\u56FE\u50CF\u6BD4\u4F8B",
-      description: "\u8C03\u6574\u5168\u5C40\u56FE\u50CF\u6BD4\u4F8B\u3002\u8BE5\u503C\u4E3A 0 \u65F6\uFF0C\u6240\u6709\u56FE\u50CF\u5C06\u5177\u6709\u76F8\u540C\u7684\u5927\u5C0F\uFF1B\u82E5\u975E 0\uFF0C\u6240\u6709\u7ED3\u6784\u5C06\u5177\u6709\u76F8\u540C\u7684\u952E\u957F\uFF0C\u4F46\u56FE\u50CF\u5C3A\u5BF8\u5C06\u968F\u7ED3\u6784\u5F0F\u7684\u5927\u5C0F\u53D8\u5316\u3002",
+      description: "\u8C03\u6574\u5168\u5C40\u56FE\u50CF\u6BD4\u4F8B\u3002\u8BE5\u503C\u4E3A 0 \u65F6\uFF0C\u6240\u6709\u56FE\u50CF\u5C06\u5177\u6709\u76F8\u540C\u7684\u5927\u5C0F\uFF1B\u82E5\u975E 0\uFF0C\u6240\u6709\u7ED3\u6784\u5C06\u5177\u6709\u76F8\u540C\u7684\u952E\u957F\uFF0C\u56FE\u50CF\u5C3A\u5BF8\u5C06\u9002\u5E94\u7ED3\u6784\u5F0F\u7684\u5927\u5C0F\u3002",
       tooltip: "\u6062\u590D\u9ED8\u8BA4"
     },
     "unify-bond-length": {
@@ -24226,6 +24511,10 @@ var translation2 = {
     },
     advanced: {
       title: "\u9AD8\u7EA7",
+      core: {
+        name: "\u6E32\u67D3\u5668",
+        description: "\u9009\u62E9\u6E32\u67D3\u5668\u3002"
+      },
       "compact-drawing": {
         name: "\u7D27\u51D1\u7ED8\u5236",
         description: "\u7B80\u5316\u7FA7\u57FA\u3001\u785D\u57FA\u3001\u78FA\u9178\u57FA\u7B49\u7B80\u5355\u5B98\u80FD\u56E2\u7684\u7ED8\u5236\u3002"
@@ -24233,10 +24522,14 @@ var translation2 = {
       "terminal-carbons": {
         name: "\u7AEF\u57FA\u78B3",
         description: "\u663E\u5F0F\u7ED8\u51FA\u672B\u7AEF\u7532\u57FA\u3001\u4E9A\u7532\u57FA\u7B49\u7AEF\u57FA\u78B3\u3002"
+      },
+      "explicit-hydrogen": {
+        name: "\u663E\u5F0F\u6C22",
+        description: "\u542F\u7528\u4EE5\u7ED8\u5236\u663E\u5F0F\u6C22\u539F\u5B50\u3002"
       }
     },
     copy: {
-      title: "\u590D\u5236",
+      title: "\u590D\u5236\u9009\u9879",
       scale: {
         name: "\u7F29\u653E\u6BD4\u4F8B",
         description: "\u8C03\u6574\u590D\u5236\u6240\u5F97\u56FE\u50CF\u7684\u7F29\u653E\u6BD4\u4F8B\uFF0C\u66F4\u5927\u7684\u6BD4\u4F8B\u5BF9\u5E94\u66F4\u9AD8\u7684\u5206\u8FA8\u7387\u3002"
@@ -24247,15 +24540,26 @@ var translation2 = {
       },
       theme: {
         name: "\u989C\u8272\u4E3B\u9898",
-        description: "\u8BBE\u7F6E\u590D\u5236\u6240\u5F97\u56FE\u50CF\u7684\u989C\u8272\u4E3B\u9898\u3002",
+        description: "\u8BBE\u7F6E\u590D\u5236\u6240\u5F97\u56FE\u50CF\u7684\u989C\u8272\u4E3B\u9898",
         default: "\u8DDF\u968F Obsidian"
       }
     },
     dataview: {
-      title: "Dataview",
+      title: "Dataview \u96C6\u6210",
       enable: {
         name: "\u89E3\u6790 Dataview",
         description: "\u6839\u636E Dataview \u63D2\u4EF6\u8BBE\u7F6E\uFF0C\u8BC6\u522B\u5E76\u6267\u884C smiles \u4EE3\u7801\u5757\u4E2D\u7684 Dataview \u67E5\u8BE2\u5F0F (Queries) \u548C DataviewJS \u4EE3\u7801\uFF0C\u4F9D\u67E5\u8BE2\u7ED3\u679C\u6E32\u67D3\u7ED3\u6784\u3002"
+      }
+    },
+    inline: {
+      title: "\u884C\u5185 SMILES \u6E32\u67D3",
+      enable: {
+        name: "\u542F\u7528\u884C\u5185 SMILES",
+        description: "\u6E32\u67D3\u884C\u5185\u4EE3\u7801\u5F62\u5F0F\u7684 SMILES \u5B57\u7B26\u4E32\u3002"
+      },
+      prefix: {
+        name: "\u524D\u7F00",
+        description: "\u884C\u5185 SMILES \u7684\u524D\u7F00\u3002"
       }
     }
   }
@@ -24279,19 +24583,291 @@ instance.init({
 });
 var i18n = instance;
 
+// src/lib/core/smilesDrawerCore.ts
+var SmilesDrawerCore = class {
+  constructor(settings) {
+    this.draw = async (source, theme = getCurrentTheme(this.settings)) => {
+      var _a, _b, _c, _d, _e, _f, _g, _h;
+      const svg = createSvg("svg");
+      svg.setAttribute("xmlns", "http://www.w3.org/2000/svg");
+      svg.setAttribute("data-smiles", source);
+      const errorDiv = createDiv();
+      const errorCb = (error) => {
+        errorDiv.createDiv("error-source").setText(i18n.t("errors.source.title", { source }));
+        errorDiv.createEl("br");
+        const info = errorDiv.createEl("details");
+        info.createEl("summary").setText(error.name);
+        info.createEl("div").setText(error.message);
+        errorDiv.style.wordBreak = `break-word`;
+        errorDiv.style.userSelect = `text`;
+      };
+      this.core.draw(source, svg, theme, () => {
+      }, errorCb);
+      if (this.settings.commonOptions.scale == 0)
+        svg.style.width = `${((_b = (_a = this.settings) == null ? void 0 : _a.commonOptions.unifiedWidth) != null ? _b : 300).toString()}px`;
+      else if (parseFloat(svg.style.width) > ((_d = (_c = this.settings.commonOptions) == null ? void 0 : _c.width) != null ? _d : 300)) {
+        const r = parseFloat(svg.style.width) / parseFloat(svg.style.height);
+        svg.style.width = `${((_f = (_e = this.settings.commonOptions) == null ? void 0 : _e.width) != null ? _f : 300).toString()}px`;
+        svg.style.height = `${(((_h = (_g = this.settings.commonOptions) == null ? void 0 : _g.width) != null ? _h : 300) / r).toString()}px`;
+      }
+      if (errorDiv.innerHTML)
+        return errorDiv;
+      return svg;
+    };
+    this.settings = settings;
+    this.core = new import_smiles_drawer.default.SmiDrawer(
+      {
+        ...DEFAULT_SD_OPTIONS.moleculeOptions,
+        ...this.settings.smilesDrawerOptions.moleculeOptions
+      },
+      {
+        ...DEFAULT_SD_OPTIONS.reactionOptions,
+        ...this.settings.smilesDrawerOptions.reactionOptions
+      }
+    );
+  }
+};
+
+// src/lib/core/rdkitOptions.ts
+var DEFAULT_RDKIT_OPTIONS = {
+  explicitMethyl: false,
+  fixedBondLength: -1,
+  fixedScale: -1,
+  atomColourPalette: convertToRDKitTheme("rdkit-default"),
+  includeRadicals: true,
+  clearBackground: false,
+  addStereoAnnotation: false,
+  annotationColour: [0.63, 0.12, 0.94],
+  // chiral RS annotations
+  singleColourWedgeBonds: true,
+  // a company option with `symbolColour`
+  addChiralHs: true
+  // test case: C1C[C@H]2CCCC[C@H]2CC1
+  // wedgeBonds: true,
+  // wavyBonds: true,
+  // kekulize: false,
+};
+
+// src/lib/core/rdkitCore.ts
+var import_obsidian2 = require("obsidian");
+var path = __toESM(require("path"));
+var RDKitCore = class {
+  /**
+   * @private
+   */
+  constructor(settings, core) {
+    this.draw = async (source, theme = getCurrentTheme(this.settings)) => {
+      var _a, _b, _c, _d, _e, _f, _g, _h, _i, _j, _k, _l, _m;
+      let svgstr = "";
+      if (source.includes(">")) {
+        const rxn = this.core.get_rxn(source);
+        if (!rxn)
+          return this.logError(source);
+        svgstr = await this.drawReaction(rxn);
+      } else {
+        const mol = this.core.get_mol(source);
+        if (!mol)
+          return this.logError(source);
+        if (this.settings.commonOptions.compactDrawing)
+          mol.condense_abbreviations();
+        svgstr = await this.drawMolecule(mol, theme);
+      }
+      const container2 = createDiv();
+      container2.innerHTML = svgstr;
+      const svg = container2.find("svg");
+      svg.setAttribute("data-smiles", source);
+      svg.setAttribute("xmlns", "http://www.w3.org/2000/svg");
+      const w = svg.width.baseVal.value;
+      const h = svg.height.baseVal.value;
+      const r = w / h;
+      const scale = (_a = this.settings.commonOptions.scale) != null ? _a : 1;
+      if (this.settings.commonOptions.scale == 0) {
+        svg.style.width = `${((_c = (_b = this.settings) == null ? void 0 : _b.commonOptions.unifiedWidth) != null ? _c : 300).toString()}px`;
+        svg.style.height = `${(((_e = (_d = this.settings.commonOptions) == null ? void 0 : _d.unifiedWidth) != null ? _e : 300) / r).toString()}px`;
+      } else if (w * scale > ((_g = (_f = this.settings.commonOptions) == null ? void 0 : _f.width) != null ? _g : 300)) {
+        svg.style.width = `${((_i = (_h = this.settings.commonOptions) == null ? void 0 : _h.width) != null ? _i : 300).toString()}px`;
+        svg.style.height = `${(((_k = (_j = this.settings.commonOptions) == null ? void 0 : _j.width) != null ? _k : 300) / r).toString()}px`;
+      } else if (w * scale <= ((_m = (_l = this.settings.commonOptions) == null ? void 0 : _l.width) != null ? _m : 300)) {
+        svg.style.width = `${(w * scale).toString()}px`;
+        svg.style.height = `${(h * scale).toString()}px`;
+      }
+      return svg;
+    };
+    this.drawReaction = async (rxn) => {
+      const svgstr = rxn.get_svg_with_highlights(
+        JSON.stringify({
+          width: -1,
+          height: -1
+        })
+      );
+      return svgstr;
+    };
+    this.drawMolecule = async (mol, theme) => {
+      const palette = convertToRDKitTheme(theme);
+      const svgstr = mol.get_svg_with_highlights(
+        JSON.stringify({
+          ...DEFAULT_RDKIT_OPTIONS,
+          ...this.settings.rdkitOptions,
+          atomColourPalette: palette,
+          queryColour: palette["6"],
+          highlightColour: palette["6"],
+          drawMolsSameScale: true,
+          width: -1,
+          height: -1,
+          addChiralHs: this.settings.commonOptions.explicitHydrogens,
+          //https://rdkit.org/docs/cppapi/MolDraw2D_8h_source.html#l00547
+          symbolColour: palette["-1"],
+          // the color used for reaction arrows and single-color wedged bonds
+          legendColour: palette["-1"],
+          annotationColour: palette["-1"],
+          variableAttachmentColour: palette["-1"]
+        })
+      );
+      return svgstr;
+    };
+    this.logError = (source) => {
+      const div = createDiv();
+      div.createDiv().setText(i18n.t("errors.source.title", { source }));
+      div.createEl("br");
+      div.createDiv().setText(i18n.t("errors.rdkit.title"));
+      return div;
+    };
+    this.settings = settings;
+    this.core = core;
+  }
+  static async init(settings) {
+    if (!window.RDKit)
+      window.RDKit = await loadRDKit();
+    return new RDKitCore(settings, window.RDKit);
+  }
+};
+var loadRDKit = async () => {
+  const assetPath = (0, import_obsidian2.normalizePath)(
+    path.join(app.vault.configDir, "plugins", "chem", "rdkit")
+  );
+  if (!await app.vault.adapter.exists(assetPath)) {
+    console.log(assetPath);
+    await app.vault.adapter.mkdir(assetPath);
+  }
+  const jsPath = path.join(assetPath, "RDKit_minimal.js");
+  await checkOrDownload("RDKit_minimal.js");
+  const wasmPath = path.join(assetPath, "RDKit_minimal.wasm");
+  await checkOrDownload("RDKit_minimal.wasm");
+  const rdkitBundler = document.body.createEl("script");
+  rdkitBundler.type = "text/javascript";
+  rdkitBundler.id = "chem-rdkit-bundler";
+  rdkitBundler.innerHTML = await app.vault.adapter.read(jsPath);
+  const getWasmURL = async () => URL.createObjectURL(
+    new Blob([await app.vault.adapter.readBinary(wasmPath)], {
+      type: "application/wasm"
+    })
+  );
+  const url = await getWasmURL();
+  const RDKit = await window.initRDKitModule({
+    locateFile: () => url
+  });
+  URL.revokeObjectURL(url);
+  return RDKit;
+};
+var fetchAsset = async (target, localPath) => {
+  var _a, _b;
+  let res;
+  let data;
+  res = (0, import_obsidian2.requestUrl)(
+    `https://api.github.com/repos/acylation/obsidian-chem/releases/tags/${(_b = (_a = app.plugins.getPlugin("chem")) == null ? void 0 : _a.manifest.version) != null ? _b : "0.4.0"}`
+  );
+  data = await res.json;
+  const asset = data.assets.find((v) => v.name == target);
+  if (asset == void 0) {
+    throw "Could not find the online asset!";
+  }
+  res = (0, import_obsidian2.requestUrl)({
+    url: asset.url,
+    headers: { Accept: "application/octet-stream" }
+  });
+  data = await res.arrayBuffer;
+  await app.vault.adapter.writeBinary(localPath, data);
+};
+var checkOrDownload = async (target) => {
+  const assetPath = (0, import_obsidian2.normalizePath)(
+    path.join(app.vault.configDir, "plugins", "chem", "rdkit", target)
+  );
+  if (!await app.vault.adapter.exists(assetPath)) {
+    new import_obsidian2.Notice(`Chem: Downloading ${target}!`, 5e3);
+    try {
+      await fetchAsset(target, assetPath);
+      new import_obsidian2.Notice(
+        `Chem: Resource ${target} successfully downloaded!`,
+        5e3
+      );
+    } catch (error) {
+      new import_obsidian2.Notice(`Chem: Failed to fetch ${target}: ` + error);
+    }
+  }
+};
+
+// src/global/chemCore.ts
+var gRenderCore;
+var setCore = async (settings) => {
+  if (!gRenderCore || settings.core !== gRenderCore.id) {
+    if (settings.core == "smiles-drawer")
+      gRenderCore = new SmilesDrawerCore(settings);
+    if (settings.core == "rdkit") {
+      gRenderCore = await RDKitCore.init(settings);
+    }
+  }
+  gRenderCore.settings = settings;
+};
+var clearCore = () => {
+  const rdkitBundler = document.getElementById("chem-rdkit-bundler");
+  if (rdkitBundler)
+    document.body.removeChild(rdkitBundler);
+  delete window.RDKit;
+  delete window.initRDKitModule;
+  delete window.SmilesDrawer;
+  delete window.SmiDrawer;
+};
+
+// src/global/blocks.ts
+var gBlocks;
+var setBlocks = () => {
+  gBlocks = new Array();
+};
+var addBlock = (block) => {
+  gBlocks.push(block);
+};
+var removeBlock = (block) => {
+  if (gBlocks.indexOf(block) != -1)
+    gBlocks.splice(gBlocks.indexOf(block), 1);
+};
+var refreshBlocks = () => {
+  if (!gBlocks)
+    return;
+  gBlocks.forEach((block) => {
+    block.render();
+  });
+};
+var clearBlocks = () => {
+  if (!gBlocks)
+    return;
+  gBlocks.forEach((block) => {
+    removeBlock(block);
+  });
+};
+
 // src/global/dataview.ts
+var import_obsidian_dataview = __toESM(require_lib());
 var import_obsidian_dataview2 = __toESM(require_lib());
 var gDataview;
 var getDataview = () => {
   if ((0, import_obsidian_dataview.isPluginEnabled)(app)) {
-    gDataview = app.plugins.plugins.dataview;
+    gDataview = app.plugins.getPlugin("dataview");
   } else {
-    gDataview;
     throw new Error(i18n.t("errors.dataview.title"));
   }
 };
 var clearDataview = () => {
-  gDataview = {};
+  gDataview = null;
 };
 
 // src/settings/LivePreview.ts
@@ -24313,52 +24889,17 @@ var LivePreview = class {
         this.darkCard,
         this.settings.darkTheme
       );
-      if (this.settings.options.scale == 0)
-        this.container.style.gridTemplateColumns = `repeat(auto-fill, minmax(${((_b = (_a = this.settings) == null ? void 0 : _a.imgWidth) != null ? _b : 300).toString()}px, 1fr)`;
+      if (this.settings.commonOptions.scale == 0)
+        this.container.style.gridTemplateColumns = `repeat(auto-fill, minmax(${((_b = (_a = this.settings) == null ? void 0 : _a.commonOptions.unifiedWidth) != null ? _b : 300).toString()}px, 1fr)`;
       else
         this.container.style.gridTemplateColumns = `repeat(auto-fill, minmax(${(lightWidth > darkWidth ? lightWidth : darkWidth).toString()}px, 1fr)`;
     };
-    this.updateSettings = (argSettings) => {
-      this.settings = argSettings;
+    this.updateSettings = (newSettings) => {
+      this.settings = newSettings;
     };
-    this.renderCell = (source, target, style) => {
-      var _a, _b, _c, _d, _e, _f, _g, _h;
-      const svg = target.createSvg("svg");
-      svg.setAttribute("xmlns", "http://www.w3.org/2000/svg");
-      const errorCb = (error, container2) => {
-        var _a2, _b2, _c2, _d2, _e2, _f2;
-        container2.createDiv("error-source").setText(i18n.t("errors.source.title", { source }));
-        container2.createEl("br");
-        const info = container2.createEl("details");
-        info.createEl("summary").setText(error.name);
-        info.createEl("div").setText(error.message);
-        container2.style.wordBreak = `break-word`;
-        container2.style.userSelect = `text`;
-        container2.style.display = `grid`;
-        container2.style.alignContent = `center`;
-        if (this.settings.options.scale == 0)
-          container2.style.width = `${((_b2 = (_a2 = this.settings) == null ? void 0 : _a2.imgWidth) != null ? _b2 : 300).toString()}px`;
-        else if (container2.offsetWidth > ((_d2 = (_c2 = this.settings.options) == null ? void 0 : _c2.width) != null ? _d2 : 300)) {
-          container2.style.width = `${((_f2 = (_e2 = this.settings.options) == null ? void 0 : _e2.width) != null ? _f2 : 300).toString()}px`;
-        }
-      };
-      gDrawer.draw(
-        source,
-        svg,
-        style,
-        null,
-        (error) => {
-          target.empty();
-          errorCb(error, target.createEl("div"));
-        }
-      );
-      if (this.settings.options.scale == 0)
-        svg.style.width = `${((_b = (_a = this.settings) == null ? void 0 : _a.imgWidth) != null ? _b : 300).toString()}px`;
-      else if (parseFloat(svg.style.width) > ((_d = (_c = this.settings.options) == null ? void 0 : _c.width) != null ? _d : 300)) {
-        const r = parseFloat(svg.style.width) / parseFloat(svg.style.height);
-        svg.style.width = `${((_f = (_e = this.settings.options) == null ? void 0 : _e.width) != null ? _f : 300).toString()}px`;
-        svg.style.height = `${(((_h = (_g = this.settings.options) == null ? void 0 : _g.width) != null ? _h : 300) / r).toString()}px`;
-      }
+    this.renderCell = async (source, target, theme) => {
+      const svg = await gRenderCore.draw(source, theme);
+      target.appendChild(svg);
       return parseFloat(svg.style.width);
     };
     this.container = this.el.createEl("div");
@@ -24376,76 +24917,65 @@ var LivePreview = class {
 };
 
 // src/settings/SettingTab.ts
-var ChemSettingTab = class extends import_obsidian2.PluginSettingTab {
+var import_obsidian3 = require("obsidian");
+var ChemSettingTab = class extends import_obsidian3.PluginSettingTab {
   constructor({ app: app2, plugin }) {
     super(app2, plugin);
+    this.updateCore = async () => await setCore(this.plugin.settings);
     this.plugin = plugin;
   }
-  //TODO: Caching proposed
   display() {
-    var _a, _b, _c, _d;
+    var _a, _b;
     const { containerEl } = this;
     containerEl.empty();
-    const scaleSetting = new import_obsidian2.Setting(containerEl).setName(i18n.t("settings.scale.name")).setDesc(i18n.t("settings.scale.description")).addExtraButton((button) => {
-      button.setIcon("rotate-ccw").setTooltip(i18n.t("settings.scale.description")).onClick(async () => {
-        this.plugin.settings.options.scale = 1;
-        scaleSlider.setValue(50);
+    const scaleSetting = new import_obsidian3.Setting(containerEl).setName(i18n.t("settings.scale.name")).setDesc(i18n.t("settings.scale.description")).addExtraButton((button) => {
+      button.setIcon("rotate-ccw").setTooltip(i18n.t("settings.scale.tooltip")).onClick(async () => {
+        this.plugin.settings.smilesDrawerOptions.moleculeOptions.scale = 1;
+        this.plugin.settings.commonOptions.scale = 1;
+        scaleSlider.setValue(1);
         await this.plugin.saveSettings();
-        setDrawer({
-          ...DEFAULT_SD_OPTIONS,
-          ...this.plugin.settings.options
-        });
+        this.updateCore();
         onSettingsChange();
         unifyBondLength();
       });
     });
-    const scaleLabel = scaleSetting.controlEl.createDiv("slider-readout");
-    scaleLabel.setText(
-      ((_a = this.plugin.settings.options.scale) != null ? _a : 1).toFixed(2).toString()
-    );
-    const scaleSlider = new import_obsidian2.SliderComponent(scaleSetting.controlEl).setValue(50 * ((_b = this.plugin.settings.options.scale) != null ? _b : 1)).setLimits(0, 100, 0.5).onChange(async (value) => {
-      this.plugin.settings.options.scale = value / 50;
-      scaleLabel.setText((value / 50).toFixed(2).toString());
+    const scaleSlider = new import_obsidian3.SliderComponent(scaleSetting.controlEl).setValue((_a = this.plugin.settings.commonOptions.scale) != null ? _a : 1).setLimits(0, 2, 0.01).setDynamicTooltip().onChange(async (value) => {
+      this.plugin.settings.smilesDrawerOptions.moleculeOptions.scale = value;
+      this.plugin.settings.commonOptions.scale = value;
       await this.plugin.saveSettings();
-      setDrawer({
-        ...DEFAULT_SD_OPTIONS,
-        ...this.plugin.settings.options
-      });
+      this.updateCore();
       onSettingsChange();
-      if (value == 0)
-        unifyImageWidth();
-      else
-        unifyBondLength();
+      value === 0 ? unifyImageWidth() : unifyBondLength();
     });
-    const widthSettings = new import_obsidian2.Setting(containerEl);
-    new import_obsidian2.Setting(containerEl).setName(i18n.t("settings.theme.light.name")).setDesc(i18n.t("settings.theme.light.description")).addDropdown(
+    const widthSettings = new import_obsidian3.Setting(containerEl);
+    new import_obsidian3.Setting(containerEl).setName(i18n.t("settings.theme.light.name")).setDesc(i18n.t("settings.theme.light.description")).addDropdown(
       (dropdown) => dropdown.addOptions(themeList).setValue(this.plugin.settings.lightTheme).onChange(async (value) => {
         this.plugin.settings.lightTheme = value;
         await this.plugin.saveSettings();
         onSettingsChange();
       })
     );
-    new import_obsidian2.Setting(containerEl).setName(i18n.t("settings.theme.dark.name")).setDesc(i18n.t("settings.theme.dark.description")).addDropdown(
+    new import_obsidian3.Setting(containerEl).setName(i18n.t("settings.theme.dark.name")).setDesc(i18n.t("settings.theme.dark.description")).addDropdown(
       (dropdown) => dropdown.addOptions(themeList).setValue(this.plugin.settings.darkTheme).onChange(async (value) => {
         this.plugin.settings.darkTheme = value;
         await this.plugin.saveSettings();
         onSettingsChange();
       })
     );
-    new import_obsidian2.Setting(containerEl).setName(i18n.t("settings.preview.title")).setHeading();
-    new import_obsidian2.Setting(containerEl).setName(i18n.t("settings.preview.sample.name")).setDesc(i18n.t("settings.preview.sample.description")).addText(
-      (text) => text.setPlaceholder(SAMPLE_SMILES_1).setValue(this.plugin.settings.sample1).onChange(async (value) => {
+    new import_obsidian3.Setting(containerEl).setName(i18n.t("settings.preview.title")).setHeading();
+    new import_obsidian3.Setting(containerEl).setName(i18n.t("settings.preview.sample.name")).setDesc(i18n.t("settings.preview.sample.description")).addText(
+      (text) => text.setPlaceholder(DEFAULT_SETTINGS.sample1).setValue(this.plugin.settings.sample1).onChange(async (value) => {
         if (value == "") {
-          value = SAMPLE_SMILES_1;
+          value = DEFAULT_SETTINGS.sample1;
         }
         this.plugin.settings.sample1 = value;
         await this.plugin.saveSettings();
         onSettingsChange();
       })
     ).addText(
-      (text) => text.setPlaceholder(SAMPLE_SMILES_2).setValue(this.plugin.settings.sample2).onChange(async (value) => {
+      (text) => text.setPlaceholder(DEFAULT_SETTINGS.sample2).setValue(this.plugin.settings.sample2).onChange(async (value) => {
         if (value == "") {
-          value = SAMPLE_SMILES_2;
+          value = DEFAULT_SETTINGS.sample2;
         }
         this.plugin.settings.sample2 = value;
         await this.plugin.saveSettings();
@@ -24453,55 +24983,80 @@ var ChemSettingTab = class extends import_obsidian2.PluginSettingTab {
       })
     );
     const preview = new LivePreview(containerEl, this.plugin.settings);
-    new import_obsidian2.Setting(containerEl).setName(i18n.t("settings.advanced.title")).setHeading();
-    new import_obsidian2.Setting(containerEl).setName(i18n.t("settings.advanced.compact-drawing.name")).setDesc(i18n.t("settings.advanced.compact-drawing.description")).addToggle(
-      (toggle) => {
-        var _a2, _b2;
-        return toggle.setValue(
-          (_b2 = (_a2 = this.plugin.settings.options) == null ? void 0 : _a2.compactDrawing) != null ? _b2 : false
-        ).onChange(async (value) => {
-          this.plugin.settings.options.compactDrawing = value;
+    new import_obsidian3.Setting(containerEl).setName(i18n.t("settings.advanced.title")).setHeading();
+    new import_obsidian3.Setting(containerEl).setName(i18n.t("settings.advanced.core.name")).setDesc(i18n.t("settings.advanced.core.description")).setDisabled(import_obsidian3.Platform.isIosApp).addDropdown(
+      (dropdown) => {
+        var _a2;
+        return dropdown.addOptions({
+          rdkit: "RDKit.js",
+          "smiles-drawer": "Smiles Drawer"
+        }).setValue((_a2 = this.plugin.settings.core) != null ? _a2 : false).onChange(async (value) => {
+          this.plugin.settings.core = value;
           await this.plugin.saveSettings();
-          setDrawer({
-            ...DEFAULT_SD_OPTIONS,
-            ...this.plugin.settings.options
-          });
+          await this.updateCore();
           onSettingsChange();
         });
       }
     );
-    new import_obsidian2.Setting(containerEl).setName(i18n.t("settings.advanced.terminal-carbons.name")).setDesc(i18n.t("settings.advanced.terminal-carbons.description")).addToggle(
+    new import_obsidian3.Setting(containerEl).setName(i18n.t("settings.advanced.compact-drawing.name")).setDesc(i18n.t("settings.advanced.compact-drawing.description")).addToggle(
       (toggle) => {
-        var _a2, _b2;
+        var _a2;
         return toggle.setValue(
-          (_b2 = (_a2 = this.plugin.settings.options) == null ? void 0 : _a2.terminalCarbons) != null ? _b2 : false
+          (_a2 = this.plugin.settings.smilesDrawerOptions.moleculeOptions.compactDrawing) != null ? _a2 : false
         ).onChange(async (value) => {
-          this.plugin.settings.options.terminalCarbons = value;
+          this.plugin.settings.smilesDrawerOptions.moleculeOptions.compactDrawing = value;
+          this.plugin.settings.commonOptions.compactDrawing = value;
           await this.plugin.saveSettings();
-          setDrawer({
-            ...DEFAULT_SD_OPTIONS,
-            ...this.plugin.settings.options
-          });
+          this.updateCore();
           onSettingsChange();
         });
       }
     );
-    new import_obsidian2.Setting(containerEl).setName(i18n.t("settings.copy.title")).setHeading();
-    new import_obsidian2.Setting(containerEl).setName(i18n.t("settings.copy.scale.name")).setDesc(i18n.t("settings.copy.scale.description")).addText(
+    new import_obsidian3.Setting(containerEl).setName(i18n.t("settings.advanced.terminal-carbons.name")).setDesc(i18n.t("settings.advanced.terminal-carbons.description")).addToggle(
+      (toggle) => {
+        var _a2;
+        return toggle.setValue(
+          (_a2 = this.plugin.settings.smilesDrawerOptions.moleculeOptions.terminalCarbons) != null ? _a2 : false
+        ).onChange(async (value) => {
+          this.plugin.settings.smilesDrawerOptions.moleculeOptions.terminalCarbons = value;
+          this.plugin.settings.rdkitOptions.explicitMethyl = value;
+          this.plugin.settings.commonOptions.explicitMethyl = value;
+          await this.plugin.saveSettings();
+          this.updateCore();
+          onSettingsChange();
+        });
+      }
+    );
+    new import_obsidian3.Setting(containerEl).setName(i18n.t("settings.advanced.explicit-hydrogen.name")).setDesc(i18n.t("settings.advanced.explicit-hydrogen.description")).addToggle(
+      (toggle) => {
+        var _a2;
+        return toggle.setValue(
+          (_a2 = this.plugin.settings.smilesDrawerOptions.moleculeOptions.explicitHydrogens) != null ? _a2 : false
+        ).onChange(async (value) => {
+          this.plugin.settings.smilesDrawerOptions.moleculeOptions.explicitHydrogens = value;
+          this.plugin.settings.commonOptions.explicitHydrogens = value;
+          await this.plugin.saveSettings();
+          this.updateCore();
+          onSettingsChange();
+        });
+      }
+    );
+    new import_obsidian3.Setting(containerEl).setName(i18n.t("settings.copy.title")).setHeading();
+    new import_obsidian3.Setting(containerEl).setName(i18n.t("settings.copy.scale.name")).setDesc(i18n.t("settings.copy.scale.description")).addText(
       (text) => text.setValue(this.plugin.settings.copy.scale.toString()).onChange(async (value) => {
         this.plugin.settings.copy.scale = parseFloat(value);
         await this.plugin.saveSettings();
         onSettingsChange();
       })
     );
-    new import_obsidian2.Setting(containerEl).setName(i18n.t("settings.copy.transparent.name")).setDesc(i18n.t("settings.copy.transparent.description")).addToggle(
+    new import_obsidian3.Setting(containerEl).setName(i18n.t("settings.copy.transparent.name")).setDesc(i18n.t("settings.copy.transparent.description")).addToggle(
       (toggle) => toggle.setValue(this.plugin.settings.copy.transparent).onChange(async (value) => {
         this.plugin.settings.copy.transparent = value;
         await this.plugin.saveSettings();
         onSettingsChange();
       })
     );
-    new import_obsidian2.Setting(containerEl).setName(i18n.t("settings.copy.theme.name")).setDesc(i18n.t("settings.copy.theme.description")).addDropdown(
+    new import_obsidian3.Setting(containerEl).setName(i18n.t("settings.copy.theme.name")).setDesc(i18n.t("settings.copy.theme.description")).addDropdown(
       (dropdown) => dropdown.addOptions({
         default: i18n.t("settings.copy.theme.default"),
         ...themeList
@@ -24511,8 +25066,8 @@ var ChemSettingTab = class extends import_obsidian2.PluginSettingTab {
         onSettingsChange();
       })
     );
-    new import_obsidian2.Setting(containerEl).setName(i18n.t("settings.dataview.title")).setHeading();
-    new import_obsidian2.Setting(containerEl).setName(i18n.t("settings.dataview.enable.name")).setDesc(i18n.t("settings.dataview.enable.description")).addToggle((toggle) => {
+    new import_obsidian3.Setting(containerEl).setName(i18n.t("settings.dataview.title")).setHeading();
+    new import_obsidian3.Setting(containerEl).setName(i18n.t("settings.dataview.enable.name")).setDesc(i18n.t("settings.dataview.enable.description")).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.dataview).onChange(async (value) => {
         this.plugin.settings.dataview = value;
         if (value) {
@@ -24524,6 +25079,23 @@ var ChemSettingTab = class extends import_obsidian2.PluginSettingTab {
         onSettingsChange();
       });
     });
+    new import_obsidian3.Setting(containerEl).setName(i18n.t("settings.inline.title")).setHeading();
+    new import_obsidian3.Setting(containerEl).setName(i18n.t("settings.inline.enable.name")).setDesc(i18n.t("settings.inline.enable.description")).addToggle((toggle) => {
+      toggle.setValue(this.plugin.settings.inlineSmiles).onChange(async (value) => {
+        this.plugin.settings.inlineSmiles = value;
+        await this.plugin.saveSettings();
+        onSettingsChange();
+      });
+    });
+    new import_obsidian3.Setting(containerEl).setName(i18n.t("settings.inline.prefix.name")).setDesc(i18n.t("settings.inline.prefix.description")).addText((text) => {
+      text.setValue(this.plugin.settings.inlineSmilesPrefix).onChange(
+        async (value) => {
+          this.plugin.settings.inlineSmilesPrefix = value;
+          await this.plugin.saveSettings();
+          onSettingsChange();
+        }
+      );
+    });
     const onSettingsChange = () => {
       preview.updateSettings(this.plugin.settings);
       preview.render();
@@ -24534,17 +25106,15 @@ var ChemSettingTab = class extends import_obsidian2.PluginSettingTab {
         (text) => {
           var _a2, _b2;
           return text.setValue(
-            (_b2 = (_a2 = this.plugin.settings.options.width) == null ? void 0 : _a2.toString()) != null ? _b2 : "300"
+            (_b2 = (_a2 = this.plugin.settings.commonOptions.width) == null ? void 0 : _a2.toString()) != null ? _b2 : "300"
           ).onChange(async (value) => {
             if (value == "") {
               value = "300";
             }
-            this.plugin.settings.options.width = parseInt(value);
+            this.plugin.settings.commonOptions.width = parseInt(value);
+            this.plugin.settings.smilesDrawerOptions.moleculeOptions.width = parseInt(value);
             await this.plugin.saveSettings();
-            setDrawer({
-              ...DEFAULT_SD_OPTIONS,
-              ...this.plugin.settings.options
-            });
+            this.updateCore();
             onSettingsChange();
           });
         }
@@ -24555,19 +25125,19 @@ var ChemSettingTab = class extends import_obsidian2.PluginSettingTab {
       widthSettings.setName(i18n.t("settings.unify-image-width.name")).setDesc(i18n.t("settings.unify-image-width.description")).addText((text) => {
         var _a2, _b2;
         text.setValue(
-          (_b2 = (_a2 = this.plugin.settings) == null ? void 0 : _a2.imgWidth.toString()) != null ? _b2 : "300"
+          (_b2 = (_a2 = this.plugin.settings.commonOptions.unifiedWidth) == null ? void 0 : _a2.toString()) != null ? _b2 : "300"
         ).setPlaceholder("300").onChange(async (value) => {
           if (value == "") {
             value = "300";
           }
-          this.plugin.settings.imgWidth = parseInt(value);
+          this.plugin.settings.commonOptions.unifiedWidth = parseInt(value);
           await this.plugin.saveSettings();
           onSettingsChange();
         });
       });
     };
     preview.render();
-    if (((_d = (_c = this.plugin.settings.options) == null ? void 0 : _c.scale) != null ? _d : 1) == 0)
+    if (((_b = this.plugin.settings.smilesDrawerOptions.moleculeOptions.scale) != null ? _b : 1) == 0)
       unifyImageWidth();
     else
       unifyBondLength();
@@ -24577,52 +25147,26 @@ var ChemSettingTab = class extends import_obsidian2.PluginSettingTab {
   }
 };
 
-// src/settings/update.ts
-var DEFAULT_SETTINGS_V2 = {
-  version: "v2",
-  darkTheme: "dark",
-  lightTheme: "light",
-  sample1: "OC(=O)C(C)=CC1=CC=CC=C1",
-  sample2: "OC(C(=O)O[C@H]1C[N+]2(CCCOC3=CC=CC=C3)CCC1CC2)(C1=CC=CS1)C1=CC=CS1",
-  imgWidth: 300,
-  copy: {
-    scale: 2,
-    transparent: true,
-    theme: "default"
-  },
-  dataview: false,
-  options: {}
-};
-var updateSettingsVersion = (stale) => {
-  const result = { ...DEFAULT_SETTINGS_V2 };
-  result.darkTheme = stale.darkTheme;
-  result.lightTheme = stale.lightTheme;
-  result.sample1 = stale.sample;
-  result.imgWidth = parseInt(stale.width);
-  return result;
-};
-
 // src/SmilesBlock.ts
-var import_obsidian3 = require("obsidian");
-var SmilesBlock = class extends import_obsidian3.MarkdownRenderChild {
+var import_obsidian4 = require("obsidian");
+var SmilesBlock = class extends import_obsidian4.MarkdownRenderChild {
   constructor(el, markdownSource, context, settings) {
     super(el);
     this.el = el;
     this.markdownSource = markdownSource;
     this.context = context;
     this.settings = settings;
-    // TODO：add test cases
     this.preprocess = async (source) => {
       const dvEl = this.el.createDiv();
       this.el.appendChild(dvEl);
       const api = gDataview.localApi(this.context.sourcePath, this, dvEl);
       const isDQL = (source2) => {
         const prefix = gDataview.settings.inlineQueryPrefix;
-        return source2.startsWith(prefix);
+        return prefix.length > 0 && source2.startsWith(prefix);
       };
       const isDataviewJs = (source2) => {
         const prefix = gDataview.settings.inlineJsQueryPrefix;
-        return source2.startsWith(prefix);
+        return prefix.length > 0 && source2.startsWith(prefix);
       };
       const evaluateDQL = (row) => {
         const prefix = gDataview.settings.inlineQueryPrefix;
@@ -24635,8 +25179,8 @@ var SmilesBlock = class extends import_obsidian3.MarkdownRenderChild {
         const code = row.substring(prefix.length).trim();
         const func = new Function(
           "api",
-          `return eval(\`const dv=api;const dataview = api; ${code}\`)`
-          // await & async exec
+          `return eval(\`const dv = api; const dataview = api; ${code}\`)`
+          //TODO: await & async exec
         );
         return (_b = (_a = func(api)) == null ? void 0 : _a.toString()) != null ? _b : "DataviewJS parsing error";
       };
@@ -24645,33 +25189,15 @@ var SmilesBlock = class extends import_obsidian3.MarkdownRenderChild {
       } else if (gDataview.settings.enableDataviewJs && gDataview.settings.enableInlineDataviewJs && isDataviewJs(source)) {
         return await executeJs(source);
       }
+      dvEl.remove();
       return source;
     };
-    this.renderCell = (source, target, theme) => {
-      const svg = target.createSvg("svg");
-      svg.setAttribute("xmlns", "http://www.w3.org/2000/svg");
-      svg.setAttribute("data-smiles", source);
-      const errorCb = (error, container2) => {
-        container2.createDiv("error-source").setText(i18n.t("errors.source.title", { source }));
-        container2.createEl("br");
-        const info = container2.createEl("details");
-        info.createEl("summary").setText(error.name);
-        info.createEl("div").setText(error.message);
-        container2.style.wordBreak = `break-word`;
-        container2.style.userSelect = `text`;
-      };
-      gDrawer.draw(
-        source,
-        svg,
-        theme,
-        null,
-        (error) => {
-          target.empty();
-          errorCb(error, target.createEl("div"));
-        }
-      );
-      if (this.settings.options.scale == 0)
-        svg.style.width = `${this.settings.imgWidth.toString()}px`;
+    this.renderCell = async (source, target, theme) => {
+      var _a, _b;
+      const svg = await gRenderCore.draw(source, theme);
+      target.appendChild(svg);
+      if (this.settings.commonOptions.scale == 0)
+        svg.style.width = `${(_b = (_a = this.settings.commonOptions.unifiedWidth) == null ? void 0 : _a.toString()) != null ? _b : 300}px`;
       return svg;
     };
     this.handleContextMenu = (event) => {
@@ -24679,7 +25205,7 @@ var SmilesBlock = class extends import_obsidian3.MarkdownRenderChild {
       const closestSVG = targetEl.tagName === "svg" ? targetEl : targetEl.closest("svg");
       if (!closestSVG)
         return;
-      const menu = new import_obsidian3.Menu();
+      const menu = new import_obsidian4.Menu();
       menu.addItem((item) => {
         item.setTitle(i18n.t("menus.copy.title")).setIcon("copy").onClick(() => {
           var _a, _b;
@@ -24695,7 +25221,7 @@ var SmilesBlock = class extends import_obsidian3.MarkdownRenderChild {
   }
   // TODO: rendering animation
   async render() {
-    var _a, _b, _c, _d;
+    var _a, _b, _c;
     this.el.empty();
     const oRows = this.markdownSource.split("\n").filter((row) => row.length > 0);
     let rows = oRows;
@@ -24708,36 +25234,38 @@ var SmilesBlock = class extends import_obsidian3.MarkdownRenderChild {
     }
     rows = rows.map((row) => row.trim());
     if (rows.length == 1) {
-      const div = this.el.createDiv({ cls: "chem-cell" });
-      this.renderCell(rows[0], div, this.theme);
+      const cell = this.el.createDiv({ cls: "chem-cell" });
+      this.renderCell(rows[0], cell);
     } else {
       const table = this.el.createDiv({ cls: "chem-table" });
-      const maxWidth = (_b = (_a = this.settings.options) == null ? void 0 : _a.width) != null ? _b : 300;
-      rows.forEach((row) => {
+      const maxWidth = (_a = this.settings.commonOptions.width) != null ? _a : 300;
+      rows.forEach(async (row) => {
         const cell = table.createDiv({ cls: "chem-cell" });
-        const svgcell = this.renderCell(row, cell, this.theme);
+        const svgcell = await this.renderCell(row, cell);
         if (parseFloat(svgcell.style.width) > maxWidth) {
           const r = parseFloat(svgcell.style.width) / parseFloat(svgcell.style.height);
           svgcell.style.width = `${maxWidth.toString()}px`;
           svgcell.style.height = `${(maxWidth / r).toString()}px`;
         }
       });
-      table.style.gridTemplateColumns = `repeat(auto-fill, minmax(${(_d = (_c = this.settings.options.width) == null ? void 0 : _c.toString()) != null ? _d : "300"}px, 1fr)`;
+      table.style.gridTemplateColumns = `repeat(auto-fill, minmax(${(_c = (_b = this.settings.commonOptions.width) == null ? void 0 : _b.toString()) != null ? _c : "300"}px, 1fr)`;
     }
   }
   async onload() {
-    this.theme = document.body.hasClass("theme-dark") && !document.body.hasClass("theme-light") ? this.settings.darkTheme : this.settings.lightTheme;
+    this.theme = getCurrentTheme(this.settings);
     this.render();
     this.registerDomEvent(this.el, "contextmenu", this.handleContextMenu);
   }
   // Credits to Thom Kiesewetter @ Stack Overflow https://stackoverflow.com/a/58142441
   // Credits to image-toolkit plugin by Sissilab @ GitHub
   async onCopy(svgString, source, w, h) {
-    const copyTheme = this.settings.copy.theme;
-    if (copyTheme !== "default" && copyTheme !== this.theme) {
+    let copyTheme = this.settings.copy.theme;
+    if (copyTheme === "default")
+      copyTheme = this.theme;
+    else if (copyTheme !== this.theme) {
       const div = this.containerEl.createDiv();
       div.style.display = "none";
-      const svg = this.renderCell(source, div, copyTheme);
+      const svg = await this.renderCell(source, div, copyTheme);
       svgString = svg.outerHTML;
       svg.remove();
     }
@@ -24755,14 +25283,14 @@ var SmilesBlock = class extends import_obsidian3.MarkdownRenderChild {
       canvas.height = f * h;
       const ctx = canvas.getContext("2d");
       if (!ctx) {
-        new import_obsidian3.Notice(i18n.t("menus.copy.error"));
+        new import_obsidian4.Notice(i18n.t("menus.copy.error"));
         URL.revokeObjectURL(svgUrl);
         return;
       }
       ctx.imageSmoothingEnabled = true;
       ctx.imageSmoothingQuality = "high";
       if (!this.settings.copy.transparent) {
-        ctx.fillStyle = DEFAULT_SD_OPTIONS.themes[copyTheme].BACKGROUND;
+        copyTheme.contains("rdkit") ? ctx.fillStyle = getSDBGColor(copyTheme) : ctx.fillStyle = convertToSDTheme(copyTheme).BACKGROUND;
         ctx.fillRect(0, 0, canvas.width, canvas.height);
       }
       ctx.scale(f, f);
@@ -24770,17 +25298,17 @@ var SmilesBlock = class extends import_obsidian3.MarkdownRenderChild {
       try {
         canvas.toBlob(async (blob) => {
           await navigator.clipboard.write([new ClipboardItem({ "image/png": blob })]).then(
-            () => new import_obsidian3.Notice(i18n.t("menus.copy.success")),
-            () => new import_obsidian3.Notice(i18n.t("menus.copy.error"))
+            () => new import_obsidian4.Notice(i18n.t("menus.copy.success")),
+            () => new import_obsidian4.Notice(i18n.t("menus.copy.error"))
           );
         });
       } catch (e) {
-        new import_obsidian3.Notice(i18n.t("menus.copy.error"));
+        new import_obsidian4.Notice(i18n.t("menus.copy.error"));
       }
       URL.revokeObjectURL(svgUrl);
     };
     image.onerror = () => {
-      new import_obsidian3.Notice(i18n.t("menus.copy.error"));
+      new import_obsidian4.Notice(i18n.t("menus.copy.error"));
       URL.revokeObjectURL(svgUrl);
     };
   }
@@ -24789,7 +25317,221 @@ var SmilesBlock = class extends import_obsidian3.MarkdownRenderChild {
   }
 };
 
-// src/themeObserver.ts
+// src/SmilesInline.ts
+var import_view = require("@codemirror/view");
+var import_language = require("@codemirror/language");
+var import_obsidian5 = require("obsidian");
+function selectionAndRangeOverlap(selection, rangeFrom, rangeTo) {
+  for (const range of selection.ranges) {
+    if (range.from <= rangeTo && range.to >= rangeFrom) {
+      return true;
+    }
+  }
+  return false;
+}
+var InlineWidget = class extends import_view.WidgetType {
+  constructor(source, el, view) {
+    super();
+    this.source = source;
+    this.el = el;
+    this.view = view;
+  }
+  eq(other) {
+    return other.source === this.source ? true : false;
+  }
+  toDOM() {
+    return this.el;
+  }
+  /* Make queries only editable when shift is pressed (or navigated inside with the keyboard
+   * or the mouse is placed at the end, but that is always possible regardless of this method).
+   * Mostly useful for links, and makes results selectable.
+   * If the widgets should always be expandable, make this always return false.
+   */
+  ignoreEvent(event) {
+    if (event.type === "mousedown") {
+      const currentPos = this.view.posAtCoords({
+        x: event.x,
+        y: event.y
+      });
+      if (event.shiftKey) {
+        if (currentPos) {
+          const { editor } = this.view.state.field(import_obsidian5.editorInfoField);
+          if (editor) {
+            editor.setCursor(editor.offsetToPos(currentPos));
+          }
+        }
+        return false;
+      }
+    }
+    return true;
+  }
+};
+function inlinePlugin(settings) {
+  const renderCell = async (source, target, theme) => {
+    var _a, _b;
+    const svg = await gRenderCore.draw(source, theme);
+    target.appendChild(svg);
+    if (settings.commonOptions.scale == 0)
+      svg.style.width = `${(_b = (_a = settings.commonOptions.unifiedWidth) == null ? void 0 : _a.toString()) != null ? _b : 300}px`;
+    return svg;
+  };
+  return import_view.ViewPlugin.fromClass(
+    class {
+      constructor(view) {
+        var _a;
+        this.component = new import_obsidian5.Component();
+        this.component.load();
+        this.decorations = (_a = this.inlineRender(view)) != null ? _a : import_view.Decoration.none;
+      }
+      update(update) {
+        var _a;
+        if (!update.state.field(import_obsidian5.editorLivePreviewField)) {
+          this.decorations = import_view.Decoration.none;
+          return;
+        }
+        if (update.docChanged) {
+          this.decorations = this.decorations.map(update.changes);
+          this.updateTree(update.view);
+        } else if (update.selectionSet) {
+          this.updateTree(update.view);
+        } else if (update.viewportChanged) {
+          this.decorations = (_a = this.inlineRender(update.view)) != null ? _a : import_view.Decoration.none;
+        }
+      }
+      updateTree(view) {
+        for (const { from, to } of view.visibleRanges) {
+          (0, import_language.syntaxTree)(view.state).iterate({
+            from,
+            to,
+            enter: ({ node }) => {
+              const { render, isQuery } = this.renderNode(
+                view,
+                node
+              );
+              if (!render && isQuery) {
+                this.removeDeco(node);
+                return;
+              } else if (!render) {
+                return;
+              } else if (render) {
+                this.addDeco(node, view);
+              }
+            }
+          });
+        }
+      }
+      removeDeco(node) {
+        this.decorations.between(
+          node.from - 1,
+          node.to + 1,
+          (from, to, value) => {
+            this.decorations = this.decorations.update({
+              filterFrom: from,
+              filterTo: to,
+              filter: (from2, to2, value2) => false
+            });
+          }
+        );
+      }
+      addDeco(node, view) {
+        var _a;
+        const from = node.from - 1;
+        const to = node.to + 1;
+        let exists2 = false;
+        this.decorations.between(from, to, (from2, to2, value) => {
+          exists2 = true;
+        });
+        if (!exists2) {
+          const currentFile = view.state.field(import_obsidian5.editorInfoField).file;
+          if (!currentFile)
+            return;
+          const newDeco = (_a = this.renderWidget(node, view)) == null ? void 0 : _a.value;
+          if (newDeco) {
+            this.decorations = this.decorations.update({
+              add: [{ from, to, value: newDeco }]
+            });
+          }
+        }
+      }
+      // checks whether a node should get rendered/unrendered
+      renderNode(view, node) {
+        const type = node.type;
+        const tokenProps = type.prop(import_language.tokenClassNodeProp);
+        const props = new Set(tokenProps == null ? void 0 : tokenProps.split(" "));
+        if (props.has("inline-code") && !props.has("formatting")) {
+          const start = node.from;
+          const end = node.to;
+          const selection = view.state.selection;
+          if (selectionAndRangeOverlap(selection, start - 1, end + 1)) {
+            if (this.isInlineSmiles(view, start, end)) {
+              return { render: false, isQuery: true };
+            } else {
+              return { render: false, isQuery: false };
+            }
+          } else if (this.isInlineSmiles(view, start, end)) {
+            return { render: true, isQuery: true };
+          }
+        }
+        return { render: false, isQuery: false };
+      }
+      isInlineSmiles(view, start, end) {
+        if (settings.inlineSmilesPrefix.length > 0) {
+          const text = view.state.doc.sliceString(start, end);
+          return text.startsWith(settings.inlineSmilesPrefix);
+        } else
+          return false;
+      }
+      inlineRender(view) {
+        const currentFile = view.state.field(import_obsidian5.editorInfoField).file;
+        if (!currentFile)
+          return;
+        const widgets = [];
+        for (const { from, to } of view.visibleRanges) {
+          (0, import_language.syntaxTree)(view.state).iterate({
+            from,
+            to,
+            enter: ({ node }) => {
+              if (!this.renderNode(view, node).render)
+                return;
+              const widget = this.renderWidget(node, view);
+              if (widget) {
+                widgets.push(widget);
+              }
+            }
+          });
+        }
+        return import_view.Decoration.set(widgets, true);
+      }
+      renderWidget(node, view) {
+        const start = node.from;
+        const end = node.to;
+        if (view.state.doc.sliceString(end, end + 1) === "\n") {
+          return;
+        }
+        const text = view.state.doc.sliceString(start, end);
+        const el = createSpan({
+          cls: ["smiles", "chem-cell-inline", "chem-cell"]
+        });
+        let code = "";
+        if (settings.inlineSmiles && text.startsWith(settings.inlineSmilesPrefix)) {
+          code = text.substring(settings.inlineSmilesPrefix.length).trim();
+          renderCell(code, el.createDiv(), getCurrentTheme(settings));
+        }
+        return import_view.Decoration.replace({
+          widget: new InlineWidget(code, el, view),
+          inclusive: false,
+          block: false
+        }).range(start - 1, end + 1);
+      }
+      destroy() {
+        this.component.unload();
+      }
+    },
+    { decorations: (v) => v.decorations }
+  );
+}
+
+// src/lib/themes/themeObserver.ts
 var themeObserver = new MutationObserver(function(mutations) {
   mutations.forEach(function(mutation) {
     var _a, _b, _c, _d;
@@ -24821,39 +25563,49 @@ var detachObserver = () => {
 };
 
 // src/main.ts
-var ChemPlugin = class extends import_obsidian4.Plugin {
+var ChemPlugin = class extends import_obsidian6.Plugin {
   constructor() {
     super(...arguments);
     this.smilesProcessor = (source, el, ctx) => {
       ctx.addChild(new SmilesBlock(el, source, ctx, this.settings));
     };
+    //TODO: fix extra br in inline code
+    this.inlineSmilesProcessor = (el, ctx) => {
+      const inlineCodes = el.findAll("code");
+      inlineCodes.forEach((code) => {
+        const text = code.innerText;
+        if (text.startsWith(this.settings.inlineSmilesPrefix)) {
+          const source = text.substring(this.settings.inlineSmilesPrefix.length).trim();
+          const container2 = el.createDiv();
+          code.replaceWith(container2);
+          ctx.addChild(
+            new SmilesBlock(container2, source, ctx, this.settings)
+          );
+        }
+      });
+    };
   }
   async onload() {
     await this.loadSettings();
-    setDrawer(this.settings.options);
     setBlocks();
     setObserver();
+    await setCore(this.settings);
     this.addSettingTab(new ChemSettingTab({ app: this.app, plugin: this }));
     this.registerMarkdownCodeBlockProcessor("smiles", this.smilesProcessor);
+    this.registerMarkdownPostProcessor(this.inlineSmilesProcessor);
+    this.registerEditorExtension(inlinePlugin(this.settings));
+    this.app.workspace.updateOptions();
     if (this.settings.dataview)
       getDataview();
   }
   async onunload() {
     detachObserver();
     clearBlocks();
-    clearDrawer();
+    clearCore();
     clearDataview();
   }
   async loadSettings() {
-    const candidate = Object.assign({}, await this.loadData());
-    if ("version" in candidate && candidate.version == SETTINGS_VERSION)
-      this.settings = Object.assign({}, DEFAULT_SETTINGS, candidate);
-    else
-      this.settings = Object.assign(
-        {},
-        DEFAULT_SETTINGS,
-        updateSettingsVersion(candidate)
-      );
+    this.settings = migrateSettings(await this.loadData());
   }
   async saveSettings() {
     await this.saveData(this.settings);

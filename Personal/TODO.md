@@ -1,11 +1,12 @@
 # TODO
-- [ ]  Essays for Scholorships and colleges
-	- [ ] WSOS
-	- [ ] Colleges
+- [ ] Apply for lee lab
+	- [ ] Write responses
+	- [ ] Reach out to Jenna
+- [x]  Essays for Scholorships and colleges
+	- [x] WSOS
 - [ ] Vertical Farming proposal for Sustainability project
 - [ ]  Reread The Gene
 - [ ] Mushroom Video
-- [ ] Apply for Research IWS job
 - [x] Apply for RA
 - [ ] 
 

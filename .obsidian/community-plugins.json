@@ -6,7 +6,6 @@
   "dataview",
   "obsidian-style-settings",
   "darlal-switcher-plus",
-  "obsidian-spaced-repetition",
   "obsidian-git",
   "quick-latex",
   "obsidian-fullscreen-plugin",
@@ -17,6 +16,6 @@
   "chem",
   "ketcher",
   "obsidian-tikzjax",
-  "google-calendar",
-  "obsidian-pandoc"
+  "obsidian-pandoc",
+  "oz-clear-unused-images"
 ]

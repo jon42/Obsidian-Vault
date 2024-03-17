@@ -4,6 +4,7 @@ Base: Anything that accepts a proton
 
 These definitions are broad and encompass many things. An odd example of a base is water. Although its pH is 7 $H_{2}O$ can obtain another hydrogen atom to become hydronium ($H_{3}O$). This is important to see who is the receptor and who is giving when defining an acid or a base.
 
+
 # Strength of acids and bases
 ### Strong Acids
 Strong acids are acids that will fully dissociate in water.
