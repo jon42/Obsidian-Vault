@@ -5,6 +5,7 @@ This limiting molecule is in relation to the leaving group
 SN1 = k\[[[Nucleophiles and Electrophiles#Electrophiles]]] 
 # Reaction Conditions
 - [[Solvation#Protic]] solvent
+	- Because it a protic solvent weaker and larger nucleophiles work better. 
 - Neutral temp/less heat
 - $3\degree$ or $2\degree$ carbon
 - Weak [[Nucleophiles and Electrophiles#Nucleophiles]]

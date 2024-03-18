@@ -8,57 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9fcf96a420892656",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STEM/Science/Chemistry/Oxidation and Recution.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1cdb6ecbbf65a517",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Personal/WWU/Course progression.canvas",
-                "viewState": {
-                  "x": -1137.2098161753706,
-                  "y": 434.2092818514061,
-                  "zoom": -0.7733333333333333
-                }
-              }
-            }
-          },
-          {
-            "id": "d8bf3bce8bef1c70",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal/TODO.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "96e866c243dde859",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Seminar Notes/Lee Notes/Education Paper.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ce841f4c1ffbeab1",
             "type": "leaf",
             "state": {
@@ -71,62 +20,19 @@
             }
           },
           {
-            "id": "538b340cf2c0f5d5",
+            "id": "f429b4b4cbc8ca10",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STEM/Science/Chemistry/OChem/Reactions/E2.md",
+                "file": "STEM/Science/Chemistry/OChem/Reactions/Determining Reaction Type.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "83ee9b323b75ea53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STEM/Science/Chemistry/OChem/Functional Group.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f2acbbf9f4e25f66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STEM/Science/Chemistry/Acids and Bases.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3ee4244c3d7d7cac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bio 205 review session.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 5
-      },
-      {
-        "id": "fbfaaffe2a14e5cb",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "cde45ccff698a175",
+            "id": "3004535f9ae2488f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -138,18 +44,19 @@
             }
           },
           {
-            "id": "0f87a478f0d431eb",
+            "id": "49937477a101eb5e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STEM/Science/Chemistry/OChem/Reactions/SN1.md",
+                "file": "STEM/Science/Chemistry/OChem/Reactions/E2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -303,31 +210,31 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "538b340cf2c0f5d5",
+  "active": "49937477a101eb5e",
   "lastOpenFiles": [
+    "STEM/Science/Chemistry/OChem/Reactions/SN2.md",
+    "STEM/Science/Chemistry/OChem/Reactions/Determining Reaction Type.md",
+    "STEM/Science/Chemistry/OChem/Reactions/Acid Base.md",
+    "STEM/Science/Chemistry/OChem/Reactions/E1.md",
+    "STEM/Science/Chemistry/OChem/Reactions/Leaving group.md",
+    "STEM/Science/Chemistry/OChem/Reactions/E2.md",
+    "STEM/Science/Chemistry/OChem/Reactions/SN1.md",
+    "STEM/Science/Chemistry/OChem/Nucleophiles and Electrophiles.md",
     "Media/Pasted image 20240317142951.png",
     "Media/Pasted image 20240317142904.png",
     "Media/Pasted image 20240317142837.png",
     "STEM/Science/Chemistry/OChem/Functional Group.md",
     "Media/Pasted image 20240317142109.png",
-    "STEM/Science/Chemistry/OChem/Reactions/E2.md",
-    "STEM/Science/Chemistry/OChem/Reactions/SN2.md",
-    "STEM/Science/Chemistry/OChem/Reactions/SN1.md",
-    "STEM/Science/Chemistry/OChem/Reactions/E1.md",
     "Media/Pasted image 20240317140257.png",
     "Media/Pasted image 20240317135440.png",
-    "STEM/Science/Chemistry/OChem/Reactions/Leaving group.md",
     "Media/Pasted image 20240317134447.png",
     "Media/Pasted image 20240317134409.png",
     "Media/Pasted image 20240317134357.png",
-    "STEM/Science/Chemistry/OChem/Nucleophiles and Electrophiles.md",
     "STEM/Science/Chemistry/Acids and Bases.md",
-    "STEM/Science/Chemistry/OChem/Reactions/Acid Base.md",
     "STEM/Science/Chemistry/Solvation.md",
     "bio 205 review session.md",
     "STEM/Science/Chemistry/OChem/Carbo-cations.md",
     "Media/Pasted image 20240317131541.png",
-    "Media/Pasted image 20240317131514.png",
     "STEM/Science/Chemistry/OChem/Degree of seperation.md",
     "STEM/Science/Chemistry/OChem/Reactions",
     "STEM/Science/Chemistry/OChem/Big Ideas/Big Idea 2.md",
