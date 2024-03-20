@@ -1,0 +1,6 @@
+# ATP
+# GTP
+# NADH
+# NADPH
+
+

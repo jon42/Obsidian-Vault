@@ -17,5 +17,6 @@
   "ketcher",
   "obsidian-tikzjax",
   "obsidian-pandoc",
-  "oz-clear-unused-images"
+  "oz-clear-unused-images",
+  "global-search-and-replace"
 ]

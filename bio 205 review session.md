@@ -65,15 +65,15 @@ Phases of mitosis
 - Where glycolysis occurs
 	- Cytosol
 		- in both eukaryotes and prokaryotes
-- Glucose is oxidized and NAD+ -> NADH reduction
+- Glucose is oxidized and NAD+ -> [[NADH]] reduction
 - Glucose has more free energy
 - Phosphorylation of glucose
 	- Destabalizing glucose
 	- ->two 3C molecules
 	- 3C -> pyruvates
-	- Net 2ATP and NADH
-	- Enzyme: ATPsynthase and H+ gradient
-	-  Substrate level phosphorylation (Understand how this is different from ATPsynthase)
+	- Net 2[[atp]] and NADH
+	- Enzyme: [[ATPsynthase]] and H+ gradient
+	-  Substrate level phosphorylation (Understand how this is different from [[ATPsynthas)
 	- Endergonic vs Exergonic
 		- Catabolic vs Anabolic
 # Mitochondria
@@ -85,8 +85,8 @@ Phases of mitosis
 		- Oxaloacitate
 			- + Acetyl CoA -> Citrate
 		- Citrate
-	- Produces a lot of NADH and $FADH_2$ for ETC
-	- Some ATP is released
+	- Produces a lot of [[NADH]] and $FADH_2$ for ETC
+	- Some [[atp]] is released
 	- $CO_{2}$ is released
 
 - Cellular resperation (ETC + Glycolysis + Krebs)
@@ -94,12 +94,12 @@ Phases of mitosis
 - Glycolysis is involved
 - Running out of NADH
 - Doesn't require Oxygen
-- Less ATP but faster
+- Less [[atp]] but faster
 - Regenerates NAD+
 # ETC
-- NADH unloads its electrons to pump hydrogen
+- [[NADH]] unloads its electrons to pump hydrogen
 - Hydrogen gradient to create electrochemical gradient force
-- Use gradient in ATPsynthase
+- Use gradient in [[ATPsynthas
 	- ADP + phosphate -> phosphate
 - Proton Motive force
 - Final $e^{-}$ acceptor ($O_2$)
@@ -114,7 +114,7 @@ Phases of mitosis
 	- Pigment molecules and electron transfer
 		- Antenna complex
 	- Accessory pigments
-	- Produces Energy molecules (ATP and NADPH)
+	- Produces Energy molecules ([[atp]] and NADPH)
 		- Fuels the process of making carbohydrates in calvin cycle
 	- Hydrogen gradient and ATPsythase
 - Calvin cycle
@@ -123,7 +123,7 @@ Phases of mitosis
 	- Fixation of RuBp
 	- Turn into 2 3C molecules
 	- Reduction -> G3P (Dont need to know the name of G3P)
-		- ATP and NADH is added provide energy for the reaction
+		- [[atp]] and [[NADH]] is added provide energy for the reaction
 	- Regenerate RuBP
 	- Know phases
 		- Fixation

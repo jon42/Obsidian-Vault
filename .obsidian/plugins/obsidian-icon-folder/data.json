@@ -26,11 +26,14 @@
     "iconsInNotesEnabled": true,
     "iconIdentifier": ":"
   },
-  "STEM/Science/Chemistry": {
+  "Chemistry": {
     "iconName": "IbBeaker",
     "iconColor": "#176282"
   },
-  "STEM/Science/Biology": "LiDna",
-  "STEM/Science/Physics": "LiAtom",
-  "STEM/Science/Physics/Electricity and Magnetism": "LiCircuitBoard"
+  "Physics": "LiAtom",
+  "Physics/Electricity and Magnetism": "LiCircuitBoard",
+  "Biology": {
+    "iconName": "LiDna",
+    "iconColor": "#10511b"
+  }
 }

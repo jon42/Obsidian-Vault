@@ -1,10 +1,18 @@
+# Spring 2024 Goals
+- [ ] Obtain lab work
+- [ ] Gym
+	- [ ] 225 bench
+	- [ ] 315 Squat
+	- [ ] 5s front lever
+	- [ ] <6:40 mile
+- [ ] 4.0 GPA
+- [ ] Make new friends
 # TODO
-- [ ] Apply for lee lab
-	- [ ] Write responses
-	- [ ] Reach out to Jenna
+- [x] Apply for lee lab
+	- [x] Write responses
+	- [x] Reach out to Jenna
 - [x]  Essays for Scholorships and colleges
 	- [x] WSOS
-- [ ] Vertical Farming proposal for Sustainability project
 - [ ]  Reread The Gene
 - [ ] Mushroom Video
 - [x] Apply for RA

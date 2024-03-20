@@ -86,10 +86,10 @@ The sister chromatids will now seperate and start moving to the centrioles
 The two cells then split into two more cells creating two cells for each parent chromosome.
 
 ## Difference between Mitosis and Meiosis
-| Meiosis                                                                                  | Mitosis                        |
-| ---------------------------------------------------------------------------------------- | ------------------------------ |
-| 4 daughter cells are formed                                                              | 2 Daughter cells are formed    |
-| Daughter cells are haploid                                                               | Daughter cells keep [[Ploidy]] |
-| Replication happens twice: First homologous chromosomes move to different daughter cells | Cells only split sister chromatids                               |
+| Meiosis                                                                                  | Mitosis                            |
+| ---------------------------------------------------------------------------------------- | ---------------------------------- |
+| 4 daughter cells are formed                                                              | 2 Daughter cells are formed        |
+| Daughter cells are haploid                                                               | Daughter cells keep [[Ploidy]]     |
+| Replication happens twice: First homologous chromosomes move to different daughter cells | Cells only split sister chromatids |
 ## Non disjunction
 When the meiosis goes wrong and the wrong number of chromosomes reach each side of the cell

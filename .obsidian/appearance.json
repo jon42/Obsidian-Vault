@@ -7,5 +7,6 @@
   "baseFontSize": 21,
   "textFontFamily": "Hack",
   "interfaceFontFamily": "Hack",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "nativeMenus": true
 }
